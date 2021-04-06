@@ -1483,6 +1483,7 @@ margin-left: 40px;
 .p-t-70 {
      padding-top: 0px; 
 }
+
 section.cart.bgwhite.p-t-70.p-b-100 {
   padding-top: 100px;
 }
@@ -1516,6 +1517,10 @@ color:black;
   background-color: transparent !important;
 }
 
+.cart-img-product img {
+    width: 100%;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
 .table-shopping-cart .table-head th {
     font-family: Montserrat-Bold;
     font-size: 15px;
