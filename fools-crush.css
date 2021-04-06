@@ -1536,9 +1536,14 @@ color:black;
     padding-top: 16px;
     padding-bottom: 16px;
 }
+.table-shopping-cart .table-row .column-2 a {
+  font-size: 18px;
+  color: black;
+  font-family: Montserrat-Bold;
+}
 .table-shopping-cart .table-row .column-2 {
     font-size: 18px;
-font-family:'arial';
+    font-family: Montserrat-Regular, sans-serif;
     color: black;
 }
 .table-shopping-cart .column-3 {
