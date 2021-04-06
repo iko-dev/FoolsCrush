@@ -1,6 +1,8 @@
 /*
 Saqib
 Fools cursh css from git hub
+
+Fools cursh css from gitHub
 */
  
 div#content {
@@ -25,7 +27,7 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
   font-size: 12px;
   height: 30px;  
 }
- 
+    
 .form-horizontal input.btn, a.btn,#button-account.btn, input[type='submit'], .button{
   border: none;
   background: #292929 !important;
