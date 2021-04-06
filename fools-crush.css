@@ -2018,8 +2018,8 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4 {
 }
 
 .table-shopping-cart .table-row {
-  border-top: 0;
-  border-bottom: 0;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
   background-color: #f1f1f1;
 }
 
