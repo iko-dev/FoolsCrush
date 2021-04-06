@@ -2210,7 +2210,9 @@ div#custom-products {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-	 
+.size15.trans-0-4 {
+  margin-bottom: 175px !important;
+} 
 	 .bg-title-page {
     min-height: 239px !important;
 }
