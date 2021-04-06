@@ -688,7 +688,10 @@ span.s-text18.w-size19.w-full-sm, span.m-text22.w-size19.w-full-sm {
 }
 .bo9 {
   border: 1px solid #000;
-  border-radius: 0;
+  border-radius: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
 }
 /* CSS triangle */
 .swatch .tooltip:after {
