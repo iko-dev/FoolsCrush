@@ -1837,7 +1837,6 @@ margin-bottom: 50px;
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
     margin-top: 15px;
-    width: 300px;
     padding: 35px 20px;
     color: white;
     background-color: transparent;
@@ -2180,7 +2179,12 @@ div#custom-products {
   padding-left: 15px;
  /* padding-right: 15px; */
 }
-	 
+.hov-img-zoom{
+  right: 0;
+}
+.t-center.price-whole-container.about-pwc-right{
+  right:0;
+}
 }
 
 
