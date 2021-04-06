@@ -686,6 +686,15 @@ lable.product-quantity{
   margin-bottom: 8px !important;
   margin: 0 auto !important;
 }
+.cart_title img {
+  width: 100%;
+  max-width: 25%;
+}
+
+.cart_title {
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
 span.s-text18.w-size19.w-full-sm, span.m-text22.w-size19.w-full-sm {
   border-right: 1px solid #000;
   padding: 15px 0px;
