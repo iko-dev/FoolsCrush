@@ -373,7 +373,9 @@ font-size: 15px !important;
 #wraper_ajax.loadding_ajaxcart .fa {
   font-size: 26px !important;
 }
-
+.about-fools-description{
+  max-width: 500px;
+}
 section.bgwhite div[style="text-align: left;"] {
   max-width: 400px;
 }
