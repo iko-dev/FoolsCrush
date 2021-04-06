@@ -668,6 +668,10 @@ lable.product-quantity{
   -webkit-box-sizing:border-box; 
   box-sizing:border-box;
 }
+div#dynamic-checkout-cart {
+  margin-top: 11px;
+  text-align: center;
+}
 .swatch .tooltip:before {
   bottom:-20px;
   content:" ";
