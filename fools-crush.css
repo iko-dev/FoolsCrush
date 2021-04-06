@@ -388,6 +388,9 @@ section.bgwhite div[style="text-align: left;"] img {
 a.about-WNB {
   font-size: 20px;
 }
+.about-WNB-link{
+  margin-top: 30px;
+}
 .t-center.price-whole-container.about-pwc {
   position: absolute;
   z-index: 0;
@@ -1838,6 +1841,7 @@ margin-bottom: 50px;
     display: none;
 }
 .t-center.price-whole-container {
+    width: 300px;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
@@ -2328,6 +2332,19 @@ footer .news-letter .m-text25.colorwhite.p-b-30 {
 div#custom-products {
   padding-left: 15px;
  /* padding-right: 15px; */
+}
+.hov-img-zoom{
+  right: 0;
+}
+.t-center.price-whole-container.about-pwc{
+  width: 220px;
+}
+.t-center.price-whole-container.about-pwc-right{
+  right:0;
+  height: 170px;
+}
+.about-WNB-link{
+  margin-bottom: 30px;
 }
  
 }
