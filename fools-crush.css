@@ -344,10 +344,7 @@ font-size: 15px !important;
   border: none;
   box-shadow: none;
 }
-div#custom-products {
-    padding-left: 15px;
-   /* padding-right: 15px; */
-}
+
 #wraper_ajax.loadding_ajaxcart, .ajax_loading {
   width: 50px;
   height: 50px;
@@ -2042,6 +2039,10 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4 {
   text-align: center;
   margin: 0 auto;
 }
+div#custom-products {
+  padding-left: 15px;
+ /* padding-right: 15px; */
+}
 	 
 }
 
@@ -2178,5 +2179,9 @@ footer .news-letter .m-text25.colorwhite.p-b-30 {
     text-align: center;
     margin: 0 auto;
 }	 
+div#custom-products {
+  padding-left: 15px;
+ /* padding-right: 15px; */
+}
  
 }
