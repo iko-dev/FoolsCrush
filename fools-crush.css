@@ -686,7 +686,12 @@ lable.product-quantity{
   margin-bottom: 8px !important;
   margin: 0 auto !important;
 }
-
+.flex-w.bo5.of-hidden.w-size17 {
+  display: inline-flex;
+}
+.table-shopping-cart .column-4 button.remove {
+  display: inline-table;
+}
 .cart_title img {
   width: 100%;
   max-width: 25%;
