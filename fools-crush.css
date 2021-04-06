@@ -372,15 +372,7 @@ font-size: 15px !important;
 .mb-10 {
   border-bottom: 7px solid #fff !important;
 }
-.table-shopping-cart .table-head th {
-  font-family: Montserrat-Bold;
-  font-size: 17px;
-  color: #ff27ac;
-  line-height: 1.5;
-  text-transform: none;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
+
 #wraper_ajax.loadding_ajaxcart .fa {
   font-size: 26px !important;
 }
@@ -1528,13 +1520,13 @@ color:black;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 }
 .table-shopping-cart .table-head th {
-    font-family: Montserrat-Bold;
-    font-size: 15px;
-    color: #ff27ac;
-    line-height: 1.5;
-    text-transform: uppercase;
-    padding-top: 16px;
-    padding-bottom: 16px;
+  font-family: Montserrat-Bold;
+  font-size: 17px;
+  color: #ff27ac;
+  line-height: 1.5;
+  text-transform: none !important;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .table-shopping-cart .table-row .column-2 a {
   font-size: 18px;
