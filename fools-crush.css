@@ -369,7 +369,15 @@ font-size: 15px !important;
   display: none;
   z-index: 9990;
 }
-
+.table-shopping-cart .table-head th {
+  font-family: Montserrat-Bold;
+  font-size: 17px;
+  color: #ff27ac;
+  line-height: 1.5;
+  text-transform: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 #wraper_ajax.loadding_ajaxcart .fa {
   font-size: 26px !important;
 }
@@ -1440,11 +1448,6 @@ height:0px;
   
 
 
-@media only screen and (max-width: 400px) {
-#phone{
-margin-left: 0px;
-}
-}
 
 .div2 {
     min-height: 437px;
