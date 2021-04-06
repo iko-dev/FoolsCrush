@@ -1024,7 +1024,7 @@ filter: hue-rotate(360deg) grayscale(1) contrast(3) brightness(3) saturate(0) op
 }
 h2.class-shipping-text {
     color: #000;
-    font-size: 35px;
+    font-size: 25px;
     padding: 0;
 }
 .instafeed-container img.js-lazy-image.js-lazy-image--handled {
@@ -1237,7 +1237,7 @@ header .wrap_header {
 }
 .footer-menu-container h4{
 	line-height: 1.7 !important;
-	font-size: 30px !important;
+	font-size: 25px !important;
 	    color: #ff56b4 !important;
 }
 footer#footer {
@@ -2324,7 +2324,7 @@ h2.banner-title {
 
 		 	 
 footer .news-letter .m-text25.colorwhite.p-b-30 {
-    font-size: 32px;
+    font-size: 25px;
     padding-bottom: 10px;
 }
 .pagination {
