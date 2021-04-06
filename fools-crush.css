@@ -1837,6 +1837,7 @@ margin-bottom: 50px;
     display: none;
 }
 .t-center.price-whole-container {
+    width: 300px;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
