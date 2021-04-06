@@ -1439,8 +1439,12 @@ margin-left: 40px;
     margin-top: 0px !important;
 }
 .p-t-70 {
-     padding-top: 0px; 
+  padding-top: 0px; 
 }
+section.cart.bgwhite.p-t-70.p-b-100 {
+  padding-top: 100px;
+}
+
 #producttitle{
 
 color:black;
