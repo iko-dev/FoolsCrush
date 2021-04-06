@@ -1540,7 +1540,7 @@ color:black;
 }
 .table-shopping-cart .column-3 {
   width: 136px;
-  font-size: 18px;
+  font-size: 20px;
   padding-right: 30px;
   color: #707070;
   font-family: Montserrat-Regular, sans-serif;
@@ -1553,9 +1553,10 @@ margin-left:-10px;
   margin-left:20px;
 }
 .table-shopping-cart .column-5 {
-    padding-right: 30px;
-    font-size: 23px;
-   font-family:'arial';
+  padding-right: 30px;
+  font-size: 20px;
+  color: #707070;
+  font-family: Montserrat-Regular, sans-serif;
 }
 .fa {
     display: inline-block;
