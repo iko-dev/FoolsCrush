@@ -346,7 +346,7 @@ font-size: 15px !important;
 }
 div#custom-products {
     padding-left: 15px;
-    padding-right: 15px;
+    /* padding-right: 15px; */
 }
 #wraper_ajax.loadding_ajaxcart, .ajax_loading {
   width: 50px;
