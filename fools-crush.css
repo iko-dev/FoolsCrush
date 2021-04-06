@@ -1547,11 +1547,11 @@ color:black;
     color: black;
 }
 .table-shopping-cart .column-3 {
-    width: 136px;
-    font-size: 24px;
-    padding-right: 30px;
-    color: #707070;
-  font-family:'arial';
+  width: 136px;
+  font-size: 24px;
+  padding-right: 30px;
+  color: #000;
+  font-family: Montserrat-Regular, sans-serif;
 }
 #quant{
 margin-left:-10px;
