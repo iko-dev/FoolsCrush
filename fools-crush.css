@@ -369,7 +369,9 @@ font-size: 15px !important;
   display: none;
   z-index: 9990;
 }
-
+.mb-10 {
+  border-bottom: 7px solid #fff !important;
+}
 .table-shopping-cart .table-head th {
   font-family: Montserrat-Bold;
   font-size: 17px;
@@ -2094,7 +2096,6 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4 {
 
 .table-shopping-cart .table-row {
   border-top: 0 !important;
-  border-bottom: 0 !important;
   background-color: #f1f1f1;
 }
 
