@@ -5,11 +5,11 @@ test
 
 Fools cursh css from gitHub
 */
- 
+
 div#content {
     margin-top: 30px;
 }
- 
+
 legend {
   font-size: 18px;
   padding: 7px 0px
@@ -26,9 +26,9 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
 }
 .input-group .input-group-addon {
   font-size: 12px;
-  height: 30px;  
+  height: 30px;
 }
-    
+
 .form-horizontal input.btn, a.btn,#button-account.btn, input[type='submit'], .button{
   border: none;
   background: #292929 !important;
@@ -375,10 +375,41 @@ font-size: 15px !important;
 }
 
 section.bgwhite div[style="text-align: left;"] {
-    max-width: 400px;
+  max-width: 400px;
 }
 section.bgwhite div[style="text-align: left;"] img {
-    width: 100%;
+  width: 100%;
+}
+a.about-WNB {
+  font-size: 20px;
+}
+.t-center.price-whole-container.about-pwc {
+  position: absolute;
+  z-index: 0;
+  height: 250px;
+  top: -60px;
+  overflow: hidden;
+  left: -15px;
+  width: 350px;
+}
+.hov-img-zoom {
+display: block;
+overflow: hidden;
+z-index: 1;
+}
+.hov-img-zoom {
+  position: relative;
+  z-index: 1;
+  right: -35px;
+}
+.t-center.price-whole-container.about-pwc-right {
+position: absolute;
+z-index: 0;
+right: -74px;
+top: 75px;
+border-right: 0;
+box-shadow: inset 35px 2px 27px 12px rgb(255 90 183 / 52%), 30px 2px 27px 12px rgb(255 90 183 / 52%), 30px 2px 27px 12px rgb(255 90 183 / 52%), inset 30px 2px 27px 12px rgb(255 90 183 / 52%);
+height: 250px;
 }
 
 .advanced-filters{margin-bottom:30px}
@@ -1406,6 +1437,14 @@ height:0px;
 
 }
 
+  
+
+
+@media only screen and (max-width: 400px) {
+#phone{
+margin-left: 0px;
+}
+}
 
 .div2 {
     min-height: 437px;
@@ -1440,7 +1479,7 @@ margin-left: 40px;
     margin-top: 0px !important;
 }
 .p-t-70 {
-  padding-top: 0px; 
+     padding-top: 0px; 
 }
 section.cart.bgwhite.p-t-70.p-b-100 {
   padding-top: 100px;
