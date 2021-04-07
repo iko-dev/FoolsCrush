@@ -98,9 +98,7 @@ span#variantQuantity.is-visible {
   margin: auto 20px;
   line-height: 45px;
 }
-.fixed-header .wrap_header {
-    height: 65px;
-}
+
 .hd2 .selected-currency {
   padding-right: 0px !important;
   margin-right: 0px !important;
@@ -154,7 +152,7 @@ span#variantQuantity.is-visible {
 }
 .fixed-header {
     position: fixed; 
-    top: 0;
+    top: -1px;
     background-color: #000;
     z-index: 9999999;
     left: 0;
