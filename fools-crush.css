@@ -31,9 +31,17 @@ label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FE59B6;
 }
-.main_menu > li > a::after {
+
+.menu-up-arrow {
+    position: absolute;
+    bottom: -7px;
+    display: none;
 }
-.main_menu > li > a:after {
+#main-menu-custom .main-menu-single:hover .menu-up-arrow {
+    display: block;
+}
+.menu-up-arrow img {
+    width: 45px;
 }
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
   font-size: 12px;
@@ -421,14 +429,10 @@ a.about-WNB {
   width: 350px;
 }
 .hov-img-zoom {
-display: block;
-overflow: hidden;
-z-index: 1;
-}
-.hov-img-zoom {
   position: relative;
   z-index: 1;
   right: -35px;
+  max-width: 500px;
 }
 .t-center.price-whole-container.about-pwc-right {
 position: absolute;
@@ -1703,7 +1707,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner {
     width: 100%;
     position: fixed !important;
-    top: 104px;
+    top: 124px;
     background: #FDA9DB;
     padding: 0px 118px;
 }
@@ -1790,9 +1794,9 @@ button.active {
 .quantity-buttons  .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2{
     display: inline-block;
 }
-.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
+/*.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
     height: 562px;
-}
+}*/
 .custom-product-detail .btn-num-product-down.color1.flex-c-m.size7.bg8.eff2, 
 .custom-product-detail .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2 {
     display: inline-block; 
@@ -2315,7 +2319,6 @@ h2.banner-title {
 	.t-center.price-whole-container{	 
     margin-top: 15px;
     padding: 10px 45px;
-    width: auto;
 	 }
 #insta-feed .instafeed-container, .instafeed-shopify .instafeed-container {
     display: inline-block;
