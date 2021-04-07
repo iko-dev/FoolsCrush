@@ -2359,5 +2359,10 @@ div#custom-products {
 .owl-carousel .owl-stage-outer {
   max-height: 865px;
 }
+.inner-price-off.after {
+  position: relative;
+  right: 70px;
+  padding-top: 5px;
+}
  
 }
