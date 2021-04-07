@@ -20,6 +20,17 @@ label {
   font-size: 14px; 
   font-weight: normal;
 }
+.first-child-link{
+background-color: transparent;
+font-size: 22px;
+color: #FE59B6;
+font-family: Montserrat-Bold;
+text-transform: uppercase;
+letter-spacing: 0px;
+-webkit-text-fill-color: #FDA9DB;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #FE59B6;
+}
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
   font-size: 12px;
 }
