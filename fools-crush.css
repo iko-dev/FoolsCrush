@@ -404,6 +404,12 @@ font-size: 15px !important;
 #wraper_ajax.loadding_ajaxcart .fa {
   font-size: 26px !important;
 }
+.grandchild .second-child .second-child-link {
+    font-family: Montserrat-bold !important;
+}
+.grandchild .second-child {
+    padding: 0;
+}
 .about-fools-description{
   max-width: 500px;
 }
