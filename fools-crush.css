@@ -150,18 +150,6 @@ span#variantQuantity.is-visible {
 }  
 .toast-success { 
 }
-.fixed-header {
-    position: fixed; 
-    top: -1px;
-    background-color: #000;
-    z-index: 9999999;
-    left: 0;
-    right: 0;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
 img.img-responsive.insta-size {
   width: 30% !important;
   display: inline !important;
