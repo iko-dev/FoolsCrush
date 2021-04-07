@@ -98,9 +98,7 @@ span#variantQuantity.is-visible {
   margin: auto 20px;
   line-height: 45px;
 }
-.fixed-header .wrap_header {
-    height: 65px;
-}
+
 .hd2 .selected-currency {
   padding-right: 0px !important;
   margin-right: 0px !important;
@@ -154,7 +152,7 @@ span#variantQuantity.is-visible {
 }
 .fixed-header {
     position: fixed; 
-    top: 0;
+    top: -1px;
     background-color: #000;
     z-index: 9999999;
     left: 0;
@@ -412,6 +410,9 @@ font-size: 15px !important;
 }
 .main_menu > li > .sub_menu.inner li.first-child {
     padding: 43px 0;
+}
+.container.bgwhite.p-t-35.p-b-80 {
+  max-width: 1140px;
 }
 .about-fools-description{
   max-width: 500px;
@@ -1317,7 +1318,7 @@ header .form-control::placeholder {
     position: relative;
 }
   #shopify-section-header .header1 {
-    height: auto;
+    height: 125px !important;
 }
 .row.usefull-links.bg6.p-t-60.p-b-30.p-l-45.p-r-45 {
     background: #000;
@@ -1354,6 +1355,7 @@ header .form-control::placeholder {
   font-size: 18px;
   line-height: 60px;
   background: #e6e6e6;
+  cursor: pointer;
 }
 
 .swatch input:checked + label {
@@ -1540,7 +1542,7 @@ margin-top: 85px;
     margin-left: 0px;
   }
   .btn-wishlist.flex-c-m.sizefull.bg1.bo-rad-23.hov1.s-text1.trans-0-4{
-    margin-left: 0;
+    margin-left: 0 !important;
   }
   .btn-addcart-product-detail.size9.trans-0-4.m-t-10.m-b-10 #button-cart{
     margin-bottom: 15px;
@@ -2151,9 +2153,7 @@ header .form-control::placeholder {
   .header-search  #search {
     position: relative;
 }
-  #shopify-section-header .header1 {
-    height: auto;
-}
+
 .row.usefull-links.bg6.p-t-60.p-b-30.p-l-45.p-r-45 {
     background: #000;
 }
