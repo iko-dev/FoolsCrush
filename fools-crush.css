@@ -1348,6 +1348,7 @@ header .form-control::placeholder {
   font-size: 18px;
   line-height: 60px;
   background: #e6e6e6;
+  cursor: pointer;
 }
 
 .swatch input:checked + label {
