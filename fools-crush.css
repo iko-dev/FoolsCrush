@@ -1837,8 +1837,8 @@ span#productPrice{
   font-size: 30px;
 }
 h4.single-product-description {
-    margin-top: 20px;
-    font-weight: 600;
+  margin-top: 20px;
+  font-family: 'Montserrat-Bold';
 }
 /*.animsition.collection.gm-menu-installed .bg-title-page {
     width: 100%;
