@@ -2365,5 +2365,7 @@ p.go-on-give-us-follow img {
   right: 70px;
   padding-top: 10px;
 }
- 
+.header-wrapicon1 {
+  display: none;
+}
 }
