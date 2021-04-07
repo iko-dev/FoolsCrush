@@ -1834,8 +1834,7 @@ div#pagination i.fa.fa-angle-right, div#pagination i.fa.fa-angle-left {
     font-size: 16px;
     color: #212529;
     text-transform: uppercase;
-    font-family: Montserrat-Regular, sans-serif;
-    font-weight: 400;
+    font-family: Arial, sans-serif;
 }
 
 .col-sm-12.custom-product-column.col-md-6.col-lg-3.p-b-50 {
