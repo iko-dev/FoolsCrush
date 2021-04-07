@@ -114,6 +114,9 @@ span#variantQuantity.is-visible {
     background: #F1F1F1;
     color: #000;
     font-family: Montserrat-bold;
+    width: 32px;
+    height: 40px;
+    margin: 5px;
 }
 #pagination .item-pagination.active-pagination {
     background: #FF27AC;
@@ -426,14 +429,10 @@ a.about-WNB {
   width: 350px;
 }
 .hov-img-zoom {
-display: block;
-overflow: hidden;
-z-index: 1;
-}
-.hov-img-zoom {
   position: relative;
   z-index: 1;
   right: -35px;
+  max-width: 500px;
 }
 .t-center.price-whole-container.about-pwc-right {
 position: absolute;
@@ -727,7 +726,7 @@ div#dynamic-checkout-cart {
   max-width: 25%;
 }
 .cart_title {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   margin-top: 20px;
 }
 span.s-text18.w-size19.w-full-sm, span.m-text22.w-size19.w-full-sm {
@@ -1795,9 +1794,9 @@ button.active {
 .quantity-buttons  .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2{
     display: inline-block;
 }
-.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
+/*.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
     height: 562px;
-}
+}*/
 .custom-product-detail .btn-num-product-down.color1.flex-c-m.size7.bg8.eff2, 
 .custom-product-detail .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2 {
     display: inline-block; 
@@ -2316,9 +2315,7 @@ h2.banner-title {
   font-family: 'Montserrat-Bold';
   letter-spacing: 1px;
 } 
-	.t-center.price-whole-container
-	 {
-	width: auto;	 
+	.t-center.price-whole-container{	 
     margin-top: 15px;
     padding: 10px 45px;
 	 }
@@ -2372,6 +2369,7 @@ div#custom-products {
 .t-center.price-whole-container.about-pwc-right{
   right:0;
   height: 170px;
+  top: 60px;
 }
 .about-WNB-link{
   margin-bottom: 30px;
@@ -2380,11 +2378,11 @@ div#custom-products {
   padding: 50px 0px !important;
 }
 .owl-carousel .owl-stage-outer {
-  max-height: 865px;
+  max-height: 772px;
 }
 .inner-price-off.after {
   position: relative;
-  right: 70px;
+  left: -70px;
   padding-top: 5px;
 }
 p.go-on-give-us-follow img {
@@ -2392,4 +2390,8 @@ p.go-on-give-us-follow img {
   max-width: 90%;
   padding-bottom: 30px;
 }
+.header-wrapicon1
+{
+  display: none !important;
 }
+ }
