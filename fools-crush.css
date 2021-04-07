@@ -2364,5 +2364,10 @@ div#custom-products {
   right: 70px;
   padding-top: 5px;
 }
+p.go-on-give-us-follow img {
+  width: 100%;
+  max-width: 90%;
+  padding-bottom: 30px;
+}
  
 }
