@@ -1646,6 +1646,7 @@ margin-left:-10px;
 }
 .col-sm-6.col-md-8.col-lg-9.p-b-50.collection-custom-filter-section {
   display: none;
+
 }
 /*.bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section .container {
     max-width: 1006px;*/
@@ -2352,16 +2353,11 @@ div#custom-products {
 .about-WNB-link{
   margin-bottom: 30px;
 }
-
 .bg-img1 {
   padding: 50px 0px !important;
 }
 .owl-carousel .owl-stage-outer {
   max-height: 910px;
 }
-
-.header-wrapicon1 {
-  display: none;
-}
-
+ 
 }
