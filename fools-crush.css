@@ -419,11 +419,11 @@ font-size: 15px !important;
 }
 .shopify-challenge__container {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 200px auto;
 }
 section.bgwhite div[style="text-align: left;"] { 
   max-width: 400px;
-}
+}  
 section.bgwhite div[style="text-align: left;"] img {
   width: 100%;
 }
