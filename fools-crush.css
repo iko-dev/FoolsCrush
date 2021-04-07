@@ -20,6 +20,7 @@ label {
   font-size: 14px; 
   font-weight: normal;
 }
+<<<<<<< Updated upstream
 #main-menu-custom .first-child-link {
     background-color: transparent;
     font-size: 22px;
@@ -31,6 +32,8 @@ label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FE59B6;
 }
+=======
+>>>>>>> Stashed changes
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
   font-size: 12px;
 }
@@ -414,10 +417,14 @@ a.about-WNB {
   width: 350px;
 }
 .hov-img-zoom {
+display: block;
+overflow: hidden;
+z-index: 1;
+}
+.hov-img-zoom {
   position: relative;
   z-index: 1;
   right: -35px;
-  max-width: 500px;
 }
 .t-center.price-whole-container.about-pwc-right {
 position: absolute;
@@ -1353,7 +1360,7 @@ label {
     /* height:450px; */
 }
 .s-text3 {
-    font-family: 'Arial-Bold';
+    font-family: 'Montserrat-Bold';
     font-size: 20px;
     color: #000000;
     line-height: 1.5;
@@ -1834,7 +1841,8 @@ div#pagination i.fa.fa-angle-right, div#pagination i.fa.fa-angle-left {
     font-size: 16px;
     color: #212529;
     text-transform: uppercase;
-    font-family: Arial, sans-serif;
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 400;
 }
 
 .col-sm-12.custom-product-column.col-md-6.col-lg-3.p-b-50 {
@@ -2363,20 +2371,16 @@ div#custom-products {
   padding: 50px 0px !important;
 }
 .owl-carousel .owl-stage-outer {
-  max-height: 772px;
+  max-height: 865px;
 }
 .inner-price-off.after {
   position: relative;
-  left: -80px;
+  right: 70px;
   padding-top: 5px;
 }
 p.go-on-give-us-follow img {
   width: 100%;
   max-width: 90%;
   padding-bottom: 30px;
-}
-.header-wrapicon1
-{
-  display: none !important;
 }
 }
