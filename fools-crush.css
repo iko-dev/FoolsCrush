@@ -2289,9 +2289,7 @@ h2.banner-title {
   font-family: 'Montserrat-Bold';
   letter-spacing: 1px;
 } 
-	.t-center.price-whole-container
-	 {
-	width: auto;	 
+	.t-center.price-whole-container{	 
     margin-top: 15px;
     padding: 10px 45px;
 	 }
