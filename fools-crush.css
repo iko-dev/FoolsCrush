@@ -161,7 +161,10 @@ img.img-responsive.insta-size:hover {
 div#instafeed {
   text-align: center;
 }
-
+.container-menu-header
+{
+  top:-1px;
+}
 .selector-wrapper {
   display: none;
 }
