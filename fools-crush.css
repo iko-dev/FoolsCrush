@@ -306,7 +306,7 @@ font-size: 15px !important;
   border-radius: 20px; 
 }
 .block2-btn-addcart {
-  bottom: 0px !important;
+  bottom: 0px ;
 }
 .toolbar label.control-label {
   display: none;
