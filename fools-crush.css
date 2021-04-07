@@ -2351,5 +2351,12 @@ div#custom-products {
 .about-WNB-link{
   margin-bottom: 30px;
 }
+.bg-img1 {
+  padding: 50px 0px !important;
+}
+.owl-carousel .owl-stage-outer {
+
+  max-height: 1230px;
+}
  
 }
