@@ -397,14 +397,18 @@ a.about-WNB {
   height: 250px;
   top: -60px;
   overflow: hidden;
-  left: -40px;
+  left: -15px;
   width: 350px;
+}
+.hov-img-zoom {
+display: block;
+overflow: hidden;
+z-index: 1;
 }
 .hov-img-zoom {
   position: relative;
   z-index: 1;
   right: -35px;
-  max-width: 500px;
 }
 .t-center.price-whole-container.about-pwc-right {
 position: absolute;
@@ -1639,11 +1643,11 @@ margin-left:-10px;
 .col-lg-6.col-md-6.col-sm-12.custom-deal-column-inner.right {
     padding-right: 0;
 }
+.col-sm-6.col-md-8.col-lg-9.p-b-50.collection-custom-filter-section {
+  display: none;
+}
 /*.bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section .container {
     max-width: 1006px;*/
-}
-.collection-custom-filter-section {
-    display: none;
 }
 /*.animsition.collection.gm-menu-installed  .bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section {
     padding-top: 135px;*/
