@@ -2386,7 +2386,7 @@ div#custom-products {
 }
 .inner-price-off.after {
   position: relative;
-  right: 70px;
+  left: -70px;
   padding-top: 5px;
 }
 p.go-on-give-us-follow img {
