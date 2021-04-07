@@ -1314,7 +1314,7 @@ header .form-control::placeholder {
     position: relative;
 }
   #shopify-section-header .header1 {
-    height: auto;
+    height: 125px !important;
 }
 .row.usefull-links.bg6.p-t-60.p-b-30.p-l-45.p-r-45 {
     background: #000;
@@ -2154,9 +2154,7 @@ header .form-control::placeholder {
   .header-search  #search {
     position: relative;
 }
-  #shopify-section-header .header1 {
-    height: auto;
-}
+
 .row.usefull-links.bg6.p-t-60.p-b-30.p-l-45.p-r-45 {
     background: #000;
 }
