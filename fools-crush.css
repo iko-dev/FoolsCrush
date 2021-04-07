@@ -2400,6 +2400,6 @@ p.go-on-give-us-follow img {
 }
 .header-wrapicon1
 {
-  display: none;
+  display: none !important;
 }
  }
