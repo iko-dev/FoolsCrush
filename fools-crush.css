@@ -1887,8 +1887,9 @@ margin-bottom: 50px;
 	padding-top: 30px;
 }
 .bg-title-page {
-	min-height: 500px;
+	min-height: 400px;
 	position: relative;
+  background-position: center;
 /*	background-position: center center;*/
 }
 .custom-deal-column-inner.right .t-center.price-whole-container .block2-newprice.m-text8.p-r-5 {
@@ -2237,9 +2238,8 @@ h2.banner-title {
     top: 0px !important;
 	 font-family: Montserrat-Bold;
 }	
-.col-lg-6.col-md-6.col-sm-12.background-img img {
+.background-img img {
   width: 100%;
-  max-width: 80%;  
 } 
 .banne-custom-title {
     text-align: center;
