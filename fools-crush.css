@@ -2282,17 +2282,17 @@ h2.banner-title {
     box-shadow: none;
 }
 .single-item-off {
-    font-size: 42px;
-    -webkit-text-stroke: 5px #ff50b4;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: #ff50b4;
-    line-height: 42px;
-    white-space: nowrap;
-    font-family: 'Montserrat-Bold';
-    letter-spacing: 1px;
-}	 
+  font-size: 30px;
+  -webkit-text-stroke: 1px #ff50b4;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff50b4;
+  line-height: 30px;
+  white-space: nowrap;
+  font-family: 'Montserrat-Bold';
+  letter-spacing: 1px;
+} 
 	.t-center.price-whole-container
 	 {
 	width: auto;	 
