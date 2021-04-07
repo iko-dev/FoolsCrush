@@ -2319,6 +2319,7 @@ h2.banner-title {
 	.t-center.price-whole-container{	 
     margin-top: 15px;
     padding: 10px 45px;
+    width: auto;
 	 }
 #insta-feed .instafeed-container, .instafeed-shopify .instafeed-container {
     display: inline-block;
