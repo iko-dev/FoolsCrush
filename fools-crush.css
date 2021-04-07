@@ -1527,7 +1527,7 @@ margin-top: 85px;
     padding-bottom: 30px;
   }
   .div2{
-    min-height: 345px;
+    min-height: 345px !important;
   }
   .div2 img{
   	width: 214px !important;
