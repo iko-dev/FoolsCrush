@@ -600,7 +600,7 @@ form#contact_form {
 }
 .contact-mail p#email {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 14px;
 }
 /* 
 Swatches Styles
@@ -1542,13 +1542,13 @@ margin-top: 85px;
     min-height: 345px;
   }
   .div2 img{
-  	width: 220px;
+  	width: 214px !important;
   }
   .div2 .contact-phone{
-  	max-width: 220px;
+  	max-width: 214px;
   }
   .div2 .contact-mail{
-  	max-width: 220px;
+  	max-width: 214px;
   }
   #fool{
   margin-top: 0px;
