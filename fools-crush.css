@@ -1644,12 +1644,12 @@ margin-left:-10px;
   display: none;
 
 }
-/*.bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section .container {
-    max-width: 1006px;
-}*/
-/*.animsition.collection.gm-menu-installed  .bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section {
-    padding-top: 135px;
-}*/
+.bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section .container {
+    max-width: 1140px;
+}
+.animsition.collection.gm-menu-installed  .bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section {
+    padding-top: 80px;
+}
 .custom-container-header-title-breadcrumbs .l-text2.t-center {
     color: #1C1C1C;
 	font-size: 25px !important;
