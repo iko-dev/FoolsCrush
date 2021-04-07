@@ -2110,7 +2110,7 @@ header .topbar-child2 {
 }
 
 header .wrap_header {
-  height:80px;
+  height:65px;
 }
    .header-search #text-search::placeholder,
    .header-search #text-search::-webkit-input-placeholder,
