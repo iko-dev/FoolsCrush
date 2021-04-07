@@ -1324,6 +1324,7 @@ header .form-control::placeholder {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .fixed-header {
     height: 110px;
 }
