@@ -415,13 +415,11 @@ border-right: 0;
 box-shadow: inset 35px 2px 27px 12px rgb(255 90 183 / 52%), 30px 2px 27px 12px rgb(255 90 183 / 52%), 30px 2px 27px 12px rgb(255 90 183 / 52%), inset 30px 2px 27px 12px rgb(255 90 183 / 52%);
 height: 250px;
 }
-i.fa.fa-arrow-right.about-WNB-icon {
-  color: #fe30ae;
-  font-size: 20px;
-  transform: rotateZ(-45deg);
-  POSITION: absolute;
-  MARGIN-LEFT: 4PX;
-  FONT-WEIGHT: LIGHTER;
+.about-WNB-icon {
+ display: inline-block;
+}
+.about-WNB-icon svg{
+  padding-bottom: 7px;
 }
 .advanced-filters{margin-bottom:30px}
 
