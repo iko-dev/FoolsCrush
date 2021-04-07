@@ -1317,8 +1317,15 @@ header .form-control::placeholder {
   .header-search  #search {
     position: relative;
 }
-  #shopify-section-header .header1 {
-    height: 125px !important;
+.header1 {
+  height: 125px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.fixed-header {
+    height: 110px;
 }
 .row.usefull-links.bg6.p-t-60.p-b-30.p-l-45.p-r-45 {
     background: #000;
