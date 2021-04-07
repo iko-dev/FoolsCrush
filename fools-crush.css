@@ -753,6 +753,19 @@ span.s-text18.w-size19.w-full-sm, span.m-text22.w-size19.w-full-sm {
   -o-transform:translateY(0px);
   transform:translateY(0px);
 }
+#insta-feed .instafeed-overlay::before, .instafeed-shopify .instafeed-overlay::before {
+  content: 'Follow Us ';
+  opacity: 1;
+  background-size: 20px 20px;
+  position: absolute;
+  z-index: 100;
+  color: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #E03550;
+}
 .swatch.error {
   background-color:#E8D2D2!important;
   color:#333!important;
