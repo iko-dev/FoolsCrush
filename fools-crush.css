@@ -1527,6 +1527,12 @@ margin-top: 85px;
   .contact-form .contact-form-field{
   	width: 100%;
   }
+  .contact-form .w-size25{
+    padding-bottom: 30px;
+  }
+  .div2{
+    min-height: 345px;
+  }
   .div2 img{
   	width: 220px;
   }
