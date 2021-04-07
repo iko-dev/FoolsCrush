@@ -410,6 +410,9 @@ font-size: 15px !important;
 .grandchild .second-child {
     padding: 0; 
 }
+.main_menu > li > .sub_menu.inner li.first-child {
+    padding: 43px 0;
+}
 .about-fools-description{
   max-width: 500px;
 }
