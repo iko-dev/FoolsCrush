@@ -2237,9 +2237,8 @@ h2.banner-title {
     top: 0px !important;
 	 font-family: Montserrat-Bold;
 }	
-.col-lg-6.col-md-6.col-sm-12.background-img img {
+.background-img img {
   width: 100%;
-  max-width: 80%;  
 } 
 .banne-custom-title {
     text-align: center;
