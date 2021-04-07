@@ -1802,9 +1802,9 @@ button.active {
 .quantity-buttons  .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2{
     display: inline-block;
 }
-.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
+/*.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
     height: 562px;
-}
+}*/
 .custom-product-detail .btn-num-product-down.color1.flex-c-m.size7.bg8.eff2, 
 .custom-product-detail .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2 {
     display: inline-block; 
