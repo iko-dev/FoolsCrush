@@ -408,7 +408,7 @@ font-size: 15px !important;
     font-family: Montserrat-bold !important;
 }
 .grandchild .second-child {
-    padding: 0;
+    padding: 0; 
 }
 .about-fools-description{
   max-width: 500px;
