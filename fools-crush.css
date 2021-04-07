@@ -31,9 +31,17 @@ label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FE59B6;
 }
-.main_menu > li > a::after {
+
+.menu-up-arrow {
+    position: absolute;
+    bottom: -7px;
+    display: none;
 }
-.main_menu > li > a:after {
+#main-menu-custom .main-menu-single:hover .menu-up-arrow {
+    display: block;
+}
+.menu-up-arrow img {
+    width: 45px;
 }
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
   font-size: 12px;
@@ -395,6 +403,15 @@ font-size: 15px !important;
 
 #wraper_ajax.loadding_ajaxcart .fa {
   font-size: 26px !important;
+}
+.grandchild .second-child .second-child-link {
+    font-family: Montserrat-bold !important;
+}
+.grandchild .second-child {
+    padding: 0; 
+}
+.main_menu > li > .sub_menu.inner li.first-child {
+    padding: 43px 0;
 }
 .about-fools-description{
   max-width: 500px;
@@ -1700,7 +1717,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner {
     width: 100%;
     position: fixed !important;
-    top: 104px;
+    top: 124px;
     background: #FDA9DB;
     padding: 0px 118px;
 }
@@ -1787,9 +1804,9 @@ button.active {
 .quantity-buttons  .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2{
     display: inline-block;
 }
-.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
+/*.product-detail-single.bg-title-page.p-t-50.p-b-40.flex-col-c-m.collection-top-header {
     height: 562px;
-}
+}*/
 .custom-product-detail .btn-num-product-down.color1.flex-c-m.size7.bg8.eff2, 
 .custom-product-detail .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2 {
     display: inline-block; 
@@ -1986,9 +2003,10 @@ h2.banner-title {
     -webkit-text-stroke-color: #ffff;
 }
 .hov1:hover {
-    background-color: transparent !important;
-	
+  background-color: #ff27ac;
+  opacity: 50%;
 }
+
 .block2.custom-collection-block .block2-txt.p-t-20 a.block2-name.dis-block.s-text3.p-b-5 {
     padding-bottom: 0px;
 }
