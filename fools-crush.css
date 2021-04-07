@@ -9,7 +9,9 @@ Fools cursh css from gitHub
 div#content {
     margin-top: 30px;
 }
-
+.deal-custom-container .owl-nav.disabled .owl-next {
+    background-image: url(https://cdn.shopify.com/s/files/1/0056/2069/5110/t/11/assets/right-arrow.svg?v=7010293671767096086);
+}
 legend {
   font-size: 18px;
   padding: 7px 0px
@@ -397,14 +399,18 @@ a.about-WNB {
   height: 250px;
   top: -60px;
   overflow: hidden;
-  left: -40px;
+  left: -15px;
   width: 350px;
+}
+.hov-img-zoom {
+display: block;
+overflow: hidden;
+z-index: 1;
 }
 .hov-img-zoom {
   position: relative;
   z-index: 1;
   right: -35px;
-  max-width: 500px;
 }
 .t-center.price-whole-container.about-pwc-right {
 position: absolute;
@@ -1334,9 +1340,10 @@ label {
      font-family: Arial;
   
 }
+
 .wrap-pic-w img {
    width:100%; 
-    height:450px;
+    /* height:450px; */
 }
 .s-text3 {
     font-family: 'Montserrat-Bold';
@@ -1637,15 +1644,16 @@ margin-left:-10px;
 .col-lg-6.col-md-6.col-sm-12.custom-deal-column-inner.right {
     padding-right: 0;
 }
-/*.bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section .container {
-    max-width: 1006px;*/
-}
 .col-sm-6.col-md-8.col-lg-9.p-b-50.collection-custom-filter-section {
-    display: none;
+  display: none;
+
 }
+/*.bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section .container {
+    max-width: 1006px;
+}*/
 /*.animsition.collection.gm-menu-installed  .bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section {
-    padding-top: 135px;*/
-}
+    padding-top: 135px;
+}*/
 .custom-container-header-title-breadcrumbs .l-text2.t-center {
     color: #1C1C1C;
 	font-size: 25px !important;
@@ -2274,17 +2282,17 @@ h2.banner-title {
     box-shadow: none;
 }
 .single-item-off {
-    font-size: 42px;
-    -webkit-text-stroke: 5px #ff50b4;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: #ff50b4;
-    line-height: 42px;
-    white-space: nowrap;
-    font-family: 'Montserrat-Bold';
-    letter-spacing: 1px;
-}	 
+  font-size: 30px;
+  -webkit-text-stroke: 1px #ff50b4;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff50b4;
+  line-height: 30px;
+  white-space: nowrap;
+  font-family: 'Montserrat-Bold';
+  letter-spacing: 1px;
+} 
 	.t-center.price-whole-container
 	 {
 	width: auto;	 
@@ -2349,7 +2357,16 @@ div#custom-products {
   padding: 50px 0px !important;
 }
 .owl-carousel .owl-stage-outer {
-  max-height: 910px;
+  max-height: 865px;
 }
- 
+.inner-price-off.after {
+  position: relative;
+  right: 70px;
+  padding-top: 5px;
+}
+p.go-on-give-us-follow img {
+  width: 100%;
+  max-width: 90%;
+  padding-bottom: 30px;
+}
 }
