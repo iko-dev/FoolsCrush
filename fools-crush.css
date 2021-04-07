@@ -416,7 +416,7 @@ font-size: 15px !important;
 .about-fools-description{
   max-width: 500px;
 }
-section.bgwhite div[style="text-align: left;"] {
+section.bgwhite div[style="text-align: left;"] { 
   max-width: 400px;
 }
 section.bgwhite div[style="text-align: left;"] img {
