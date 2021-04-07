@@ -722,7 +722,7 @@ div#dynamic-checkout-cart {
   max-width: 25%;
 }
 .cart_title {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   margin-top: 20px;
 }
 span.s-text18.w-size19.w-full-sm, span.m-text22.w-size19.w-full-sm {
@@ -2366,6 +2366,7 @@ div#custom-products {
 .t-center.price-whole-container.about-pwc-right{
   right:0;
   height: 170px;
+  top: 60px;
 }
 .about-WNB-link{
   margin-bottom: 30px;
