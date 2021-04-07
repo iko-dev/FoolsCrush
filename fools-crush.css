@@ -1258,9 +1258,7 @@ header  .topbar {
   justify-content: center;
   align-items: center;
 }
-header .wrap_header {
-  height: 109px;
-}
+
    .header-search #text-search::placeholder, 
    .header-search #text-search::-webkit-input-placeholder,
    .header-search #text-search:-ms-input-placeholder{
