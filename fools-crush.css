@@ -9,7 +9,9 @@ Fools cursh css from gitHub
 div#content {
     margin-top: 30px;
 }
-
+.deal-custom-container .owl-nav.disabled .owl-next {
+    background-image: url(https://cdn.shopify.com/s/files/1/0056/2069/5110/t/11/assets/right-arrow.svg?v=7010293671767096086);
+}
 legend {
   font-size: 18px;
   padding: 7px 0px
@@ -1649,11 +1651,11 @@ margin-left:-10px;
 
 }
 /*.bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section .container {
-    max-width: 1006px;*/
-}
+    max-width: 1006px;
+}*/
 /*.animsition.collection.gm-menu-installed  .bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section {
-    padding-top: 135px;*/
-}
+    padding-top: 135px;
+}*/
 .custom-container-header-title-breadcrumbs .l-text2.t-center {
     color: #1C1C1C;
 	font-size: 25px !important;
