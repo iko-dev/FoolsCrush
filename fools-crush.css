@@ -2103,8 +2103,8 @@ header .topbar-child2 {
     z-index: 9;
 }
 
-header .wrap_header {
-  height: 65px !important;
+.fixed-header .wrap_header {
+  height: 65px;
 }
    .header-search #text-search::placeholder,
    .header-search #text-search::-webkit-input-placeholder,
