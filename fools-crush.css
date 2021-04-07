@@ -2362,6 +2362,7 @@ div#custom-products {
 .t-center.price-whole-container.about-pwc-right{
   right:0;
   height: 170px;
+  top: 60px;
 }
 .about-WNB-link{
   margin-bottom: 30px;
