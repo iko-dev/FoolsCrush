@@ -404,14 +404,39 @@ font-size: 15px !important;
 #wraper_ajax.loadding_ajaxcart .fa {
   font-size: 26px !important;
 }
+.grandchild .second-child .second-child-link {
+    font-family: Montserrat-bold !important;
+}
+.grandchild .second-child {
+    padding: 0; 
+}
+.main_menu > li > .sub_menu.inner li.first-child {
+    padding: 43px 0;
+}
 .about-fools-description{
   max-width: 500px;
+  padding:0 10px;
 }
-section.bgwhite div[style="text-align: left;"] {
+.shopify-challenge__container {
+    max-width: 500px;
+    margin: 200px auto;
+}
+section.bgwhite div[style="text-align: left;"] { 
   max-width: 400px;
-}
+}  
 section.bgwhite div[style="text-align: left;"] img {
   width: 100%;
+}
+.respon5 {
+  padding-top: 45px;
+}
+.slick3-dots .slick-active .slick3-dot-overlay {
+  border: 3px solid #FF27AC;
+}
+span.product-from-price {
+  font-size: 30px;
+  color: #FF27AC;
+  font-family: Arial;
 }
 a.about-WNB {
   font-size: 20px;
@@ -1812,8 +1837,8 @@ span#productPrice{
   font-size: 30px;
 }
 h4.single-product-description {
-    margin-top: 20px;
-    font-weight: 600;
+  margin-top: 20px;
+  font-family: 'Montserrat-Bold';
 }
 /*.animsition.collection.gm-menu-installed .bg-title-page {
     width: 100%;
@@ -2374,7 +2399,7 @@ div#custom-products {
   top: 60px;
 }
 .about-WNB-link{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .bg-img1 {
   padding: 50px 0px !important;
