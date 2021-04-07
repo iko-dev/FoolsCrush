@@ -421,14 +421,10 @@ a.about-WNB {
   width: 350px;
 }
 .hov-img-zoom {
-display: block;
-overflow: hidden;
-z-index: 1;
-}
-.hov-img-zoom {
   position: relative;
   z-index: 1;
   right: -35px;
+  max-width: 500px;
 }
 .t-center.price-whole-container.about-pwc-right {
 position: absolute;
