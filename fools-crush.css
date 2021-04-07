@@ -98,9 +98,7 @@ span#variantQuantity.is-visible {
   margin: auto 20px;
   line-height: 45px;
 }
-.fixed-header .wrap_header {
-    height: 65px;
-}
+
 .hd2 .selected-currency {
   padding-right: 0px !important;
   margin-right: 0px !important;
@@ -154,7 +152,7 @@ span#variantQuantity.is-visible {
 }
 .fixed-header {
     position: fixed; 
-    top: 0;
+    top: -1px;
     background-color: #000;
     z-index: 9999999;
     left: 0;
@@ -1261,10 +1259,16 @@ header .topbar-child2 {
     z-index: 9;
 }
 header  .topbar {
-    height: 45px;
-    background-color: #000000;
-    position: absolute;
-  right:0;
+  height: 45px;
+  background-color: #000;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header .wrap_header {
   height: 109px;
@@ -1314,7 +1318,7 @@ header .form-control::placeholder {
     position: relative;
 }
   #shopify-section-header .header1 {
-    height: auto;
+    height: 125px !important;
 }
 .row.usefull-links.bg6.p-t-60.p-b-30.p-l-45.p-r-45 {
     background: #000;
@@ -2102,12 +2106,7 @@ header .topbar-child2 {
     padding-right: 38px;
     z-index: 9;
 }
-header  .topbar {
-    height: 45px;
-    background-color: #000000;
-    position: relative;
-  right:0;   
-}
+
 header .wrap_header {
   height:80px;
 }
@@ -2154,9 +2153,7 @@ header .form-control::placeholder {
   .header-search  #search {
     position: relative;
 }
-  #shopify-section-header .header1 {
-    height: auto;
-}
+
 .row.usefull-links.bg6.p-t-60.p-b-30.p-l-45.p-r-45 {
     background: #000;
 }
