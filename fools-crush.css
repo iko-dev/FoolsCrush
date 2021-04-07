@@ -31,9 +31,17 @@ label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FE59B6;
 }
-.main_menu > li > a::after {
+
+.menu-up-arrow {
+    position: absolute;
+    bottom: -7px;
+    display: none;
 }
-.main_menu > li > a:after {
+#main-menu-custom .main-menu-single:hover .menu-up-arrow {
+    display: block;
+}
+.menu-up-arrow img {
+    width: 45px;
 }
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
   font-size: 12px;
@@ -1700,7 +1708,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner {
     width: 100%;
     position: fixed !important;
-    top: 104px;
+    top: 124px;
     background: #FDA9DB;
     padding: 0px 118px;
 }
