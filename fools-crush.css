@@ -398,6 +398,7 @@ font-size: 15px !important;
 }
 .about-fools-description{
   max-width: 500px;
+  padding:0 10px;
 }
 section.bgwhite div[style="text-align: left;"] {
   max-width: 400px;
