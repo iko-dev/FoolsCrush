@@ -463,7 +463,11 @@ a.about-WNB {
   font-family: 'Montserrat-Regular';
 }
 .about-WNB-link a span{
-  background: url("https://foolsc.myshopify.com/admin/themes/120923193497?key=assets/Icon_feather-arrow-up-right.svg");
+  background: url("https://cdn.shopify.com/s/files/1/0553/8493/2505/t/2/assets/Icon_feather-arrow-up-right.svg?v=1617792760") no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-left: 5px;
 }
 .t-center.price-whole-container.about-pwc {
   position: absolute;
