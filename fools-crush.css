@@ -5,6 +5,8 @@ test
 
 Fools cursh css from gitHub
 */
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
 
 div#content {
     margin-top: 30px;
@@ -2474,3 +2476,353 @@ p.go-on-give-us-follow img {
 }
 
  }
+ 
+ 
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+body {
+  text-align:center;
+  font-family: 'helvetica neue'
+}
+
+.slide1-wrap{
+  background: url(img/background.png) center top /cover;
+  height: 100vh;
+}
+.slide1{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+.slide1-item1 {
+  display: inline-block;
+    width: 350px;
+    height: 393px;
+    position: absolute;
+    z-index: 0;
+    left: 7%;
+    top: 12%;
+}
+.slide1-item2 {
+  display: inline-block;
+    width: 270px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    left: 29%;
+    top: 38%;
+}
+.slide1-item3 {
+  display: inline-block;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    z-index: 0;
+    left: 46%;
+    top: 6%;
+}
+.slide1-item4 {
+      display: inline-block;
+    width: 350px;
+    height: 393px;
+    position: absolute;
+    z-index: 1;
+    right: 7%;
+    top: 38%;
+}
+.slide1-item1 a,.slide1-item2 a, .slide1-item3 a, .slide1-item4 a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.slide1-item1 a img, .slide1-item2 a img, .slide1-item3 a img, .slide1-item4 a img{
+  width: -webkit-fill-available;
+  height: 100%;
+  display: block;
+}
+
+.product-name {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+}
+.product-price {
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+}
+.slide1-item1 .info {
+    position: absolute;
+    left: 370px;
+    top: 10%;
+    width: 150px;
+}
+.slide1-item1 .info::before{
+  display: inline-block;
+    content: "";
+    border-top: 2px solid #fff;
+    width: 100px;
+    position: absolute;
+    left: -105px;
+    top: 10px;
+}
+.slide1-item2 .info {
+    position: absolute;
+    left: -150px;
+    bottom: 2%;
+    width: 150px;
+}
+.slide1-item2 .info::after{
+  display: inline-block;
+    content: "";
+    border-top: 2px solid #fff;
+    width: 100px;
+    position: absolute;
+    left: 84%;
+    top: 10px;
+}
+
+.slide1-item3 .info {
+    position: absolute;
+    left: 330px;
+    top: 10%;
+    width: 150px;
+}
+.slide1-item3 .info::before{
+  display: inline-block;
+    content: "";
+    border-top: 2px solid #fff;
+    width: 100px;
+    position: absolute;
+    left: -105px;
+    top: 10px;
+}
+.slide1-item4 .info {
+    position: absolute;
+    left: -150px;
+    bottom: 2%;
+    width: 150px;
+}
+.slide1-item4 .info::after{
+  display: inline-block;
+    content: "";
+    border-top: 2px solid #fff;
+    width: 100px;
+    position: absolute;
+    left: 84%;
+    top: 10px;
+}
+/*.main{
+  position:relative;
+  margin: 100px;
+}
+input{
+  padding-left: 28px;
+}
+.hello,.envelope{
+  position:absolute;
+  left: 25%;
+  top: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #cecece;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+.hello{
+  left: 27.5%;
+}
+
+input[type=email]:focus~.hello {
+  display:block;
+  color: #00a3ad;
+  top: 00px;
+  font-size: 14px;
+}
+input[type=email]:focus~.envelope{
+  color: #00a3ad;
+}*/
+/*input[type=text]:focus~.enter {
+  background-color: #0F1F7A;
+  position: absolute;
+  content: ' ';
+  height: 1px;
+  right: 45%;
+  top: 42px;
+  transform: scaleX(5)
+
+}
+
+.enter{
+  transition: all ease 0.5s;
+  width: 10.1%;
+  transform: scaleX(1)
+
+}*/
+
+/*textarea, input { 
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #cecece;
+  border-top: 1px solid #cecece;
+  height: 60px;
+  width: 50%;
+  padding-top: 28px;
+}
+
+input:focus{
+  content:'';
+}
+*/
+
+
+.email-area{
+  position:relative;
+}
+.email-area input{
+  padding-left: 28px;
+}
+.email-label,.email-icon{
+  position:absolute;
+  left: 25%;
+  top: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #cecece;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+.email-label{
+  left: 27.5%;
+}
+
+.email-area input[type=email]:focus~.email-label {
+  display:block;
+  color: #00a3ad;
+  top: 00px;
+  font-size: 14px;
+}
+.email-area input[type=email]:focus~.email-icon{
+  color: #00a3ad;
+}
+/*input[type=text]:focus~.enter {
+  background-color: #0F1F7A;
+  position: absolute;
+  content: ' ';
+  height: 1px;
+  right: 45%;
+  top: 42px;
+  transform: scaleX(5)
+
+}
+
+.enter{
+  transition: all ease 0.5s;
+  width: 10.1%;
+  transform: scaleX(1)
+
+}*/
+
+.email-area input { 
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #cecece;
+  border-top: 1px solid #cecece;
+  height: 60px;
+  width: 50%;
+  padding-top: 28px;
+}
+
+.email-area input:focus{
+  content:'';
+}
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
