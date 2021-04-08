@@ -139,6 +139,12 @@ span#variantQuantity.is-visible {
     display: block;
     width: 100%;
 }
+#home-slick .flex-c-m.size2.bo-rad-23.s-text2.bgwhite.hov1.trans-0-4 {
+    background: #000;
+    color: #fff;
+    padding: 34px 100px;
+    font-size: 25px;
+}
 #home-slick .xl-text2,
 #home-slick .visible-false{
     visibility: visible;
@@ -146,6 +152,7 @@ span#variantQuantity.is-visible {
 font-size: 40px;
 border: 0;
 letter-spacing: initial;
+width:auto; 
 }
 
 .index-section #home-slick .slick-dots {
@@ -1335,7 +1342,10 @@ header .form-control::placeholder {
 }
 @media(max-width:700px)
 {
-
+    .wrap-content-slide1.sizefull.flex-col-c-m.p-l-15.p-r-15.p-t-150.p-b-170{
+        width: 100%;
+        clear:both;
+    }
 .row.usefull-links {
     margin: 0;
 }
