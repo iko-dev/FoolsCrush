@@ -670,8 +670,8 @@ lable.product-quantity{
   border-color:transparent;
 } 
 .swatch input:checked + label{
-  box-shadow: none;
-  -webkit-box-shadow:none;
+  box-shadow: none !important;
+  -webkit-box-shadow:none !important;
 
 }
 .swatch .swatch-element {
