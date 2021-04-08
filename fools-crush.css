@@ -577,7 +577,7 @@ height: 250px;
   color: #fff;
 }
 span.block2-price {
-  color: #fff;
+  color: #fff im !important;
 }
 .selector-wrapper label {
   display: inline-block;
