@@ -2075,7 +2075,7 @@ h2.banner-title {
 }
 .block1-wrapbtn {
     position: absolute;
-    left: 50%;
+    left: 62%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -2086,7 +2086,7 @@ h2.banner-title {
 }
 .block1-wrapbtn a {
   background-color: transparent !important;
-    font-size: 42px;
+    font-size: 32px;
     color: #FE59B6;
     font-family: Montserrat-Bold;
     text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
