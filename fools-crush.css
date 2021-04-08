@@ -22,7 +22,7 @@ label {
   font-size: 14px; 
   font-weight: normal;
 }
-#main-menu-custom .first-child-link {
+#main-menu-custom .first-child-link { 
     background-color: transparent;
     font-size: 22px;
     color: #FE59B6 !important;
