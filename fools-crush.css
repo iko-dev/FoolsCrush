@@ -669,6 +669,11 @@ lable.product-quantity{
   color: #fff;
   border-color:transparent;
 } 
+.swatch input:checked + label{
+  box-shadow: none;
+  -webkit-box-shadow:none;
+
+}
 .swatch .swatch-element {
   float:left;
   -webkit-transform:translateZ(0); /* webkit flicker fix */
