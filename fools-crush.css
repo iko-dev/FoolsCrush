@@ -426,7 +426,8 @@ font-size: 15px !important;
 }
 .about-fools-description{
   max-width: 500px;
-  padding:0 10px;
+  /* padding:0 10px; */
+  color:#fff;
 }
 .shopify-challenge__container {
     max-width: 500px;
