@@ -561,7 +561,24 @@ height: 250px;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-
+.block2-img {
+  align-items: center;
+}
+.block2 {
+  display: inline-flex;
+}
+.block2-txt {
+  display: inline-block;
+  position: relative;
+  top: 150px;
+  left: 25px;
+}
+.block2-txt a {
+  color: #fff;
+}
+.block2-price {
+  color: #fff;
+}
 .selector-wrapper label {
   display: inline-block;
   float: left;
