@@ -31,7 +31,10 @@ label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FE59B6;
 }
-
+.wrap-content-slide1.sizefull.flex-col-c-m.p-l-15.p-r-15.p-t-150.p-b-170 {
+    width: 50%;
+    float: right;
+}
 .menu-up-arrow {
     position: absolute;
     bottom: -7px;
