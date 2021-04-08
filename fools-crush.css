@@ -577,7 +577,7 @@ height: 250px;
   color: #fff;
 }
 span.block2-price {
-  color: #fff im !important;
+  color: #fff !important;
 }
 .block2-txt:after {
   content: "";
