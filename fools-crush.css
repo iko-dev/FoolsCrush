@@ -571,7 +571,21 @@ height: 250px;
   text-align: left;
   width: 65px;
 }
-
+.fixed-header .menu-up-arrow img {
+  width: 30px;
+  display: inline;
+}
+.fixed-header .menu-up-arrow {
+  position: absolute;
+  bottom: 0px;
+  display: none;
+  text-align: center;
+  margin: 0 auto;
+  width: 45px;
+}
+.fixed-header .main_menu > li > .sub_menu.inner {
+  top: 64px;
+}
 .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
   vertical-align: middle;
 }
