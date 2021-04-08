@@ -152,7 +152,7 @@ span#variantQuantity.is-visible {
 font-size: 40px;
 border: 0;
 letter-spacing: initial;
-width:auto;
+width:auto; 
 }
 
 .index-section #home-slick .slick-dots {
