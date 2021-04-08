@@ -2072,7 +2072,7 @@ h2.banner-title {
 	    box-shadow: none;
 }
 .block1-wrapbtn a {
-    background-color: transparent;
+  background-color: transparent !important;
     font-size: 42px;
     color: #FE59B6;
     font-family: Montserrat-Bold;
