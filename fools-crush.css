@@ -2014,6 +2014,7 @@ h2.banner-title {
     width: initial;
     margin: 0;
     transform: rotate(-90deg);
+    -moz-transform: rotate(0deg);
     padding-right: 47px;
     white-space: nowrap;
     transform-origin: right top;
