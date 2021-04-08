@@ -576,7 +576,7 @@ height: 250px;
 .block2-txt a {
   color: #fff;
 }
-.block2-price {
+span.block2-price {
   color: #fff;
 }
 .selector-wrapper label {
