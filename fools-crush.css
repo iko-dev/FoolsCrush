@@ -435,6 +435,7 @@ font-size: 15px !important;
 .about-sec p a{
   color: #FE30AE;
   font-size: 20px;
+  font-family: 'Montserrat-Regular';
 }
 .about-fools-description{
   max-width: 500px;
@@ -462,22 +463,10 @@ span.product-from-price {
   color: #FF27AC;
   font-family: Arial;
 }
-a.about-WNB {
-  font-size: 20px;
-}
-.about-WNB-link{
-  margin-top: 30px;
-  /* padding: 0 10px; */
-}
 .about-title-img{
   max-width: 100%;
 }
-.about-WNB-link a {
-  color: #ff56b4;
-  font-size: 20px;
-  font-family: 'Montserrat-Regular';
-}
-.about-WNB-link a span{
+.about-sec p a span{
   background: url("https://cdn.shopify.com/s/files/1/0553/8493/2505/t/2/assets/Icon_feather-arrow-up-right.svg?v=1617792760") no-repeat;
   width: 35px;
   height: 35px;
