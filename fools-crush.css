@@ -2600,14 +2600,14 @@ body {
   background: url(img/background.png) center top /cover;
   height: 100vh;
 }
-.slide1{
+/*.slide1{
   width: 100%;
   height: 100vh;
   overflow: hidden;
   display: flex;
   position: relative;
   text-align: center;
-}
+}*/
 .slide1-item1 {
   display: inline-block;
   width: 350px;
