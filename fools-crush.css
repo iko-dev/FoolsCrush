@@ -2665,10 +2665,10 @@ body {
     text-align: left;
 }
 .slide1-item1 .info {
-    position: absolute;
-    left: 370px;
-    top: 10%;
-    width: 150px;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 150px;
 }
 .slide1-item1 .info::before{
   display: inline-block;
