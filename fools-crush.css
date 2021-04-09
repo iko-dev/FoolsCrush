@@ -563,8 +563,9 @@ height: 250px;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-.block2-img {
-  align-items: center;
+.block2.custom-collection-block {
+  position: relative;
+  text-align: left;
 }
 /* .block2 {
   display: inline-flex;
@@ -1849,9 +1850,6 @@ margin-left:-10px;
 }
 .block2.custom-collection-block .block2-btn-towishlist, .block2.custom-collection-block .block2-btn-addwishlist {
     transition: none;
-}
-.block2.custom-collection-block {
-    position: relative;
 }
 .custom-collection-block button {
     position: absolute;
