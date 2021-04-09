@@ -569,13 +569,13 @@ height: 250px;
 /* .block2 {
   display: inline-flex;
 } */
-.block2-txt {
+/* .block2-txt {
   display: inline-block;
   position: relative;
   top: 150px;
   left: 25px;
-}
-.block2-txt a {
+} */
+/* .block2-txt a {
   color: #fff;
 }
 span.block2-price {
@@ -590,7 +590,7 @@ span.block2-price {
   position: absolute;
   left: -200px;
   top: 10%;
-}
+} */
 .selector-wrapper label {
   display: inline-block;
   float: left;
