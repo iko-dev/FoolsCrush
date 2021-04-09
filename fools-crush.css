@@ -2602,6 +2602,7 @@ body {
   overflow: hidden;
   display: flex;
   position: relative;
+  text-align: center;
 }
 .slide1-item1 {
   display: inline-block;
