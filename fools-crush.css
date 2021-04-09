@@ -426,6 +426,16 @@ font-size: 15px !important;
 .container.bgwhite.p-t-35.p-b-80 {
   max-width: 1140px;
 }
+.about-sec p{
+  color: #fff;
+}
+.about-sec p img{
+  max-width: 100%;
+}
+.about-sec p a{
+  color: #FE30AE;
+  font-size: 20px;
+}
 .about-fools-description{
   max-width: 500px;
   /* padding:0 10px; */
