@@ -566,9 +566,9 @@ height: 250px;
 .block2-img {
   align-items: center;
 }
-.block2 {
+/* .block2 {
   display: inline-flex;
-}
+} */
 .block2-txt {
   display: inline-block;
   position: relative;
