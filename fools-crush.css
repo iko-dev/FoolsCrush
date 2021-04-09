@@ -2608,12 +2608,12 @@ body {
 }
 .slide1-item1 {
   display: inline-block;
-    width: 350px;
-    height: 393px;
-    position: absolute;
-    z-index: 0;
-    left: 7%;
-    top: 12%;
+  width: 350px;
+  height: 393px;
+  /* position: absolute; */
+  z-index: 0;
+  left: 7%;
+  top: 12%;
 }
 .slide1-item2 {
   display: inline-block;
