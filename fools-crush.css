@@ -2165,6 +2165,9 @@ h2.banner-title {
     font-family: Montserrat-Bold;
     text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
 }
+.next-slick2 {
+  right: 100px !important;
+}
   .header-search #text-search {
    background: transparent;
 border: 0 !important;
