@@ -2020,7 +2020,7 @@ margin-bottom: 50px;
 .inner-price-off.after {
     position: relative;
     left: -57px;
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 .single-item-off {
@@ -2586,9 +2586,9 @@ figure {
   will-change: transform;
 }
 /*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
+/* [class*="col-"] {
     padding: 1rem;
-}
+} */
 
 body {
   text-align:center;
