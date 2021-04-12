@@ -2185,7 +2185,7 @@ header .logo img {
   /* max-height: 64px; */
   max-height: 100px;
   position: relative;
-  top: -25px;
+  top: -15px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s;
