@@ -678,7 +678,6 @@ form#contact_form {
 }
 .main_menu li {
   position: relative;
-  padding-top: 0;
 }
 /* 
 Swatches Styles
@@ -1317,15 +1316,7 @@ transition: ease-in-out all .3s;
 .header-search .container {
     max-width: 250px;
 }
-  .header-search #text-search {
-   background: transparent;
-border: 0 !important;
-top: 14px;
-position: relative;
-font-size: 18px;
-color: #fff;
-margin-left: 27px;
-}
+
   .topbar-child2 a {
     color: #fff;
 }
@@ -2179,7 +2170,7 @@ h2.banner-title {
 .header-search #text-search {
   background: transparent;
   border: 0 !important;
-  top: 5px;
+  top: 15px;
   position: relative;
   font-size: 15px;
   color: #fff;
@@ -2223,8 +2214,6 @@ header .logo img {
 .header-search .search-icon-custom {
   display: inline-block;
   position: absolute;
-  top: 12px;
-  cursor: pointer;
 }
 header .topbar-social {
     display: none;
@@ -2240,7 +2229,7 @@ header .topbar-child2 {
   position: relative;
   display: inline-block;
   left: 8px;
-  top: -12px;
+  top: -7px;
 }
 .fixed-header .wrap_header {
   /* height: 65px; */
