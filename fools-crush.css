@@ -766,6 +766,11 @@ lable.product-quantity{
   -moz-opacity: 0.6;       /* mozilla, netscape */
   opacity: 0.6;           /* fx, safari, opera */
 }
+
+.block2-overlay .block2-btn-addwishlist{
+  -webkit-transform:scale(1) !important;
+  transform: scale(1) !important;
+}
 /* Tooltips */
 .swatch .tooltip {
   text-align:center;
