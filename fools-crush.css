@@ -2205,7 +2205,7 @@ header .logo img {
   transition: all 0.3s;
 }
 .wishlist-header .header-icons-noti.cart-total {
-  top:-6px;
+  top:-10px;
   background-color: #FE59B6;
   width: 20px;
   height: 20px
