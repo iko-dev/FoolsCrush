@@ -2184,7 +2184,9 @@ h2.banner-title {
     text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
 }
 .next-slick2 {
-  right: 100px !important;
+  right: 60px !important;
+  font-size: 100px;
+  font-weight: lighter;
 }
 .header-search #text-search {
   background: transparent;
