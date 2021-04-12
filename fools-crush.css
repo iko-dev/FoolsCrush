@@ -2098,7 +2098,7 @@ margin-bottom: 50px;
 }
 .deal-custom-container .owl-nav.disabled {
     position: absolute;
-    right: 20%;
+    right: 9%;
     bottom: 0;
 }
 .deal-custom-container .owl-nav.disabled .owl-prev, .deal-custom-container .owl-nav.disabled .owl-next {
