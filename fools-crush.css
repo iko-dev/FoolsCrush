@@ -14,6 +14,9 @@ div#content {
 .deal-custom-container .owl-nav.disabled .owl-next {
     background-image: url(https://cdn.shopify.com/s/files/1/0056/2069/5110/t/11/assets/right-arrow.svg?v=7010293671767096086);
 }
+.logo {
+  left: 30px;
+}
 legend {
   font-size: 18px;
   padding: 7px 0px
