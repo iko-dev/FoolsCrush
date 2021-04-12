@@ -2189,7 +2189,7 @@ h2.banner-title {
     font-family: Helvetica Neue,sans-serif !important;
 }
 header .logo img {
-  max-height: 70px; 
+  max-height: 60px; 
   position: relative;
   top: -15px;
   -webkit-transition: all 0.3s;
