@@ -2204,6 +2204,9 @@ header .logo img {
 .wishlist-header .header-icons-noti.cart-total {
   top: -6px;
   background-color: #FE59B6;
+  width: 14px;
+  height: 14px;
+  right: 8px;
 }
 
 .wishlist-header .icon-wishlist.icon_heart_alt {
