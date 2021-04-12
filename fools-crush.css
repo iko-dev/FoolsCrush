@@ -2199,7 +2199,8 @@ header .logo img {
   transition: all 0.3s;
 }
 .wishlist-header .header-icons-noti.cart-total {
-  top: -8px;
+  top: -6px;
+  background-color: #FE59B6;
 }
 .wishlist-header .icon-wishlist.icon_heart_alt {
 
