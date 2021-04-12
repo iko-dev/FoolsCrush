@@ -186,7 +186,7 @@ div#instafeed {
 }
 .container-menu-header
 {
-  top:-1px;
+  /* top:-1px; */
 }
 .selector-wrapper {
   display: none;
