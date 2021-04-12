@@ -14,6 +14,9 @@ div#content {
 .deal-custom-container .owl-nav.disabled .owl-next {
     background-image: url(https://cdn.shopify.com/s/files/1/0056/2069/5110/t/11/assets/right-arrow.svg?v=7010293671767096086);
 }
+.logo {
+  left: 30px;
+}
 legend {
   font-size: 18px;
   padding: 7px 0px
@@ -22,24 +25,35 @@ label {
   font-size: 14px; 
   font-weight: normal;
 }
+.topbar-child2 a:first-child {
+  padding-right: 20px;
+}
 .slide1.home-header-slider .wrap-slick1 {
     position: relative;
     z-index: 99;
 }   
 #main-menu-custom .first-child-link { 
-    background-color: transparent;
-    font-size: 22px;
-    color: #FE59B6 !important;
-    font-family: Montserrat-Bold !important;  
-    text-transform: uppercase;
-    letter-spacing: 0px;
-    -webkit-text-fill-color: #FDA9DB;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FE59B6;
+  background-color: transparent;
+  font-size: 24px;
+  color: #FE59B6 !important;
+  font-family: Montserrat-Bold !important;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  -webkit-text-stroke: 5px #ff50b4;
+  -webkit-text-fill-color: #FDA9DB;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FE59B6;
 }
 .wrap-content-slide1.sizefull.flex-col-c-m.p-l-15.p-r-15.p-t-150.p-b-170 {
     width: 50%;
     float: right;
+}
+a span {
+  -webkit-text-stroke: 5px #ff50b4;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: #FE59B6;
+  font-size: 16px;
 }
 .menu-up-arrow {
     position: absolute;
@@ -47,7 +61,13 @@ label {
     display: none;
 }
 #main-menu-custom .main-menu-single:hover .menu-up-arrow {
-    display: block;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-bottom: 30px solid #FDA9DB;
+  bottom: -20px;
 }
 .menu-up-arrow img {
     width: 45px;
@@ -132,6 +152,18 @@ span#variantQuantity.is-visible {
 }
 #pagination .item-pagination:last-child {
     background: transparent;
+}
+.index-section .slick-dots button {
+  color: transparent;
+  width: 20px;
+  background: #fff;
+  height: 20px;
+  border-radius: 50%;
+}
+.index-section .slick-dots li {
+  display: block;
+  width: 100%;
+  height: 30px;
 }
 .topbar.alert-success button#alertbtn {  
   float: none;
@@ -617,7 +649,7 @@ span.block2-price {
   width: 45px;
 }
 .fixed-header .main_menu > li > .sub_menu.inner {
-  top: 64px;
+  top: 100px;
 }
 .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
   vertical-align: middle;
@@ -678,6 +710,7 @@ form#contact_form {
 }
 .main_menu li {
   position: relative;
+  padding: 20px 30px;
 }
 /* 
 Swatches Styles
@@ -1821,8 +1854,6 @@ margin-left:-10px;
     text-align: left;
 }
 
-
-
 .main_menu > li > .sub_menu.inner li {
     display: inline-block;
     vertical-align: top;
@@ -1831,12 +1862,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner .grandchild li {
     display: block;
 }
-.main_menu > li > .sub_menu.inner {
-    width: 100%;
-    position: fixed !important;
-    top: 104px;
-  background: #FDA9DB;
-}
+
 .main_menu > li > .sub_menu.inner li {
     display: inline-block;
 }
@@ -1846,7 +1872,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner {
     width: 100%;
     position: fixed !important;
-    top: 124px;
+    top: 160px;
     background: #FDA9DB;
     padding: 0px 118px;
 }
@@ -2174,7 +2200,9 @@ h2.banner-title {
     text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
 }
 .next-slick2 {
-  right: 100px !important;
+  right: 60px !important;
+  font-size: 100px;
+  font-weight: lighter;
 }
 .header-search #text-search {
   background: transparent;
@@ -2187,15 +2215,14 @@ h2.banner-title {
   padding-left: 5px;
 }
 .wrap_menu {
-  padding-left: 150px;
+  padding-left: 200px;
 }  
 .topbar-child2 a {
     color: #fff;
     font-family: Helvetica Neue,sans-serif !important;
 }
 header .logo img {
-  /* max-height: 64px; */
-  max-height: 100px;
+  max-height: 60px; 
   position: relative;
   top: -15px;
   -webkit-transition: all 0.3s;
@@ -2211,10 +2238,10 @@ header .logo img {
   transition: all 0.3s;
 }
 .wishlist-header .header-icons-noti.cart-total {
-  top: -6px;
+  top:-10px;
   background-color: #FE59B6;
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 20px;
   right: 8px;
 }
 
