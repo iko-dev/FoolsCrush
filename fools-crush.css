@@ -53,6 +53,7 @@ a span {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1.2px;
   -webkit-text-stroke-color: #FE59B6;
+  font-size: 16px;
 }
 .menu-up-arrow {
     position: absolute;
