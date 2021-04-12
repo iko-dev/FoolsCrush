@@ -2608,6 +2608,11 @@ body {
   position: relative;
   text-align: center;
 }*/
+
+.slide1.item-slick2 {
+  text-align: center;
+  position: relative;
+}
 .slide1-item1 {
   display: inline-block;
   width: 350px;
