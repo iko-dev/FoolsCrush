@@ -678,7 +678,6 @@ form#contact_form {
 }
 .main_menu li {
   position: relative;
-  padding-top: 0;
 }
 /* 
 Swatches Styles
@@ -1322,15 +1321,7 @@ transition: ease-in-out all .3s;
 .header-search .container {
     max-width: 250px;
 }
-  .header-search #text-search {
-   background: transparent;
-border: 0 !important;
-top: 14px;
-position: relative;
-font-size: 18px;
-color: #fff;
-margin-left: 27px;
-}
+
   .topbar-child2 a {
     color: #fff;
 }
@@ -2181,17 +2172,20 @@ h2.banner-title {
 .next-slick2 {
   right: 100px !important;
 }
-  .header-search #text-search {
-   background: transparent;
-border: 0 !important;
-top: 14px;
-position: relative;
-font-size: 15px;
-color: #fff;
-margin-left: 27px;
-padding-left: 0;
+.header-search #text-search {
+  background: transparent;
+  border: 0 !important;
+  top: 15px;
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 27px;
+  padding-left: 5px;
 }
-  .topbar-child2 a {
+.wrap_menu {
+  padding-left: 150px;
+}  
+.topbar-child2 a {
     color: #fff;
     font-family: Helvetica Neue,sans-serif !important;
 }
@@ -2199,7 +2193,7 @@ header .logo img {
   /* max-height: 64px; */
   max-height: 100px;
   position: relative;
-  top: -24px;
+  top: -15px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -2212,17 +2206,27 @@ header .logo img {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+.wishlist-header .header-icons-noti.cart-total {
+  top: -6px;
+  background-color: #FE59B6;
+  width: 14px;
+  height: 14px;
+  right: 8px;
+}
+
+.wishlist-header .icon-wishlist.icon_heart_alt {
+
+  top: 6px;
+}
  .header-search .search-icon-custom .fa.fa-search {
     font-size: 24px;
     color: #fff;
     font-weight: normal;
     margin-top: 0;
 }
-  .header-search .search-icon-custom {
-    display: inline-block;
-    position: absolute; 
-    top: 22px;
-    cursor:pointer;
+.header-search .search-icon-custom {
+  display: inline-block;
+  position: absolute;
 }
 header .topbar-social {
     display: none;
@@ -2238,7 +2242,8 @@ header .topbar-child2 {
   position: relative;
   display: inline-block;
   left: 8px;
-
+  top: -7px;
+}
 .fixed-header .wrap_header {
   /* height: 65px; */
   height: 100px
