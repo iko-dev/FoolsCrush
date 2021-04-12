@@ -798,6 +798,10 @@ lable.product-quantity{
   -webkit-transform:scale(1) !important;
   transform: scale(1) !important;
 }
+.block1-wrapbtn a.hov1:hover {
+  color: #FE59B6;
+  opacity: 1;
+}
 /* Tooltips */
 .swatch .tooltip {
   text-align:center;
