@@ -2205,10 +2205,10 @@ header .logo img {
   transition: all 0.3s;
 }
 .wishlist-header .header-icons-noti.cart-total {
-  top: -6px;
+  top:-6px;
   background-color: #FE59B6;
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 20px
   right: 8px;
 }
 
