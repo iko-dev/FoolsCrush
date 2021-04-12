@@ -676,6 +676,10 @@ form#contact_form {
     display: inline-block;
     margin-left: 14px;
 }
+.main_menu li {
+  position: relative;
+  padding-top: 0;
+}
 /* 
 Swatches Styles
 */
