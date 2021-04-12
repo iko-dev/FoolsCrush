@@ -2194,7 +2194,7 @@ header .logo img {
   /* max-height: 64px; */
   max-height: 100px;
   position: relative;
-  top: -24px;
+  top: -25px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -2233,6 +2233,7 @@ header .topbar-child2 {
   position: relative;
   display: inline-block;
   left: 8px;
+  top: -12px;
 }
 .fixed-header .wrap_header {
   /* height: 65px; */
