@@ -1831,12 +1831,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner .grandchild li {
     display: block;
 }
-.main_menu > li > .sub_menu.inner {
-    width: 100%;
-    position: fixed !important;
-    top: 160px;
-  background: #FDA9DB;
-}
+
 .main_menu > li > .sub_menu.inner li {
     display: inline-block;
 }
@@ -1846,7 +1841,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner {
     width: 100%;
     position: fixed !important;
-    top: 124px;
+    top: 160px;
     background: #FDA9DB;
     padding: 0px 118px;
 }
