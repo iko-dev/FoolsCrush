@@ -2211,6 +2211,11 @@ header .topbar-child2 {
     z-index: 9;
     padding-top: 25px;
 }
+.header-wrapicon1, .header-wrapicon2 {
+  height: 27px;
+  position: relative;
+  display: inline-block;
+  left: 8px;
 
 .fixed-header .wrap_header {
   /* height: 65px; */
