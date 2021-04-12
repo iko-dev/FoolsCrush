@@ -2593,9 +2593,11 @@ figure {
 
 body {
 
-  font-family: 'helvetica neue'
-}
 
+}
+.feature-home-title {
+  display: none;
+}
 .slide1-wrap{
   background: url(img/background.png) center top /cover;
   height: 100vh;
