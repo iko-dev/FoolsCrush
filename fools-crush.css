@@ -25,6 +25,9 @@ label {
   font-size: 14px; 
   font-weight: normal;
 }
+.topbar-child2 a:first-child {
+  padding-right: 20px;
+}
 .slide1.home-header-slider .wrap-slick1 {
     position: relative;
     z-index: 99;
@@ -44,6 +47,12 @@ label {
 .wrap-content-slide1.sizefull.flex-col-c-m.p-l-15.p-r-15.p-t-150.p-b-170 {
     width: 50%;
     float: right;
+}
+a span {
+  -webkit-text-stroke: 5px #ff50b4;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: #FE59B6;
 }
 .menu-up-arrow {
     position: absolute;
@@ -700,6 +709,7 @@ form#contact_form {
 }
 .main_menu li {
   position: relative;
+  padding: 20px 30px;
 }
 /* 
 Swatches Styles
