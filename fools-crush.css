@@ -2207,6 +2207,13 @@ header .logo img {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+.wishlist-header .header-icons-noti.cart-total {
+  top: -8px;
+}
+.wishlist-header .icon-wishlist.icon_heart_alt {
+
+  top: 6px;
+}
  .header-search .search-icon-custom .fa.fa-search {
     font-size: 24px;
     color: #fff;
