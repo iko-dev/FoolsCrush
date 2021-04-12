@@ -2176,15 +2176,15 @@ h2.banner-title {
 .next-slick2 {
   right: 100px !important;
 }
-  .header-search #text-search {
-   background: transparent;
-border: 0 !important;
-top: 14px;
-position: relative;
-font-size: 15px;
-color: #fff;
-margin-left: 27px;
-padding-left: 0;
+.header-search #text-search {
+  background: transparent;
+  border: 0 !important;
+  top: 5px;
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 27px;
+  padding-left: 5px;
 }
   .topbar-child2 a {
     color: #fff;
@@ -2213,11 +2213,11 @@ header .logo img {
     font-weight: normal;
     margin-top: 0;
 }
-  .header-search .search-icon-custom {
-    display: inline-block;
-    position: absolute; 
-    top: 22px;
-    cursor:pointer;
+.header-search .search-icon-custom {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  cursor: pointer;
 }
 header .topbar-social {
     display: none;
