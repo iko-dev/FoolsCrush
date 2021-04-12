@@ -2186,9 +2186,22 @@ padding-left: 0;
     color: #fff;
     font-family: Helvetica Neue,sans-serif !important;
 }
-  header .logo img {
-    /* max-height: 64px; */
-    max-height: 100px;
+header .logo img {
+  /* max-height: 64px; */
+  max-height: 100px;
+  position: relative;
+  top: -24px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.fixed-header .logo img {
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
  .header-search .search-icon-custom .fa.fa-search {
     font-size: 24px;
