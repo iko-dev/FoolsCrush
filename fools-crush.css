@@ -47,7 +47,13 @@ label {
     display: none;
 }
 #main-menu-custom .main-menu-single:hover .menu-up-arrow {
-    display: block;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-bottom: 30px solid #FDA9DB;
+  bottom: -20px;
 }
 .menu-up-arrow img {
     width: 45px;
@@ -617,7 +623,7 @@ span.block2-price {
   width: 45px;
 }
 .fixed-header .main_menu > li > .sub_menu.inner {
-  top: 64px;
+  top: 100px;
 }
 .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
   vertical-align: middle;
@@ -1825,7 +1831,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner {
     width: 100%;
     position: fixed !important;
-    top: 104px;
+    top: 160px;
   background: #FDA9DB;
 }
 .main_menu > li > .sub_menu.inner li {
