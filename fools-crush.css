@@ -2395,16 +2395,6 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4 {
 
 
 
-@media(max-width:700px)
-{
-
-.row.usefull-links {
-    margin: 0;
-}
-
-}
-
-
 
  @media (min-width: 768px) and (max-width: 992px) {
 	 
@@ -2430,7 +2420,7 @@ div#custom-products {
 .bg-img1 {
   padding: 50px 0px !important;
 }
-t-center.price-whole-container {
+.t-center.price-whole-container {
   width: 215px;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
@@ -2507,25 +2497,25 @@ t-center.price-whole-container {
     padding: 60px 0px;
 }	 
 h2.banner-title {
-    width: initial;
-    margin: 0;
-    text-transform: uppercase;
-    padding-top: 18px;
-    padding-bottom: 5px;
-    font-size: 42px;
-    transform: none;
-	    position: inherit;
-    padding-right: 0;
-    min-height: auto;
-    top: 0px !important;
-	 font-family: Montserrat-Bold;
+  width: initial;
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 48px;
+  transform: none;
+  position: inherit;
+  padding-right: 0;
+  min-height: auto;
+  top: 0 !important;
+  font-family: Montserrat-Bold;
 }	
 .background-img img {
   width: 100%;
 } 
 .banne-custom-title {
     text-align: center;
-	    margin-bottom: 25px;
+	    margin-bottom: 0px;
 }	 
 .banner-title.title1 {
     position: inherit;
@@ -2536,23 +2526,25 @@ h2.banner-title {
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: #fff;
 }
-	 .banner-title.title2 {
-    color: #FE59B6;
-    right: 0;
-    z-index: 999;
-    -webkit-text-stroke: 10px #fff;
-    -webkit-text-fill-color: #FE59B6;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ffff;
+.banner-title.title2 {
+  color: #FE59B6;
+  right: 0;
+  top: -30px !important;
+  z-index: 999;
+  -webkit-text-stroke: 10px #fff;
+  -webkit-text-fill-color: #FE59B6;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffff;
 }
-	 .banner-title.title3 {
-    position: inherit;
-    right: 0;
-    -webkit-text-stroke: 10px #fff;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: #fff;
+.banner-title.title3 {
+  position: inherit;
+  right: 0;
+  top: -60px !important;
+  -webkit-text-stroke: 10px #fff;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #fff;
 }
 .block1.hov-img-zoom.pos-relative.m-b-30 {
     margin-bottom: 100px;
