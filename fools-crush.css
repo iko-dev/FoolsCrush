@@ -464,6 +464,7 @@ font-size: 15px !important;
 }
 .about-sec p{
   color: #fff;
+  max-width: 500px;
 }
 .about-sec p img{
   max-width: 100%;
@@ -472,6 +473,8 @@ font-size: 15px !important;
   color: #FE30AE;
   font-size: 20px;
   font-family: 'Montserrat-Regular';
+  display: block;
+  margin-top: 20px;
 }
 .about-fools-description{
   max-width: 500px;
@@ -2477,7 +2480,10 @@ t-center.price-whole-container {
 
 
  @media (min-width: 320px) and (max-width: 767px) {
-	 .fixed-header {
+	.about-sec p a{
+    margin-bottom: 60px;
+  } 
+  .fixed-header {
     height: 80px !important;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
