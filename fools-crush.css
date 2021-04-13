@@ -524,7 +524,7 @@ span.product-from-price {
 .hov-img-zoom {
   position: relative;
   z-index: 1;
-  right: -35px;
+  right: 0px;
   max-width: 500px;
 }
 .t-center.price-whole-container.about-pwc-right {
@@ -2551,11 +2551,7 @@ h2.banner-title {
   width: 100%;
   max-width: 100%;
 }
-.hov-img-zoom {
-  position: relative;
-  z-index: 1;
-  right: 0;
-}
+
 
 }
 
