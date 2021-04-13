@@ -2564,6 +2564,13 @@ h2.banner-title {
 
 
  @media (min-width: 320px) and (max-width: 767px) {
+  .fixed-header {
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    left: 0;
+    top: 0;
+}
 	.about-sec p a{
     margin-bottom: 60px;
   } 
