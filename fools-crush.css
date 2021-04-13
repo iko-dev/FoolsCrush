@@ -2404,7 +2404,12 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4 {
 
 
  @media (min-width: 768px) and (max-width: 992px) {
-	 
+  .div2 img{
+    width:270px;
+  }
+  .div2 .contact-phone, .div2 .contact-mail{
+    max-width: 270px;
+  }
 	.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
     background-color: #fff;
 } 
