@@ -2551,6 +2551,11 @@ h2.banner-title {
   width: 100%;
   max-width: 100%;
 }
+.hov-img-zoom {
+  position: relative;
+  z-index: 1;
+  right: 0;
+}
 
 }
 
