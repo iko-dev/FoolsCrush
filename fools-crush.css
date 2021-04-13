@@ -2132,7 +2132,7 @@ margin-bottom: 50px;
     rotate: 270deg;
   color:#fff;
 }
-''.owl-carousel .owl-stage-outer {
+.owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
     -webkit-transform: translate3d(0,0,0);
