@@ -2424,6 +2424,53 @@ div#custom-products {
 .t-center.price-whole-container.about-pwc-right{
   right:0;
 }
+.bg-img1 {
+  padding: 50px 0px !important;
+}
+t-center.price-whole-container {
+  width: 215px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  margin-top: 15px;
+  padding: 15px 25px;
+  color: white;
+  background-color: transparent;
+  border: 6px solid white;
+  -webkit-box-shadow: inset 0px -10px 27px -8px #a31925, 3px 3px 29px 13px rgb(255 90 183 / 72%);
+  box-shadow: inset 0px -10px 27px -8px #a31925, 3px 3px 29px 13px rgb(255 90 183 / 72%);
+  -webkit-box-shadow: inset 3px 2px 27px 12px rgb(255 90 183 / 52%), 3px 2px 27px 12px rgb(255 90 183 / 52%), 3px 2px 27px 12px rgb(255 90 183 / 52%), inset 3px 2px 27px 12px rgb(255 90 183 / 52%);
+  box-shadow: inset 3px 2px 27px 12px rgb(255 90 183 / 52%), 3px 2px 27px 12px rgb(255 90 183 / 52%), 3px 2px 27px 12px rgb(255 90 183 / 52%), inset 3px 2px 27px 12px rgb(255 90 183 / 52%);
+}
+.single-item-off {
+  font-size: 30px;
+  -webkit-text-stroke: 1px #ff50b4;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff50b4;
+  line-height: 30px;
+  white-space: nowrap;
+  font-family: 'Montserrat-Bold';
+  letter-spacing: 1px;
+}
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  height: auto;
+  max-height: 342px;
+}
+
+
+
+
+
+
+
+
+
 }
 
 
