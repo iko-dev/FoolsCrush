@@ -2494,39 +2494,39 @@ div#custom-products {
   -webkit-text-stroke-color: #fff;
 }
 .banner-title.title2 {
-color: #FE59B6;
-right: 0;
-top: -30px !important;
-z-index: 999;
--webkit-text-stroke: 10px #fff;
--webkit-text-fill-color: #FE59B6;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: #ffff;
+  color: #FE59B6;
+  right: 0;
+  top: -54px !important;
+  z-index: 999;
+  -webkit-text-stroke: 10px #fff;
+  -webkit-text-fill-color: #FE59B6;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffff;
 }
 .banner-title.title3 {
-position: inherit;
-right: 0;
-top: -60px !important;
--webkit-text-stroke: 10px #fff;
-color: transparent;
--webkit-text-fill-color: transparent;
--webkit-text-stroke-width: 4px;
--webkit-text-stroke-color: #fff;
+  position: inherit;
+  right: 0;
+  top: -110px !important;
+  -webkit-text-stroke: 10px #fff;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #fff;
 }
-
 h2.banner-title {
   width: initial;
   margin: 0;
   text-transform: uppercase;
   padding-top: 0px;
   padding-bottom: 5px;
-  font-size: 48px;
+  font-size: 82px;
   transform: none;
   position: inherit;
   padding-right: 0;
   min-height: auto;
   top: 0 !important;
   font-family: Montserrat-Bold;
+  text-align: center;
 }
 
 .background-img img {
