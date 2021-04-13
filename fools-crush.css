@@ -2654,7 +2654,7 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4{
   display: none;
 }
 .owl-carousel .owl-stage-outer {
-  max-height: 772px;
+  max-height: 714px;
 }
 .inner-price-off.after {
   position: relative;
@@ -2669,6 +2669,9 @@ p.go-on-give-us-follow img {
 .header-wrapicon1
 {
   display: none !important;
+}
+.inner-price-off {
+  padding-top: 0;
 }
 
  }
