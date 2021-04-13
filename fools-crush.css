@@ -2480,6 +2480,10 @@ div#custom-products {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
+#home-slick .flex-c-m.size2.bo-rad-23.s-text2.bgwhite.hov1.trans-0-4 {
+  padding: 30px 30px;
+  font-size: 18px;
+}
 .size15.trans-0-4 {
   margin-bottom: 175px !important;
 } 
