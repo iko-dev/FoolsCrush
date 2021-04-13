@@ -2392,16 +2392,6 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4 {
 
 
 
-@media(max-width:700px)
-{
-
-.row.usefull-links {
-    margin: 0;
-}
-
-}
-
-
 
  @media (min-width: 768px) and (max-width: 992px) {
 	 
@@ -2427,7 +2417,7 @@ div#custom-products {
 .bg-img1 {
   padding: 50px 0px !important;
 }
-t-center.price-whole-container {
+.t-center.price-whole-container {
   width: 215px;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
