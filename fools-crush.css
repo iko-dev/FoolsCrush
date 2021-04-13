@@ -2579,7 +2579,11 @@ h2.banner-title {
   left: 0;
   top: 0;
 }
-
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+  position: absolute;
+  width: 40px;
+  height: 2px;
+}
 }
 
 /*--- Media querie 768 to 992 close --*/ 
@@ -2594,6 +2598,11 @@ h2.banner-title {
 
   .logo-mobile img {
     max-height: 40px;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+  position: absolute;
+  width: 40px;
+  height: 2px;
 }
   .fixed-header {
     position: fixed;
