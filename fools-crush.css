@@ -2483,7 +2483,9 @@ div#custom-products {
   bottom: 50px;
   box-shadow: none;
 }
-
+.header-wrapicon1 {
+  display: none;
+}
 .banner-title.title1 {
   position: inherit;
   right: 0;
