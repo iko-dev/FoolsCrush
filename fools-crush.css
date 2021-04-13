@@ -2197,7 +2197,7 @@ h2.banner-title {
 }
 .block1-wrapbtn {
     position: absolute;
-    left: 62%;
+    left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
