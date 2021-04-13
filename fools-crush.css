@@ -1847,6 +1847,7 @@ margin-left:-10px;
 }
 .animsition.collection.gm-menu-installed  .bgwhite.p-t-55.p-b-65.custom-contanier.collection-custom-section {
     padding-top: 80px;
+    width:100%;
 }
 .custom-container-header-title-breadcrumbs .l-text2.t-center {
     color: #1C1C1C;
@@ -2414,7 +2415,7 @@ button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4 {
   margin: 0 auto;
 }
 div#custom-products {
-  padding-left: 15px;
+  /* padding-left: 15px; */
  /* padding-right: 15px; */
 }
 .hov-img-zoom{
