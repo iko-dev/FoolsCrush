@@ -2584,6 +2584,10 @@ h2.banner-title {
 
 
  @media (min-width: 320px) and (max-width: 767px) {
+
+  .logo-mobile img {
+    max-height: 40px;
+}
   .fixed-header {
     position: fixed;
     z-index: 9999;
