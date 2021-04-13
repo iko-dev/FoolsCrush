@@ -639,6 +639,10 @@ span.block2-price {
   text-align: left;
   width: 65px;
 }
+.home-custom-feature .container-fluid {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .fixed-header .menu-up-arrow img {
   width: 30px;
   display: inline;
