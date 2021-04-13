@@ -2555,6 +2555,13 @@ h2.banner-title {
 
 }
 
+/*--- Media querie 768 to 992 close --*/ 
+
+
+
+
+
+
 
  @media (min-width: 320px) and (max-width: 767px) {
 	.about-sec p a{
@@ -2753,10 +2760,29 @@ p.go-on-give-us-follow img {
 .inner-price-off {
   padding-top: 0;
 }
+.index-section #home-slick .slick-dots {
+  position: absolute;
+  width: 20px;
+  display: block;
+  top: 50%;
+  left: 15px;
+}
+.index-section .slick-dots li {
+  display: block;
+  width: 100%;
+  height: 20px;
+}
+.index-section .slick-dots button {
+  color: transparent;
+  width: 10px;
+  background: #fff;
+  height: 10px;
+  border-radius: 50%;
+}
 
  }
  
- 
+/*--- Media querie 320 767 close --*/ 
 
 
 
