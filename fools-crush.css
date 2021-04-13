@@ -2159,7 +2159,7 @@ h2.banner-title {
 }
 .banner-title.title1 {
     position: absolute;
-	    right: 300px;
+    right: 255px;
 	    -webkit-text-stroke: 10px #fff;
     color: transparent;
     -webkit-text-fill-color: transparent;
@@ -2168,7 +2168,7 @@ h2.banner-title {
 }
 .banner-title.title2 {
     color: #FE59B6;
-    right: 262px;
+    right: 218px;
     z-index: 999;
     -webkit-text-stroke: 10px #fff;
     -webkit-text-fill-color: #FE59B6;
@@ -2185,7 +2185,7 @@ h2.banner-title {
 }
 .banner-title.title3 {
     position: absolute;
-    right: 225px;
+    right: 180px;
 	    -webkit-text-stroke: 10px #fff;
     color: transparent;
     -webkit-text-fill-color: transparent;
