@@ -2572,6 +2572,13 @@ h2.banner-title {
   height: 15px;
   border-radius: 50%;
 }
+.fixed-header {
+  position: fixed;
+  z-index: 9999;
+  right: 0;
+  left: 0;
+  top: 0;
+}
 
 }
 
