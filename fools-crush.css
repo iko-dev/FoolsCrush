@@ -1680,11 +1680,11 @@ margin-top: 85px;
   	max-width: 214px;
   }
   .div2 .contact-phone i, .div2 .contact-mail i {
-    font-size: 25px;
+    font-size: 25px !important;
   }
   .div2 .contact-phone p, .div2 .contact-mail p{
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 10px !important;
   }
   .div2 .contact-mail{
   	max-width: 214px;
