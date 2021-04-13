@@ -2611,6 +2611,9 @@ div#custom-products {
   /* padding-left: 15px; */
  /* padding-right: 15px; */
 }
+button.flex-c-m.size1.bg4.bo-rad-23.hov1.s-text1.trans-0-4{
+  bottom: 25px;
+}
 .hov-img-zoom{
   right: 0;
 }
