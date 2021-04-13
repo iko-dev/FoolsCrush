@@ -2454,7 +2454,9 @@ t-center.price-whole-container {
   font-family: 'Montserrat-Bold';
   letter-spacing: 1px;
 }
-
+.inner-price-off.after {
+  padding-top: 10px;
+}
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
