@@ -2509,7 +2509,7 @@ h2.banner-title {
 } 
 .banne-custom-title {
     text-align: center;
-	    margin-bottom: 25px;
+	    margin-bottom: 0px;
 }	 
 .banner-title.title1 {
     position: inherit;
