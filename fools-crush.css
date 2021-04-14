@@ -25,6 +25,16 @@ label {
   font-size: 14px; 
   font-weight: normal;
 }
+nav.breadcrumb.site-header-breadcrumbs {
+  position: absolute;
+  left: 9%;
+  bottom: 0;
+  background: transparent;
+  color: #fff;
+}
+nav.breadcrumb.site-header-breadcrumbs a {
+  color: #fff;
+}
 .topbar-child2 a:first-child {
   padding-right: 20px;
 }
