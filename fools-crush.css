@@ -2939,7 +2939,7 @@ body {
   display: inline-block;
   height: 700px;
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   left: 7%;
   top: 12%;
 }
