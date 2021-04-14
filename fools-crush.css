@@ -1272,7 +1272,13 @@ p.go-on-give-us-follow img {
   margin-top: 0;
   margin-left: -35px;
 }
-
+.slide1 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
 /*#instagram_block_home .owl-item ,
 #instagram_block_home .owl-item a{
 position: relative;
