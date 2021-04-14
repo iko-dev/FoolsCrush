@@ -1285,13 +1285,12 @@ p.go-on-give-us-follow img {
 }
 .item-slick1 .slide1-item1 {
   display: inline-block;
-  height: 550px;
+  height: 400px;
   position: absolute;
   z-index: 1;
   left: 7%;
   top: 6%;
-  max-width: 500px;
-  width: 500px;
+  width: 320px;
 }
 .item-slick1 .slide1-item1 .info {
   position: absolute;
@@ -1315,7 +1314,8 @@ p.go-on-give-us-follow img {
 }
 .item-slick2 .slide1-item1 {
   display: inline-block;
-  height: 550px;
+  height: 400px;
+  width: 320px;
   position: absolute;
   z-index: 1;
   left: 40%;
@@ -1341,12 +1341,12 @@ p.go-on-give-us-follow img {
 }
 .item-slick3 .slide1-item1 {
   display: inline-block;
-  height: 550px;
+  height: 400px;
   position: absolute;
   z-index: 0;
   left: -19%;
   top: 0%;
-  max-width: 450px;
+  max-width: 320px;
 }
 .item-slick3 .slide1-item1 .info {
   position: absolute;
@@ -1368,13 +1368,12 @@ p.go-on-give-us-follow img {
 }
 .item-slick4 .slide1-item1 {
   display: inline-block;
-  height: 550px;
+  height: 400px;
   position: absolute;
   z-index: 1;
   left: 24%;
   top: 308px;
-  max-width: 550px;
-  width: 500px;
+  width: 320px;
 }
 .item-slick4 .slide1-item1 .info {
   position: absolute;
