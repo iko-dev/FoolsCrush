@@ -653,6 +653,8 @@ span.block2-price {
   padding-top: 50px;
   padding-bottom: 0;
   position: relative;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 .fixed-header .menu-up-arrow img {
   width: 30px;
@@ -3044,7 +3046,7 @@ body {
 .slide1.item-slick2 {
   text-align: center;
   position: relative;
-  height: 400px !important;
+  height: 250px !important;
 }
 .slide1-item1 {
   display: inline-block;
