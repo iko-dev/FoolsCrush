@@ -1323,8 +1323,8 @@ p.go-on-give-us-follow img {
 }
 .item-slick2 .slide1-item1 .info {
   position: absolute;
-  left: -150px;
-  bottom: 2%;
+  left: -120px;
+  bottom: 5%;
   width: 150px;
 }
 .item-slick2 .slide1-item1 .info::after {
@@ -1333,8 +1333,8 @@ p.go-on-give-us-follow img {
   border-top: 2px solid #fff;
   width: 100px;
   position: absolute;
-  left: 84%;
-  top: 10px;
+  left: 75%;
+  top: 20px;
 }
 .slide1.item-slick3 {
   position: relative;
@@ -1378,8 +1378,8 @@ p.go-on-give-us-follow img {
 }
 .item-slick4 .slide1-item1 .info {
   position: absolute;
-  left: -150px;
-  bottom: 2%;
+  left: -120px;
+  bottom: 5%;
   width: 150px;
 }
 .item-slick4 .slide1-item1 .info::after {
@@ -1388,8 +1388,8 @@ p.go-on-give-us-follow img {
   border-top: 2px solid #fff;
   width: 100px;
   position: absolute;
-  left: 84%;
-  top: 10px;
+  left: 75%;
+  top: 20px;
 }
 /*#instagram_block_home .owl-item ,
 #instagram_block_home .owl-item a{
@@ -3095,6 +3095,8 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
+    font-family: 'Montserrat-Bold';
+    font-size: 26px;
 }
 .product-price {
     color: #fff;
