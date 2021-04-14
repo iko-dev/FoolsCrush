@@ -3092,17 +3092,18 @@ body {
 }
 
 .product-name {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: left;
-    font-family: 'Montserrat-Bold';
-    font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 26px;
+  font-family: 'Montserrat-Medium';
 }
 .product-price {
     color: #fff;
     text-decoration: none;
     text-align: left;
+    font-size: 18px;
 }
 /* .slide1-item1 .info {
   position: absolute;
