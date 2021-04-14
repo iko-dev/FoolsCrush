@@ -1287,12 +1287,11 @@ p.go-on-give-us-follow img {
 }
 .item-slick1 .slide1-item1 {
   display: inline-block;
-  height: 400px;
   position: absolute;
   z-index: 1;
   left: 7%;
   top: 6%;
-  width: 320px;
+  width: 50%;
 }
 .item-slick1 .slide1-item1 .info {
   position: absolute;
@@ -1316,11 +1315,10 @@ p.go-on-give-us-follow img {
 }
 .item-slick2 .slide1-item1 {
   display: inline-block;
-  height: 400px;
-  width: 320px;
   position: absolute;
   z-index: 1;
   left: 40%;
+  width: 45%;
   top: 0%;
 }
 .item-slick2 .slide1-item1 .info {
@@ -1343,12 +1341,11 @@ p.go-on-give-us-follow img {
 }
 .item-slick3 .slide1-item1 {
   display: inline-block;
-  height: 400px;
   position: absolute;
   z-index: 0;
   left: -19%;
   top: 0%;
-  max-width: 320px;
+  width: 34%;
 }
 .item-slick3 .slide1-item1 .info {
   position: absolute;
@@ -1370,12 +1367,11 @@ p.go-on-give-us-follow img {
 }
 .item-slick4 .slide1-item1 {
   display: inline-block;
-  height: 400px;
   position: absolute;
   z-index: 1;
-  left: 24%;
+  left: 12%;
   top: 308px;
-  width: 320px;
+  width: 50%;
 }
 .item-slick4 .slide1-item1 .info {
   position: absolute;
