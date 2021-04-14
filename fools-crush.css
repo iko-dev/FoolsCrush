@@ -3107,7 +3107,7 @@ body {
   top: 23%;
   width: 150px;
 }
-.slide1-item1 .info::before{
+/* .slide1-item1 .info::before{
   display: inline-block;
     content: "";
     border-top: 2px solid #fff;
@@ -3115,7 +3115,7 @@ body {
     position: absolute;
     left: -105px;
     top: 10px;
-}
+} */
 .slide1-item2 .info {
     position: absolute;
     left: -150px;
