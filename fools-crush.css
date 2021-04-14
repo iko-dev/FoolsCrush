@@ -2991,8 +2991,8 @@ body {
 }
 .slide1-item1 .info {
   position: absolute;
-  right: -200px;
-  top: 10%;
+  right: -120px;
+  top: 23%;
   width: 150px;
 }
 .slide1-item1 .info::before{
