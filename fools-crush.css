@@ -651,8 +651,13 @@ span.block2-price {
 }
 .home-custom-feature .container-fluid {
   padding-top: 20px;
-  padding-bottom: 550px;
+  padding-bottom: 0;
   position: relative;
+}
+.slide1.item-slick2 {
+  text-align: center;
+  position: relative;
+  height: 400px;
 }
 .fixed-header .menu-up-arrow img {
   width: 30px;
