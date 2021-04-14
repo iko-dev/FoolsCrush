@@ -115,7 +115,61 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
   margin-bottom: 20px;
   border: 1px solid #e3e3e3;
 }
+.slick-slide.slick-current.slick-active {
+  position: relative;
+}
 
+
+.slick-slide.slick-current.slick-active div:nth-child(2) .slide1.item-slick2 .slide1-item1 {
+  /* display: inline-block; */
+  width: 270px;
+  /* height: 350px; */
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 250px;
+}
+
+.slick-slide.slick-active {}
+
+.slick-slide.slick-current.slick-active div:nth-child(2) .slide1.item-slick2 .slide1-item1 .info::after {
+  display: inline-block;
+  content: "";
+  border-top: 2px solid #fff;
+  width: 100px;
+  position: absolute;
+  left: 84%;
+  top: 10px;
+}
+
+.slick-slide.slick-active div .slide1.item-slick2 {}
+
+.slick-slide.slick-active div:nth-child(1) .slide1.item-slick2 .slide1-item1 {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  z-index: 0;
+  left: 46%;
+  top: 6%;
+}
+
+.slick-slide.slick-active div:nth-child(2) .slide1.item-slick2 .slide1-item1 {
+  display: inline-block;
+  width: 350px;
+  height: 393px;
+  position: absolute;
+  z-index: 1;
+  right: 7%;
+  top: 38%;
+}
+
+.slick-slide.slick-current.slick-active div:nth-child(2) .slide1.item-slick2 .slide1-item1 .info {
+  position: absolute;
+  left: -150px;
+  bottom: 2%;
+  width: 150px;
+}
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
   font-family: Montserrat-Regular;
   font-size: 13px;
