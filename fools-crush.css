@@ -2938,7 +2938,7 @@ body {
   display: inline-block;
   width: 350px;
   height: 393px;
-  /* position: absolute; */
+   position: absolute; 
   z-index: 0;
   left: 7%;
   top: 12%;
@@ -2994,7 +2994,7 @@ body {
 }
 .slide1-item1 .info {
   position: absolute;
-  right: 0;
+  right: -200px;
   top: 10%;
   width: 150px;
 }
