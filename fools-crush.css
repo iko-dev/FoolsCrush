@@ -1289,7 +1289,7 @@ p.go-on-give-us-follow img {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  left: 7%;
+  left: 20%;
   top: 6%;
   width: 50%;
 }
@@ -1317,7 +1317,7 @@ p.go-on-give-us-follow img {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  left: 40%;
+  left: 61%;
   width: 45%;
   top: 0%;
 }
@@ -1343,7 +1343,7 @@ p.go-on-give-us-follow img {
   display: inline-block;
   position: absolute;
   z-index: 0;
-  left: -19%;
+  left: 0%;
   top: 0%;
   width: 34%;
 }
@@ -1369,7 +1369,7 @@ p.go-on-give-us-follow img {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  left: 12%;
+  left: 30%;
   top: 308px;
   width: 50%;
 }
