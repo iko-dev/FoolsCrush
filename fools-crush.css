@@ -12,7 +12,22 @@ div#content {
     margin-top: 30px;
 }
 .deal-custom-container .owl-nav.disabled .owl-next {
-    background-image: url(https://cdn.shopify.com/s/files/1/0056/2069/5110/t/11/assets/right-arrow.svg?v=7010293671767096086);
+  background-image: url(https://cdn.shopify.com/s/files/1/0553/8493/2505/t/2/assets/iconmonstr-arrow-right-thin.svg?v=1618472625);
+  width: 47px;
+  height: 30px;
+  position: relative;
+  background-position: center;
+  text-indent: -9999999999px;
+  background-repeat: no-repeat !important;
+}
+.deal-custom-container .owl-nav.disabled .owl-prev {
+  background-image: url(https://cdn.shopify.com/s/files/1/0553/8493/2505/t/2/assets/iconmonstr-arrow-left-thin.svg?v=1618472625);
+  width: 47px;
+  height: 30px;
+  position: relative;
+  background-position: center;
+  text-indent: -9999999999px;
+  background-repeat: no-repeat !important;
 }
 .logo {
   left: 20px;
@@ -2242,12 +2257,12 @@ margin-bottom: 50px;
 }
 .deal-custom-container .owl-nav.disabled {
     position: absolute;
-    right: 9%;
+    right: 3%;
     bottom: 0;
 }
 .deal-custom-container .owl-nav.disabled .owl-prev, .deal-custom-container .owl-nav.disabled .owl-next {
     display: inline-block;
-    margin-right: 9px;
+    margin-right: 35px;
     color: #fff;
 }
 
