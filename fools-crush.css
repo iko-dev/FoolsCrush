@@ -2258,7 +2258,7 @@ margin-bottom: 50px;
 .deal-custom-container .owl-nav.disabled {
     position: absolute;
     right: 3%;
-    bottom: 0;
+    bottom: 15px;
 }
 .deal-custom-container .owl-nav.disabled .owl-prev, .deal-custom-container .owl-nav.disabled .owl-next {
     display: inline-block;
