@@ -49,6 +49,7 @@ label {
 } */
 nav.breadcrumb.site-header-breadcrumbs a {
   color: #fff;
+  font-family: 'Montserrat-Medium';
 }
 .topbar-child2 a:first-child {
   padding-right: 20px;
@@ -2061,6 +2062,7 @@ margin-left:-10px;
   padding-left: 0;
   padding-top: 5px;
   padding-bottom: 0;
+  font-family: 'Montserrat-Medium';
 }
 .block2.custom-collection-block .block2-btn-towishlist, .block2.custom-collection-block .block2-btn-addwishlist {
     transition: none;
