@@ -244,7 +244,7 @@ width:auto;
     top: 50%;
     left:32px;
 }
-li.main-menu-single ul.sub_menu.inner li.second-child:nth-child(3):after {
+.main_menu > li > .sub_menu.inner li.first-child:nth-child(3) li.second-child:last-child:after {
   background: url(https://cdn.shopify.com/s/files/1/0511/3914/9976/files/Layer_1.png?v=1618485994);
   content: "";
   background-repeat: no-repeat;
@@ -254,7 +254,7 @@ li.main-menu-single ul.sub_menu.inner li.second-child:nth-child(3):after {
   position: relative;
   top: 25px;
   display: inline-block;
-} 
+}
  
 .toast-success { 
 }
