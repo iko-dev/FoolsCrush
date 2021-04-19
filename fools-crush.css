@@ -234,8 +234,8 @@ li.main-menu-single ul.sub_menu.inner li.second-child:nth-child(3):after {
   content: "";
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 600px;
-  height: 150px;
+  width: 450px;
+  height: 110px;
   position: relative;
   top: 25px;
   display: inline-block;
