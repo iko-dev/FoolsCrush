@@ -2057,8 +2057,10 @@ margin-left:-10px;
   width:100%
 }
 .custom-container-header-title-breadcrumbs .breadcrumb {
-    background: transparent;
-	    padding-left: 0;
+  background: transparent;
+  padding-left: 0;
+  padding-top: 5px;
+  padding-bottom: 0;
 }
 .block2.custom-collection-block .block2-btn-towishlist, .block2.custom-collection-block .block2-btn-addwishlist {
     transition: none;
