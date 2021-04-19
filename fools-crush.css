@@ -1544,7 +1544,8 @@ header .topbar-child2 {
     z-index: 9;
 }
 header  .topbar {
-  height: 45px;
+  height: 30px;
+  /* height: 45px; */
   background-color: #000;
   position: relative;
   display: -webkit-box;
@@ -1600,8 +1601,12 @@ header .form-control::placeholder {
   .header-search  #search {
     position: relative;
 }
+.item-slick1 {
+  max-height: 400px;
+}
 .header1 {
-  height: 165px;
+  /* height: 165px; */
+  height: 135px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -1609,7 +1614,7 @@ header .form-control::placeholder {
 }
 .wrap_header {
   width: 100%;
-  height: 120px;
+  height: 105px;
 }
 .fixed-header {
     height: 110px;
@@ -2444,7 +2449,8 @@ header .topbar-child2 {
     position: absolute;
     padding-right: 38px;
     z-index: 9;
-    padding-top: 25px;
+    padding-top: 5px;
+    /* padding-top: 25px; */
 }
 .header-wrapicon1, .header-wrapicon2 {
   height: 27px;
