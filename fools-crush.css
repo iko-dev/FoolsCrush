@@ -92,7 +92,7 @@ nav.breadcrumb.site-header-breadcrumbs a {
   border-left: 24px solid transparent;
   border-right: 24px solid transparent;
   border-bottom: 30px solid #FDA9DB;
-  bottom: -20px;
+  bottom: -15px;
 }
 .menu-up-arrow img {
     width: 45px;
@@ -2048,7 +2048,7 @@ margin-left:-10px;
 .main_menu > li > .sub_menu.inner {
     width: 100%;
     position: fixed !important;
-    top: 160px;
+    top: 130px;
     background: #FDA9DB;
     padding: 0px 118px;
 }
