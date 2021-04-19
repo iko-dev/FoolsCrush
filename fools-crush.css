@@ -2127,6 +2127,9 @@ button.active {
 .quantity-buttons button{
   height: 42px !important;
 }
+button[type="submit"]{
+  text-transform: initial !important;
+}
 .quantity-buttons .btn-num-product-down.color1.flex-c-m.size7.bg8.eff2,
 .quantity-buttons  .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2{
     display: inline-block;
