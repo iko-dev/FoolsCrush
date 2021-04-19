@@ -488,6 +488,7 @@ font-size: 15px !important;
 .about-sec p{
   color: #fff;
   max-width: 500px;
+  margin-bottom: 1.5rem;
 }
 .about-sec p img{
   max-width: 100%;
