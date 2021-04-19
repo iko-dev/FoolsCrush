@@ -1601,6 +1601,9 @@ header .form-control::placeholder {
   .header-search  #search {
     position: relative;
 }
+.item-slick1 {
+  height: 500px;
+}
 .header1 {
   /* height: 165px; */
   height: 150px;
