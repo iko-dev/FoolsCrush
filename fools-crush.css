@@ -775,6 +775,7 @@ Swatches Styles
   float: left;
   font-size: 20px;
   font-weight: 600;
+  font-family: 'Montserrat-Bold';
 }
 lable.product-quantity{
   margin-top: 0.4rem;
@@ -2122,6 +2123,13 @@ button.active {
     display: inline-block;
     vertical-align: top;
     margin-left: 23px;
+    border: 1px solid #e6e6e6;
+}
+.quantity-buttons button{
+  height: 42px !important;
+}
+button[type="submit"]{
+  text-transform: initial !important;
 }
 .quantity-buttons .btn-num-product-down.color1.flex-c-m.size7.bg8.eff2,
 .quantity-buttons  .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2{
