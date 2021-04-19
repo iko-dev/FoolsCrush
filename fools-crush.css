@@ -1602,7 +1602,7 @@ header .form-control::placeholder {
     position: relative;
 }
 .item-slick1 {
-  height: 500px;
+  max-height: 400px;
 }
 .header1 {
   /* height: 165px; */
