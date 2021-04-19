@@ -2122,6 +2122,10 @@ button.active {
     display: inline-block;
     vertical-align: top;
     margin-left: 23px;
+    border: 1px solid #e6e6e6;
+}
+.quantity-buttons button{
+  height: 42px !important;
 }
 .quantity-buttons .btn-num-product-down.color1.flex-c-m.size7.bg8.eff2,
 .quantity-buttons  .btn-num-product-up.color1.flex-c-m.size7.bg8.eff2{
