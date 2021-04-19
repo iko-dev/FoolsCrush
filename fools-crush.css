@@ -1602,7 +1602,8 @@ header .form-control::placeholder {
     position: relative;
 }
 .header1 {
-  height: 165px;
+  /* height: 165px; */
+  height: 150px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -2445,7 +2446,8 @@ header .topbar-child2 {
     position: absolute;
     padding-right: 38px;
     z-index: 9;
-    padding-top: 25px;
+    padding-top: 10px;
+    /* padding-top: 25px; */
 }
 .header-wrapicon1, .header-wrapicon2 {
   height: 27px;
