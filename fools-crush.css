@@ -2264,7 +2264,7 @@ margin-bottom: 50px;
 .bg-title-page {
 	min-height: 400px;
 	position: relative;
-  background-position: center;
+  background-position: center center !important;
 /*	background-position: center center;*/
 }
 .custom-deal-column-inner.right .t-center.price-whole-container .block2-newprice.m-text8.p-r-5 {
