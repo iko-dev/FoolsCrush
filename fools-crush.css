@@ -1543,7 +1543,8 @@ header .topbar-child2 {
     z-index: 9;
 }
 header  .topbar {
-  height: 45px;
+  height: 30px;
+  /* height: 45px; */
   background-color: #000;
   position: relative;
   display: -webkit-box;
