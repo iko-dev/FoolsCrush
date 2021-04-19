@@ -227,7 +227,19 @@ width:auto;
     display: block;
     top: 50%;
     left:32px;
-}  
+}
+li.main-menu-single ul.sub_menu.inner li.second-child:nth-child(3):after {
+  background: url(https://cdn.shopify.com/s/files/1/0511/3914/9976/files/Layer_1.png?v=1618485994);
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 600px;
+  height: 150px;
+  position: relative;
+  top: 25px;
+  display: inline-block;
+} 
+ 
 .toast-success { 
 }
 img.img-responsive.insta-size {
@@ -488,6 +500,7 @@ font-size: 15px !important;
 .about-sec p{
   color: #fff;
   max-width: 500px;
+  margin-bottom: 1.5rem;
 }
 .about-sec p img{
   max-width: 100%;
