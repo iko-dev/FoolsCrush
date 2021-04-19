@@ -762,6 +762,7 @@ Swatches Styles
   float: left;
   font-size: 20px;
   font-weight: 600;
+  font-family: 'Montserrat-Bold';
 }
 lable.product-quantity{
   margin-top: 0.4rem;
