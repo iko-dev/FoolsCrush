@@ -2241,7 +2241,7 @@ margin-bottom: 50px;
 .inner-price-off.after {
     position: relative;
     left: -57px;
-    padding-top: 70px;
+    padding-top: 45px;
 }
 
 .single-item-off {
@@ -2668,7 +2668,7 @@ div#custom-products {
 .deal-custom-container .owl-nav.disabled {
   position: absolute;
   right: 0%;
-  bottom: 0;
+  bottom: 15px;
 }
 .deal-custom-container .owl-nav.disabled .owl-prev, .deal-custom-container .owl-nav.disabled .owl-next {
   display: inline-block;
