@@ -162,7 +162,7 @@ span#variantQuantity.is-visible {
 .topbar.alert-success {
   background-color: #292929;
 }
-.main_menu > li > .sub_menu.inner li .grandchild li a:active:before {
+.main_menu > li > .sub_menu.inner li .grandchild li a.active:before {
   display: inline-block;
   content: "";
   border-top: 2px solid #000;
