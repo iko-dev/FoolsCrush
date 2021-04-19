@@ -40,13 +40,13 @@ label {
   font-size: 14px; 
   font-weight: normal;
 }
-nav.breadcrumb.site-header-breadcrumbs {
+/* nav.breadcrumb.site-header-breadcrumbs {
   position: absolute;
   left: 7.5%;
   bottom: 0;
   background: transparent;
   color: #fff;
-}
+} */
 nav.breadcrumb.site-header-breadcrumbs a {
   color: #fff;
 }
