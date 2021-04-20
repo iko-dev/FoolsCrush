@@ -710,8 +710,24 @@ span.block2-price {
   margin: 0 auto;
   width: 45px;
 }
-.shopify-cleanslate ._3TUeZPsTWjDxakSmeDcA4D {
-  flex-basis: 125px !important;
+.product-thumbnail {
+  width: 75px;
+  height: 100px;
+  position: relative;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+.sidebar .order-summary__emphasis {
+  font-size: 18px;
+  color: black;
+  font-family: Montserrat-Bold;
+}
+.sidebar .order-summary__small-text {
+  color: #707070;
+  font-size: 14px;
+  font-family: Montserrat-Regular, sans-serif;
+}
+.sidebar .payment-due__price {
+  color: #ff27ac;
 }
 .fixed-header .main_menu > li > .sub_menu.inner {
   top: 100px;
