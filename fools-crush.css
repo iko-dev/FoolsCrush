@@ -499,6 +499,9 @@ font-size: 15px !important;
   display: none;
   z-index: 9990;
 }
+.wrap-slick2.custom-feature-slider {
+    max-height: 719px;
+}
 .mb-10 {
   border-bottom: 7px solid #fff !important;
 }
