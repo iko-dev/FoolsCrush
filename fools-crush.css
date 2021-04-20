@@ -47,6 +47,9 @@ label {
   background: transparent;
   color: #fff;
 } */
+.btn-addcart-product-detail.size9.trans-0-4.m-t-10.m-b-10 button {
+  text-transform: initial;
+}
 nav.breadcrumb.site-header-breadcrumbs a {
   color: #fff;
   font-family: 'Montserrat-Medium';
