@@ -710,6 +710,9 @@ span.block2-price {
   margin: 0 auto;
   width: 45px;
 }
+.shopify-cleanslate ._3TUeZPsTWjDxakSmeDcA4D {
+  flex-basis: 125px !important;
+}
 .fixed-header .main_menu > li > .sub_menu.inner {
   top: 100px;
 }
