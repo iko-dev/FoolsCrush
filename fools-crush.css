@@ -2405,7 +2405,7 @@ margin-bottom: 50px;
     position: absolute;
     right: 3%;
     bottom: 15px;
-    z-index: 9;
+    z-index: 9 !important;
 }
 .deal-custom-container .owl-nav.disabled .owl-prev, .deal-custom-container .owl-nav.disabled .owl-next {
     display: inline-block;
