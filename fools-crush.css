@@ -696,7 +696,7 @@ span.block2-price {
 }
 .home-custom-feature .container-fluid {
   padding-top: 50px;
-  padding-bottom: 0;
+  padding-bottom: 80px;
   position: relative;
   background-repeat: no-repeat !important;
   background-size: cover !important;
