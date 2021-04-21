@@ -499,6 +499,9 @@ font-size: 15px !important;
   display: none;
   z-index: 9990;
 }
+.wrap-slick2.custom-feature-slider {
+    max-height: 719px;
+}  
 .mb-10 {
   border-bottom: 7px solid #fff !important;
 }
@@ -508,7 +511,7 @@ font-size: 15px !important;
 }
 .grandchild .second-child .second-child-link {
     font-family: Montserrat-bold !important;
-}
+} 
 .grandchild .second-child {
     padding: 0; 
 }
@@ -2039,7 +2042,85 @@ margin-left:-10px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.wrap-slick2.custom-feature-slider .product-name {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Montserrat-Medium';
+}
+ .wrap-slick2.custom-feature-slider   .item-slick1 .slide1-item1 .info {
+    position: absolute;
+    right: -166px;
+    top: 10%;
+    width: 217px;
+}
+    .wrap-slick2.custom-feature-slider .slide1.item-slick4 .product-name, 
+    .wrap-slick2.custom-feature-slider .slide1.item-slick4 .product-price {
+    position: relative;
+    left: 44px;
+}
+    .item-slick4 .slide1-item1 {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    left: 31%;
+    top: 253px;
+    width: 50%;
+}
+    .item-slick3 .slide1-item1 {
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    left: 0%;
+    top: -15px;
+    width: 34%;
+}
+    .slide1.item-slick2 {
+    position: relative;
+    top: -166px;
+    height: 550px;
+}
+    .item-slick1 .slide1-item1 {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    left: 32%;
+    top: 6%;
+    width: 50%;
+}
+.item-slick2 .slide1-item1 .info {
+    position: absolute;
+    left: -136px;
+    top: 40%;
+    width: 150px;
+}
+    .item-slick4 .slide1-item1 .info {
+    position: absolute;
+    left: -160px;
+    top: 253px;
+    width: 150px;
+}
+    .slide1.item-slick2 .product-name {
+    position: relative;
+    left: -28px;
+    top: 7px;
+}
+    .slide1.item-slick2 .product-price {
+    position: relative;
+    left: -27px;
+    top: 6px;
+}
+    .item-slick4 .slide1-item1 .info::after {
+   display: inline-block;
+content: "";
+border-top: 2px solid #fff;
+width: 116px;
+position: absolute;
+left: 127%;
+top: 11px;
+}
 
 .header-search .container {
     max-width: 250px;
