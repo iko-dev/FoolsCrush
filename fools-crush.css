@@ -95,7 +95,7 @@ nav.breadcrumb.site-header-breadcrumbs a {
   height: 0;
   border-left: 24px solid transparent;
   border-right: 24px solid transparent;
-  border-bottom: 30px solid #FDA9DB;
+  border-bottom: 24px solid #FDA9DB;
   bottom: -15px;
 }
 .menu-up-arrow img {
