@@ -1388,9 +1388,9 @@ p.go-on-give-us-follow img {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  left: 61%;
-  width: 45%;
-  top: 0%;
+  left: 50%;
+  width: 50%;
+  bottom: 0%;
 }
 .item-slick2 .slide1-item1 .info {
   position: absolute;
@@ -2072,26 +2072,26 @@ margin-left:-10px;
     top: 253px;
     width: 50%;
 }
-    .item-slick3 .slide1-item1 {
-    display: inline-block;
-    position: absolute;
-    z-index: 0;
-    left: 0%;
-    top: -15px;
-    width: 34%;
+.item-slick3 .slide1-item1 {
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  left: 0%;
+  top: -50px;
+  width: 38%;
 }
     .slide1.item-slick2 {
     position: relative;
     top: -166px;
     height: 550px;
 }
-    .item-slick1 .slide1-item1 {
-    display: inline-block;
-    position: absolute;
-    z-index: 1;
-    left: 32%;
-    top: 6%;
-    width: 50%;
+.item-slick1 .slide1-item1 {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  left: 14%;
+  top: 12%;
+  width: 60%;
 }
 .item-slick2 .slide1-item1 .info {
     position: absolute;
