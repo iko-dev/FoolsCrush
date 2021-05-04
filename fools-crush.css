@@ -702,7 +702,7 @@ span.block2-price {
 }
 .home-custom-feature .container-fluid {
   padding-top: 70px;
-  padding-bottom: 230px;
+  padding-bottom: 300px;
   position: relative;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -2064,19 +2064,19 @@ margin-left:-10px;
     position: relative;
     left: 44px;
 }
-    .item-slick4 .slide1-item1 {
-    display: inline-block;
-    position: absolute;
-    z-index: 1;
-    left: 31%;
-    top: 253px;
-    width: 50%;
+.item-slick4 .slide1-item1 {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  left: 27%;
+  top: 350px;
+  width: 59%;
 }
 .item-slick3 .slide1-item1 {
   display: inline-block;
   position: absolute;
   z-index: 0;
-  left: 0%;
+  left: -5%;
   top: -50px;
   width: 38%;
 }
