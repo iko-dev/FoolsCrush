@@ -1233,7 +1233,10 @@ ul.ct-payment {
   position: relative;
   width: 100%;
 }
-
+.owl-next i.fa.fa-chevron-right,
+.owl-prev i.fa.fa-chevron-left {
+  display: none;
+}
 .alert-dismissable .close, .alert-dismissible .close {
   right: 10px !important;
   top: 2px !important;
