@@ -1388,9 +1388,9 @@ p.go-on-give-us-follow img {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  left: 50%;
+  left: 48%;
   width: 50%;
-  bottom: 0%;
+  top: 40%;
 }
 .item-slick2 .slide1-item1 .info {
   position: absolute;
@@ -1402,7 +1402,7 @@ p.go-on-give-us-follow img {
   display: inline-block;
   content: "";
   border-top: 2px solid #fff;
-  width: 100px;
+  width: 189px;
   position: absolute;
   left: 75%;
   top: 20px;
@@ -2094,10 +2094,10 @@ margin-left:-10px;
   width: 60%;
 }
 .item-slick2 .slide1-item1 .info {
-    position: absolute;
-    left: -136px;
-    top: 40%;
-    width: 150px;
+  position: absolute;
+  left: -136px;
+  top: 56%;
+  width: 150px;
 }
 .item-slick4 .slide1-item1 .info {
   position: absolute;
