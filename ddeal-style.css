@@ -11,3 +11,7 @@ and open the template in the editor.
 .logo img {
     max-height: initial;
 }
+
+header .search-container {
+    width: 319px;
+}
