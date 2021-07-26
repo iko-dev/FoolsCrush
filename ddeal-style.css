@@ -21,3 +21,27 @@ header input#text-search {
 header  .topbar {
     height: 86px;
 } 
+
+header button.btn.btn-default.btn-lg {
+    position: absolute;
+    z-index: 999;
+    top: 4px;
+    right: 3px;
+    background: #fff;
+    border-radius: 100%;
+    width: 27px;
+    height: 30px;
+}
+header input#text-search {
+    padding: 6px 16px;
+    margin-top: 0;
+    background: transparent;
+    color: #fff;
+    border-radius: 30px;
+}
+header i.fs-12.fa.fa-search {
+    top: 6px;
+    position: absolute;
+    right: 7px;
+    font-size: 16px;
+}
