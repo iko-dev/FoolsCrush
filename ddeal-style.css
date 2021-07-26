@@ -11,3 +11,13 @@ and open the template in the editor.
 .logo img {
     max-height: initial;
 }
+header .search-container {
+    width: 319px;
+}
+header input#text-search {
+    margin-top: 23px;
+}
+
+header  .topbar {
+    height: 86px;
+} 
