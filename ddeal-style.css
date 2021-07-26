@@ -60,3 +60,11 @@ header i.fs-12.fa.fa-search {
 header div#search {
     position: relative;
 }
+.container-menu-header #dropdownMenuLink {
+    background: transparent !important;
+    color: #000 !important;
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    text-transform: capitalize;
+    box-shadow: none;
+}
