@@ -79,3 +79,14 @@ header .side-menu .sub-menu a:hover {
     color: #fff !important;
     background: transparent;
 }
+
+.logo-mobile-container .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+}
+
+.wrap_header_mobile {
+    background-color: #f17427;
+}
