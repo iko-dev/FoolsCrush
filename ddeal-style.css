@@ -90,3 +90,18 @@ header .side-menu .sub-menu a:hover {
 .wrap_header_mobile {
     background-color: #f17427;
 }
+.topbar-social-item {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px;
+    background: #F6AE0E;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+header .topbar-social {
+    position: relative;
+}
+
+header .topbar-social-item {
+    background: #F6AE0E;
+}
