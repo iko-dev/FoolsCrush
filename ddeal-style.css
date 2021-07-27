@@ -68,3 +68,14 @@ header div#search {
     text-transform: capitalize;
     box-shadow: none;
 }
+
+header .sub-menu a.dropdown-item {
+    color: #fff;
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    line-height: 2;
+}
+header .side-menu .sub-menu a:hover {
+    color: #fff !important;
+    background: transparent;
+}
