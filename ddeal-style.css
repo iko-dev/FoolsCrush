@@ -160,8 +160,11 @@ bottom: 20px;
 .wrap_header {
   height: 55px;
   padding: 0px 100px;
+  justify-content: space-between;
 }
-
+.topbar-social-item:last-child {
+  margin-right: 0;
+}
 /* BreadCrumbs */
 .bread-crumb {
     background-color: #F5F5F5;
