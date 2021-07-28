@@ -1,13 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Jul 26, 2021, 4:52:21 PM
-    Author     : ftc
-*/
-
 .logo img {
     max-height: initial;
 }
@@ -19,6 +9,165 @@ header input#text-search {
     margin-top: 23px;
 }
 
-header  .topbar {
-    height: 86px;
-} 
+.topbar {
+    height: 96px;
+    padding: 0px 100px;
+    background-color: #F17427;
+}
+.header1 {
+    height: 176px;
+}
+
+/* BreadCrumbs */
+.bread-crumb {
+    background-color: #F5F5F5;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 33px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.bread-crumb .s-text16 {
+    font-size: 30px;
+    color: #000;
+    line-height: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.bread-crumb a {
+    font-size: 20px;
+    color: #000;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.bread-crumb .s-text16 i {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/* Product Detail Page */
+
+.product-detail-name {
+    font-size: 20px;
+    color: #000;
+    line-height: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #D8D8D8;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+#productPrice {
+    color: #F17427;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.bo5 {
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+}
+
+
+.btn-num-product-down {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    height: 42px;
+}
+
+.btn-num-product-up {
+    background-color: transparent;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    height: 42px;
+}
+
+.size8 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #7B7B7B;
+    height: 42px;
+}
+#button-cart {
+    background-color: #F17427;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: none;
+    display: flex;
+    height: 53px;
+}
+.slick3-dots .slick3-dot-overlay,
+.slick3-dots .slick-active .slick3-dot-overlay {
+    border: 1px solid #D8D8D8;
+}
+.wrap-slick3-dots {
+    width: 24.2%;
+    margin-right: 12px;
+}
+.slick3 {
+    width: 73.8%;
+    border: 1px solid #d8d8d8;
+    height: 465px;
+}
+.slick3-dots li {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 12px;
+    height: 148px;
+}
+.slick3-dots li:last-child {
+    margin-bottom: 0;
+}
+.slick3-dots li img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrap-slick3 .slick-list.draggable {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.wrap-slick3 .slick-list.draggable .slick-track {
+    width: 100% !important;
+}
+
+.wrap-slick3 .slick-list.draggable .slick-track .slick-slide {
+    width: 100% !important;
+}
+
+/* Footer */
+
+#footer h4.s-text12 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+}
+#footer .s-text7 {
+    color: #000000;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+}
