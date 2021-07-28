@@ -66,6 +66,8 @@ header div#search {
 .main_menu > li {
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 header .sub-menu a.dropdown-item {
     color: #fff;
