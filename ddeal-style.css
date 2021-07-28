@@ -15,34 +15,35 @@ header .search-container {
     width: 319px;
 }
 header input#text-search {
-    margin-top: 23px;
+    /* margin-top: 23px; */
 }
 
 header  .topbar {
-    height: 86px;
+    /* height: 86px; */
 } 
-
 header button.btn.btn-default.btn-lg {
     position: absolute;
     z-index: 999;
-    top: 4px;
-    right: 3px;
     background: #fff;
     border-radius: 100%;
-    width: 27px;
-    height: 30px;
+    top: 4px;
+      right: 5px;
+      width: 38px;
+      height: 38px;
 }
 header input#text-search {
-    padding: 6px 16px;
+    padding: 10px 15px;
+    height: 46px;
     margin-top: 0;
     background: transparent;
     color: #fff;
     border-radius: 30px;
 }
 header i.fs-12.fa.fa-search {
-    top: 6px;
     position: absolute;
-    right: 7px;
+    top: 50%;
+    left: 50%;;
+    transform: translate(-50%, -50%);
     font-size: 16px;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -153,23 +154,7 @@ bottom: 20px;
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
-header .searchWrapper input#text-search {
-    padding: 10px 15px;
-    height: 46px;
-}
-header .searchWrapper button {
-    top: 4px;
-    right: 5px;
-    width: 38px;
-    height: 38px;
-}
-header .searchWrapper i {
-    top: 50%;
-    position: absolute;
-    left: 50%;
-    font-size: 16px;
-    transform: translate(-50%, -50%);
-}
+
 /* BreadCrumbs */
 .bread-crumb {
     background-color: #F5F5F5;
