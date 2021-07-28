@@ -92,9 +92,14 @@ header .side-menu .sub-menu a:hover {
     font-size: 18px;
     color: #ffffff;
     padding: 10px;
-    background: #F6AE0E;
-    margin-right: 20px;
+    background: #F4AD2D;
+    margin-right: 4px;
     border-radius: 50%;
+    display: block;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    line-height: 25px;
 }
 header .topbar-social {
     position: relative;
