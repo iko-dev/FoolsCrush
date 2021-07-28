@@ -57,12 +57,16 @@ header div#search {
 .container-menu-header #dropdownMenuLink {   
     background: transparent !important;
     color: #000 !important;
-    font-family: Montserrat-Regular;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
     text-transform: capitalize;
     box-shadow: none;
+    padding:0px;
 }
-
+.main_menu > li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 header .sub-menu a.dropdown-item {
     color: #fff;
     font-family: Montserrat-Regular;
@@ -153,7 +157,10 @@ bottom: 20px;
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
-
+.wrap_header {
+  height: 55px;
+  padding: 0px 100px;
+}
 /* BreadCrumbs */
 .bread-crumb {
     background-color: #F5F5F5;
