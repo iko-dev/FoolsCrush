@@ -79,6 +79,11 @@ header div#search {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f107";
+  margin: 0 !important;
+    border: none !important;
+    width: auto;
+    height: auto;
+    vertical-align: baseline;
 }
 header .sub-menu a.dropdown-item {
     color: #fff;
