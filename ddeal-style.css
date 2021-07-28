@@ -340,7 +340,10 @@ footer#footer {
   padding: 60px 100px 40px;
   margin-top: 0;
 }
-
+#footer .s-text7 .copyRightWrapper, #footer .s-text7 .designedBy {
+  font-size: 13px;
+  line-height: 24px;
+}
 .footer__columns .w-size8 {
   padding: 0 !important;
 }
