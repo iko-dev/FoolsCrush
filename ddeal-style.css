@@ -336,6 +336,20 @@ bottom: 20px;
 
 /* Footer */
 
+footer#footer {
+  padding: 60px 100px 40px;
+}
+
+.footer__columns .w-size8 {
+  padding: 0 !important;
+}
+.footer__columns ul li:last-child {
+  padding-bottom: 0;
+}
+.footer__columns {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #D8D8D8;
+}
 #footer h4.s-text12 {
     color: #000000;
     font-size: 20px;
@@ -352,6 +366,7 @@ bottom: 20px;
     font-weight: 400;
     text-transform: none;
 }
+
 
 /*
 
