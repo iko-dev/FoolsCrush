@@ -354,6 +354,22 @@ footer#footer {
   padding-bottom: 40px;
   border-bottom: 1px solid #D8D8D8;
 }
+.footer__social-icons .footer-social-button {
+  display: block;
+  width: 43px;
+  height: 43px;
+  background-color: #F4AD2D;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 4px;
+}
+
+.footer__social-icons .footer-social-button::before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 #footer h4.s-text12 {
     color: #000000;
     font-size: 20px;
