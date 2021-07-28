@@ -71,6 +71,15 @@ header div#search {
   padding-left: 10px;
   padding-right: 10px;
 }
+.dropdown-toggle::after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f107";
+}
 header .sub-menu a.dropdown-item {
     color: #fff;
     font-family: Montserrat-Regular;
