@@ -39,16 +39,16 @@ header i.fs-12.fa.fa-search {
     transform: translate(-50%, -50%);
     font-size: 16px;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+input#text-search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+input#text-search:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #fff;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+input#text-search::-ms-input-placeholder { /* Microsoft Edge */
   color: #fff;
 }
 header div#search {
