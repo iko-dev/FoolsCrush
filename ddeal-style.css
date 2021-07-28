@@ -109,6 +109,7 @@ header .side-menu .sub-menu a:hover {
 }
 header .topbar-social {
     position: relative;
+    padding-left: 20px;
 }
 
 header .topbar-social-item {
