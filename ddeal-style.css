@@ -347,8 +347,33 @@ bottom: 20px;
 
 .footerInforWrapper {
   padding: 0px 100px;
+  position: relative;
 }
-
+.footerInforWrapper:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+  background-color: #000;
+  width: 560px;
+  height: 352px;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.footerInforWrapper:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -100px;
+  background-color: #000;
+  width: 293px;
+  height: 600px;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .contactRow {
   padding: 30px 0px;
   border-top: 1px dashed #D8D8D8;
@@ -457,6 +482,8 @@ bottom: 20px;
   justify-content: space-between;
   background-color: #fff;
   margin: 80px 0px 38px;
+  z-index: 2;
+    position: relative;
 }
 
 .subscribeWrapper .subText {
@@ -513,22 +540,6 @@ bottom: 20px;
   width: 170px;
 }
 
-.subscribeRow {
-  position: relative;
-}
-.subscribeRow:before{
-  content:"";
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-}
-.subscribeRow:after{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
 footer#footer {
   padding: 60px 100px 40px;
