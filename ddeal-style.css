@@ -385,7 +385,44 @@ bottom: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
+.infoRow {
+  padding: 95px 0px 30px;
+  text-align: center;
+}
 
+.InfoWrapper {
+  padding: 0px 30px;
+}
+
+.InfoWrapper .text p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.InfoWrapper .text {
+  padding: 25px 5px 0px;
+}
+
+.InfoWrapper .outerCircle {
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  border: 1px solid #D8D8D8;
+  margin: 0 auto;
+  position: relative;
+}
+
+.InfoWrapper .outerCircle .innerCircle {
+  position: absolute;
+  background-color: #f5f5f5;
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+}
 
 .br-dashed {
   border-right: 1px dashed #D8D8D8;
