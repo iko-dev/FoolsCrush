@@ -216,7 +216,13 @@ bottom: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
-
+.bread-crumb .s-text17 {
+  font-size: 30px;
+  color: #000;
+  line-height: 36px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
 .bread-crumb a {
     font-size: 20px;
     color: #000;
