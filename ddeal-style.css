@@ -410,6 +410,18 @@ footer#footer {
   font-weight: 400;
   line-height: 30px;
 }
+.item-blog-txt a.readMore {
+  display: flex;
+  border-radius: 30px;
+  width: 171px;
+  height: 60px;
+  background-color: #F17427;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  justify-content: center;
+}
 /*
 
 Quick View css
