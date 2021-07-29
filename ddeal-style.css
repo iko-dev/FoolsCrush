@@ -357,6 +357,33 @@ bottom: 20px;
 
 .contactInfo {
   padding: 0px 75px;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+}
+.contactInfo .text h3 {
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contactInfo .text p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.contactInfo .text  a {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .br-dashed {
