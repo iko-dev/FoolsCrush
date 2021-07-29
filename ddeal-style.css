@@ -387,6 +387,14 @@ footer#footer {
     text-transform: none;
 }
 
+/* Blogs */
+.item-blog {
+  display: inline-block;
+  width: 33.33%;
+  float: left;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 
 /*
 
