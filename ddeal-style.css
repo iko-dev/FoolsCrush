@@ -448,6 +448,75 @@ bottom: 20px;
 .bl-dashed {
   border-left: 1px dashed #D8D8D8;
 }
+.subscribeWrapper {
+  border: 1px solid #D8D8D8;
+  padding: 60px 70px;
+  border-radius: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 80px 0px 38px;
+}
+
+.subscribeWrapper .subText {
+  width: 40%;
+  padding-right: 20px;
+}
+
+.subscribeWrapper .subField {
+  width: 60%;
+  padding-left: 20px;
+  display: flex;
+  position: relative;
+}
+
+.subText h2 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.subText  p {
+  color: #7B7B7B;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.subField input {
+  border-radius: 30px !important;
+  height: 60px;
+  color: #000 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.subField button {
+  position: absolute;
+  right: 0;
+  background-color: #F17427;
+  height: 60px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 400;
+  width: 170px;
+}
+
+.subscribeRow {
+  /* padding: 50px 0px 38px; */
+}
+
 footer#footer {
   padding: 60px 100px 40px;
   margin-top: 0;
