@@ -423,7 +423,25 @@ bottom: 20px;
   height: 148px;
   border-radius: 50%;
 }
+.innerCircle.leftBottom {
+  bottom: 8px;
+  left: 8px;
+}
 
+.innerCircle.topRight {
+  top: 8px;
+  right: 8px;
+}
+
+.innerCircle.rightBottom {
+  bottom: 8px;
+  right: 8px;
+}
+
+.innerCircle.topLeft {
+  top: 8px;
+  left: 8px;
+}
 .br-dashed {
   border-right: 1px dashed #D8D8D8;
 }
