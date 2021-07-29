@@ -514,7 +514,20 @@ bottom: 20px;
 }
 
 .subscribeRow {
-  /* padding: 50px 0px 38px; */
+  position: relative;
+}
+.subscribeRow:before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+.subscribeRow:after{
+  content:"";
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 footer#footer {
