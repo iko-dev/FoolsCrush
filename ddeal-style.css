@@ -345,6 +345,26 @@ bottom: 20px;
 
 /* Footer */
 
+.footerInforWrapper {
+  padding: 0px 100px;
+}
+
+.contactRow {
+  padding: 30px 0px;
+  border-top: 1px dashed #D8D8D8;
+  border-bottom: 1px dashed #D8D8D8;
+}
+
+.contactInfo {
+  padding: 0px 75px;
+}
+
+.br-dashed {
+  border-right: 1px dashed #D8D8D8;
+}
+.bl-dashed {
+  border-left: 1px dashed #D8D8D8;
+}
 footer#footer {
   padding: 60px 100px 40px;
   margin-top: 0;
@@ -445,6 +465,20 @@ footer#footer {
   border: 1px solid #D8D8D8 !important;
   border-radius: 10px !important;
 }
+button.bg1 {
+  background-color: #f17427;
+  font-size: 16px !important;
+  text-transform: none;
+  color: #fff;
+  display: flex;
+  height: 60px;
+  border-radius: 30px;
+}
+
+button.bg1:hover {
+  background-color: #f17427;
+}
+
 
 /*
 
