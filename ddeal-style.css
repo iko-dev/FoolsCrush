@@ -388,7 +388,8 @@ footer#footer {
 }
 
 /* Blogs */
-.item-blog {
+
+.blogWrapper .item-blog {
   display: inline-block;
   width: 33.33%;
   float: left;
