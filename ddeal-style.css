@@ -770,6 +770,14 @@ a.quick-view:hover {
   height: calc(100% - 60px);
   -webkit-clip-path: polygon(0% 0%, 80% 15%, 100% 100%, 0% 100%);
 }
+.sliderContentWrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-60%, -50%);
+  width: 80%;
+  text-align: center;
+}
 .caption1-slide1 {
   color: #fff;
   font-size: 68px;
@@ -779,8 +787,8 @@ a.quick-view:hover {
 }
 h2.caption2-slide1 {
   color: #fff;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 22px;
+  line-height: 38px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
