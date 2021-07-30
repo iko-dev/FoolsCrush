@@ -786,12 +786,13 @@ a.quick-view:hover {
   font-weight: 400;
 }
 span.caption3-slide1 {
-  color: #fff;
   font-size: 120px;
   line-height: 100px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   display: block;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
 }
 h2.caption2-slide1 {
   color: #fff;
