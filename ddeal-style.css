@@ -152,6 +152,7 @@ header .topbar-social-item {
   font-weight: 400;
   width: 100%;
   height: 46px;
+  text-transform: none;
 }
 .custom-banner-text {
   position: absolute;
@@ -921,6 +922,10 @@ h2.caption2-slide1 {
   line-height: 19px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  text-transform: none;
+}
+.wrap-btn-slide1 a:hover {
+  background-color: #F17427;
 }
 /*
 
