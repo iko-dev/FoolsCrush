@@ -713,19 +713,41 @@ a.quick-view {
   height: 53px;
   border-radius: 10px;
   background-color: #F4AD2D;
-  font-size: 9px;
+  font-size: 8px;
   color: #fff !important;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  line-height: 8px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 a.quick-view:hover {
   background-color: #F17427;
 }
+.block1-btn-addcart {
+  width: calc(100% - 53px);
+}
 
+.block1-btn-addcart button {
+  background-color: #f4ad2d;
+  height: 53px;
+  display: flex;
+  border-radius: 10px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.block1-btn-addcart button:hover {
+  background-color: #F17427;
+}
 /*
 
 Quick View css
