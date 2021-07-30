@@ -140,6 +140,7 @@ header .topbar-social-item {
   left: 35%;
   bottom: 40px;
   width: 160px;
+  z-index: 2;
 }
 .home-banner .custom-banner-btn a {
   background-color: #F17427;
@@ -156,6 +157,7 @@ header .topbar-social-item {
   position: absolute;
   right: 40px;
   bottom: 45px;
+  z-index: 2;
 }
 .custom-banner-text p {
   color: #fff;
@@ -172,6 +174,7 @@ header .topbar-social-item {
   background-color: rgb(244 173 45 / 94%);
   width: 240px;
   height: 185px;
+  z-index: 1;
   -webkit-clip-path: polygon(0% 0%, 80% 15%, 100% 100%, 0% 100%);
 }
 .swal-overlay {
