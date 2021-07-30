@@ -203,7 +203,7 @@ header .topbar-social-item {
 .shapeWrapper .text {
   position: absolute;
   left: 50%;
-  top: 55%;
+  top: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
   z-index: 2;
