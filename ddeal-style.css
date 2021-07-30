@@ -785,9 +785,17 @@ a.quick-view:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
+span.caption3-slide1 {
+  color: #fff;
+  font-size: 125px;
+  line-height: 100px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  display: block;
+}
 h2.caption2-slide1 {
   color: #fff;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 38px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -796,6 +804,10 @@ h2.caption2-slide1 {
   background-color: #F17427;
   color: #fff;
   border-radius: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 /*
 
