@@ -182,7 +182,38 @@ header .topbar-social-item {
     z-index: 9999999;
 }
 
+/* Parallex Video Banner */
 
+.shapeWrapper:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: rgb(0 0 0 / 1);
+  width: 461px;
+  height: 352px;
+  z-index: 1;
+  -webkit-clip-path: polygon(0% 0%, 80% 15%, 100% 100%, 0% 100%);
+}
+
+.shapeWrapper .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  z-index: 2;
+}
+
+.shapeWrapper .text h3 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 54px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  z-index: 2;
+}
 
 /* header */
 
