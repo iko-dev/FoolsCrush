@@ -696,7 +696,7 @@ button.bg1:hover {
 }
 
 .collection-single-product-item .quick-view-button {
-  margin-top: 18px;
+  margin-left: 10px;
 }
 
 .collection-single-product-item .wrap-pic-w img {
@@ -720,6 +720,10 @@ a.quick-view {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+a.quick-view:hover {
+  background-color: #F17427;
 }
 
 /*
