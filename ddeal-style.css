@@ -473,7 +473,7 @@ header .topbar-social-item {
   -webkit-clip-path: polygon(60% 10%, 100% 0%, 100% 100%, 0% 100%);
 }
 .contactRow {
-  padding: 30px 0px;
+  padding: 30px 0px  !important;
   border-top: 1px dashed #D8D8D8;
   border-bottom: 1px dashed #D8D8D8;
 }
