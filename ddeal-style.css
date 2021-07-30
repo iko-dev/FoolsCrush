@@ -857,6 +857,7 @@ a.quick-view:hover {
   line-height: 19px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  text-transform: none;
 }
 
 .block1-btn-addcart button:hover {
