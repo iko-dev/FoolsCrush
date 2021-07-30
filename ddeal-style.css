@@ -708,7 +708,19 @@ button.bg1:hover {
   border-color: #F17427;
   transition: 0.2s;
 }
-
+a.quick-view {
+  width: 56px;
+  height: 53px;
+  border-radius: 10px;
+  background-color: #F4AD2D;
+  font-size: 9px;
+  color: #fff !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /*
 
