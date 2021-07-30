@@ -748,6 +748,14 @@ a.quick-view:hover {
 .block1-btn-addcart button:hover {
   background-color: #F17427;
 }
+.sec-title h3 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-transform: none;
+}
 /*
 
 Quick View css
