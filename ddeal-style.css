@@ -217,6 +217,23 @@ header .topbar-social-item {
   font-weight: 400;
   z-index: 2;
 }
+.boxWrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F17427;
+  padding: 24px 52px;
+  z-index: 2;
+}
+
+.boxWrapper span {
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
 
 /* header */
 
