@@ -777,7 +777,18 @@ a.quick-view:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
-
+h2.caption2-slide1 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.wrap-btn-slide1 a {
+  background-color: #F17427;
+  color: #fff;
+  border-radius: 10px;
+}
 /*
 
 Quick View css
