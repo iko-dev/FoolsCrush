@@ -847,12 +847,13 @@ a.quick-view:hover {
 }
 
 .block1-btn-addcart button {
-  background-color: #f4ad2d;
+  border: 1px solid #D8D8D8;
+  background-color: #fff;
   height: 53px;
   display: flex;
   border-radius: 10px;
   width: 100%;
-  color: #fff;
+  color: #000;
   font-size: 16px;
   line-height: 19px;
   font-family: 'Lato', sans-serif;
@@ -861,7 +862,9 @@ a.quick-view:hover {
 }
 
 .block1-btn-addcart button:hover {
+  border-color: #F17427;
   background-color: #F17427;
+  color: #fff;
 }
 .sec-title h3 {
   color: #000000;
