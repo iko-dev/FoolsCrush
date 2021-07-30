@@ -220,7 +220,7 @@ header .topbar-social-item {
 }
 .parallax0  .contentWrapper {
   position: absolute;
-  left: 45%;
+  left: 52%;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -890,11 +890,10 @@ a.quick-view:hover {
 }
 .sliderContentWrapper {
   position: absolute;
-  left: 50%;
+  left: 48%;
   top: 50%;
   transform: translate(-60%, -50%);
-  width: 60%;
-  text-align: center;
+  width: 55%;
 }
 .caption1-slide1 {
   color: #fff;
@@ -914,7 +913,7 @@ span.caption3-slide1 {
 }
 h2.caption2-slide1 {
   color: #fff;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 38px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
