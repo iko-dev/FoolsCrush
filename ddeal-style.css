@@ -676,7 +676,7 @@ footer#footer {
   padding-bottom: 0;
 }
 .footer__columns {
-  padding-bottom: 40px;
+  padding-bottom: 40px !important;
   border-bottom: 1px solid #D8D8D8;
 }
 .footer__social-icons .footer-social-button {
