@@ -1348,4 +1348,32 @@ Quick View css
   .custom-banner-text {
     right: 20px;
   }
+  .parallax0 .contentWrapper {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    padding-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .boxWrapper {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .boxWrapper span {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .buttonWrapper {
+    position: relative;
+  }
+
+  .buttonWrapper .btn-play {
+    margin: 0 auto;
+  }
 }
