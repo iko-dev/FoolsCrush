@@ -1212,3 +1212,43 @@ Quick View css
     }
   }
 }
+@media (max-width: 992px){
+  .container.p-0 {
+      padding: 0px 15px !important;
+  }
+  .p-l-100 {
+    padding-left: 15px;
+  }
+  .p-r-100 {
+    padding-right: 15px;
+  }
+  .wrap-content-slide1 {
+      width: 100%;
+  }
+  .footerInforWrapper:before{
+    width: 100%;
+  }
+  .shapeWrapper {
+    width: 100%;
+  }
+  .footerInforWrapper{
+    padding: 0px 15px;
+  }
+  .bl-dashed{
+    border-left: none;
+  }
+  .br-dashed{
+    border-right: none;
+  }
+  .col-lg-4.br-dashed.bl-dashed {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 0px;
+    border-top: 1px dashed #D8D8D8;
+    border-bottom: 1px dashed #D8D8D8;
+  }
+  .contactRow.container.p-0 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+}
