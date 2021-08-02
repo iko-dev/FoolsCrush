@@ -1254,4 +1254,15 @@ Quick View css
     header .search-container {
       width: 250px;
   }
+  .caption1-slide1 {
+    font-size: 48px !important;
+}
+
+span.caption3-slide1 {
+    font-size: 80px !important;
+}
+
+h2.caption2-slide1 {
+    font-size: 22px;
+}
 }
