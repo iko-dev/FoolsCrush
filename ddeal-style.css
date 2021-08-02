@@ -1404,4 +1404,11 @@ Quick View css
   .item-blog-txt a.readMore {
     width: 220px;
   }
+  .leave-comment .p-l-10 {
+    padding-left: 0;
+  }
+
+  .leave-comment .p-r-10 {
+    padding-right: 0;
+  }
 }
