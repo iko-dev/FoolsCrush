@@ -1220,10 +1220,10 @@ Quick View css
     padding: 0px 15px !important;
   }
   .p-l-100 {
-    padding-left: 15px;
+    padding-left: 0;
   }
   .p-r-100 {
-    padding-right: 15px;
+    padding-right: 0;
   }
   .wrap-content-slide1 {
     width: 100%;
