@@ -1070,6 +1070,61 @@ h2.caption2-slide1 {
   -webkit-clip-path: polygon(0% 0%, 80% 15%, 100% 100%, 0% 100%);
 }
 
+.sale-divContent {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 75%;
+  z-index: 2;
+}
+
+.creative-with-kids {
+  font-size: 16px;
+  color: #F4AD2D;
+  line-height: 19px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.great-choice {
+  font-size: 24px;
+  color: #000;
+  line-height: 29px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.sale-div {
+  font-size: 178px;
+  color: #000;
+  line-height: 214px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke: 4px #D8D8D8;
+}
+
+a.shop-now {
+  background-color: #f17427;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  width: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
 Quick View css
 */
 #quick-view {
