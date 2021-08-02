@@ -1258,16 +1258,24 @@ Quick View css
     width: 250px;
   }
   .caption1-slide1 {
-    font-size: 48px !important;
+    font-size: 46px !important;
     line-height: 60px;
   }
 
   span.caption3-slide1 {
     font-size: 80px !important;
-    line-height: 50px;
+    line-height: 60px;
   }
 
   h2.caption2-slide1 {
     font-size: 22px;
+  }
+  .sliderContentWrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .wrap-btn-slide1 {
+      margin-left: 30px;
   }
 }
