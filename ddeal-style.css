@@ -1383,16 +1383,25 @@ Quick View css
   }
   .bread-crumb {
     padding: 20px 15px;
-}
+  }
 
-.bread-crumb .s-text17,
-.bread-crumb .s-text16 {
+  .bread-crumb .s-text17,
+  .bread-crumb .s-text16 {
     font-size: 20px;
     line-height: 30px;
-}
+  }
 
-.bread-crumb .s-text16 i {
+  .bread-crumb .s-text16 i {
     margin-right: 10px;
     margin-left: 10px;
-}
+  }
+  .blogWrapper .item-blog {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .item-blog-txt a.readMore {
+    width: 220px;
+  }
 }
