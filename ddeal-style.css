@@ -1036,7 +1036,7 @@ h2.caption2-slide1 {
   height: 410px;
 }
 
-.sale-div {
+.sale-divWrapper {
   position: absolute;
   left: 50%;
   top: 45%;
