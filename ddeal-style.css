@@ -17,6 +17,16 @@ header .search-container {
 .container-menu-header {
   box-shadow: none;
 }
+.stock-available {
+    top: 12px;
+    left: 15px;
+    width: 11px;
+    height: 11px;
+    background: #00C12D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+    border-radius: 50%;
+}
 header button.btn.btn-default.btn-lg {
   position: absolute;
   z-index: 999;
