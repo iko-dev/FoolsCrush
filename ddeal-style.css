@@ -980,6 +980,22 @@ h2.caption2-slide1 {
   padding: 0;
 }
 
+/* Blog Details */
+
+.blog-detail-txt h4 {
+  font-size: 30px;
+  color: #000;
+  line-height: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.blog-detail-txt p {
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
 /*
 
 Quick View css
