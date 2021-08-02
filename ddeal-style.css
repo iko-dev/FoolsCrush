@@ -959,6 +959,7 @@ h2.caption2-slide1 {
   border: none !important;
   padding-top: 33px !important;
   padding-bottom: 33px !important;
+  display: table-cell !important;
 }
 .table-shopping-cart .table-row {
   border-top: 1px solid #E5E5E5;
@@ -966,6 +967,10 @@ h2.caption2-slide1 {
 }
 .container-table-cart::before, .container-table-cart::after {
   display: none;
+}
+.table-shopping-cart .column-1, .table-shopping-cart .column-2, .table-shopping-cart .column-3, .table-shopping-cart .column-4, .table-shopping-cart .column-5 {
+  width: auto !important;
+  padding: 0;
 }
 
 /*
