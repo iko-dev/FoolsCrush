@@ -839,7 +839,7 @@ a.quick-view {
   width: 56px;
   height: 53px;
   border-radius: 10px;
-  background-color: #f4ad2d;
+  background-color: #f17427;
   font-size: 8px;
   color: #fff !important;
   cursor: pointer;
@@ -853,12 +853,12 @@ a.quick-view {
 }
 
 a.quick-view:hover {
-  background-color: #f17427;
+  background-color: #f17427 !important;
 }
 .block1-btn-addcart {
   width: calc(100% - 53px);
 }
-
+.block1-btn-addcart a,
 .block1-btn-addcart button {
   border: 1px solid #d8d8d8;
   background-color: #fff;
@@ -873,7 +873,7 @@ a.quick-view:hover {
   font-weight: 400;
   text-transform: none;
 }
-
+.block1-btn-addcart a:hover,
 .block1-btn-addcart button:hover {
   border-color: #f17427;
   background-color: #f17427;
