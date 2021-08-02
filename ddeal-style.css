@@ -824,6 +824,7 @@ button.bg1:hover {
 
 .collection-single-product-item .quick-view-button {
   margin-left: 10px;
+    display: block !important;
 }
 
 .collection-single-product-item .wrap-pic-w img {
@@ -835,7 +836,7 @@ button.bg1:hover {
   border-color: #f17427;
   transition: 0.2s;
 }
-a.quick-view {
+body section .block2.collection-single-product-item a.quick-view {
   width: 56px;
   height: 53px;
   border-radius: 10px;
@@ -850,6 +851,14 @@ a.quick-view {
   line-height: 8px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
+    display: block !important;
+    opacity: 1;
+    position: absolute !important;
+    right: 0 !important;
+    right: -25px !important;
+    left: auto !important;
+    margin-left: 0 !important;
+   margin-top: -28px !important;
 }
 
 a.quick-view:hover {
@@ -873,6 +882,8 @@ a.quick-view:hover {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: none;
+  left: -20px;
+    position: relative;
 }
 
 .block1-btn-addcart button:hover {
