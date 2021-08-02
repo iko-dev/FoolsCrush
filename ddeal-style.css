@@ -937,6 +937,37 @@ h2.caption2-slide1 {
 .wrap-btn-slide1 a:hover {
   background-color: #f17427;
 }
+
+/* Cart */
+
+.table-shopping-cart .table-head th {
+  font-size: 20px;
+  color: #000;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+}
+.table-shopping-cart td {
+  border: none !important;
+  font-size: 18px !important;
+  color: #000;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  border: none !important;
+  padding-top: 33px !important;
+    padding-bottom: 33px !important;
+}
+.table-shopping-cart .table-row {
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.container-table-cart::before, .container-table-cart::after {
+  display: none;
+}
+
 /*
 
 Quick View css
