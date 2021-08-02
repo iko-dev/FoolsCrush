@@ -1323,10 +1323,10 @@ Quick View css
   #footer .s-text7 {
     display: block !important;
     text-align: center;
-    padding-top: 20px;
   }
   .footer__columns.container {
     padding-bottom: 30px !important;
+    margin-bottom: 20px;
   }
   .footer__columns .w-size8 {
     padding: 30px 0px !important;
