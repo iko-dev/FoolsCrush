@@ -1058,7 +1058,7 @@ h2.caption2-slide1 {
   height: 100%;
 }
 
-.sale-div:after {
+.sale-divWrapper:after {
   content: "";
   position: absolute;
   bottom: 0;
