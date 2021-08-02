@@ -517,14 +517,21 @@ header .topbar-social-item {
   font-weight: 400;
 }
 .infoRow {
-  padding: 95px 0px 30px !important;
+  padding: 15px 0px 30px !important;
   text-align: center;
 }
 
 .InfoWrapper {
-  padding: 0px 30px;
+  padding: 0px 10px;
 }
-
+.infoRow {
+  width: 87.34%;
+  margin: 0 auto;
+}
+.subscribeRow {
+  margin: 0 auto;
+  width: 87.34%;
+}
 .InfoWrapper .text p {
   color: #000000;
   font-size: 16px;
@@ -588,7 +595,7 @@ header .topbar-social-item {
 }
 .subscribeWrapper {
   border: 1px solid #d8d8d8;
-  padding: 60px 70px;
+  padding: 50px;
   border-radius: 200px;
   display: flex;
   align-items: center;
@@ -613,7 +620,7 @@ header .topbar-social-item {
 
 .subText h2 {
   color: #000000;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -948,6 +955,58 @@ h2.caption2-slide1 {
 .wrap-btn-slide1 a:hover {
   background-color: #f17427;
 }
+
+/* Cart */
+
+.table-shopping-cart .table-head th {
+  font-size: 20px;
+  color: #000;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+}
+.table-shopping-cart td {
+  border: none !important;
+  font-size: 18px !important;
+  color: #000;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  border: none !important;
+  padding-top: 33px !important;
+  padding-bottom: 33px !important;
+  display: table-cell !important;
+}
+.table-shopping-cart .table-row {
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.container-table-cart::before, .container-table-cart::after {
+  display: none;
+}
+.table-shopping-cart .column-1, .table-shopping-cart .column-2, .table-shopping-cart .column-3, .table-shopping-cart .column-4, .table-shopping-cart .column-5 {
+  width: auto !important;
+  padding: 0;
+}
+
+/* Blog Details */
+
+.blog-detail-txt h4 {
+  font-size: 30px;
+  color: #000;
+  line-height: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.blog-detail-txt p {
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
 /*
 
 Quick View css
@@ -1241,7 +1300,7 @@ Quick View css
   }
   .footerInforWrapper:before {
     width: 100%;
-    height: 300px;
+    height: 290px;
     background-color: transparent;
   }
   .shapeWrapper {
@@ -1334,18 +1393,96 @@ Quick View css
   #footer .s-text7 {
     display: block !important;
     text-align: center;
-    padding-top: 20px;
   }
   .footer__columns.container {
     padding-bottom: 30px !important;
+    margin-bottom: 20px;
   }
   .footer__columns .w-size8 {
     padding: 30px 0px !important;
   }
-  .collection-single-product-item{
+  .collection-single-product-item {
     height: 507px;
   }
   .collection-single-product-item .wrap-pic-w {
     height: 300px;
+  }
+  .banner.home-banner .col-sm-12 {
+    margin-bottom: 15px;
+  }
+
+  .home-banner .block1-wrapbtn {
+    left: 25%;
+  }
+
+  .custom-banner-text {
+    right: 20px;
+  }
+  .parallax0 .contentWrapper {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    padding-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .boxWrapper {
+    padding: 25px;
+    text-align: center;
+  }
+  .custom-banner-text p {
+    font-size: 20px;
+  }
+  .boxWrapper span {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .buttonWrapper {
+    position: relative;
+  }
+
+  .buttonWrapper .btn-play {
+    margin: 0 auto;
+  }
+  .bread-crumb {
+    padding: 20px 15px;
+  }
+  .bread-crumb {
+    padding: 20px 15px;
+  }
+
+  .bread-crumb .s-text17,
+  .bread-crumb .s-text16 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .bread-crumb .s-text16 i {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .blogWrapper .item-blog {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .item-blog-txt a.readMore {
+    width: 220px;
+  }
+  .leave-comment .p-l-10 {
+    padding-left: 0;
+  }
+
+  .leave-comment .p-r-10 {
+    padding-right: 0;
+  }
+  .infoRow,
+  .subscribeRow {
+      width: 100%;
   }
 }
