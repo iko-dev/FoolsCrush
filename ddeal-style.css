@@ -1251,4 +1251,7 @@ Quick View css
     padding-top: 30px !important;
     padding-bottom: 30px !important;
   }
+    header .search-container {
+      width: 250px;
+  }
 }
