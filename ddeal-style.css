@@ -823,8 +823,7 @@ button.bg1:hover {
 }
 
 .collection-single-product-item .quick-view-button {
-    margin-left: 10px;
-    display: block !important;
+  margin-left: 10px;
 }
 
 .collection-single-product-item .wrap-pic-w img {
@@ -836,12 +835,11 @@ button.bg1:hover {
   border-color: #f17427;
   transition: 0.2s;
 }
-<<<<<<< HEAD
 a.quick-view {
   width: 56px;
   height: 53px;
   border-radius: 10px;
-  background-color: #f17427;
+  background-color: #f4ad2d;
   font-size: 8px;
   color: #fff !important;
   cursor: pointer;
@@ -852,40 +850,15 @@ a.quick-view {
   line-height: 8px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-=======
-body section .block2.collection-single-product-item a.quick-view {
-    width: 56px;
-    height: 53px;
-    border-radius: 10px;
-    background-color: #f4ad2d;
-    font-size: 8px;
-    color: #fff !important;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 8px;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    display: block !important;
-    opacity: 1;
-    position: absolute !important;
-    right: 0 !important;
-    right: -25px !important;
-    left: auto !important;
-    margin-left: 0 !important;
-   margin-top: -28px !important;
->>>>>>> b1403a37e553bcb6a62d336ff503bbe8e6cdf315
 }
 
 a.quick-view:hover {
-  background-color: #f17427 !important;
+  background-color: #f17427;
 }
 .block1-btn-addcart {
   width: calc(100% - 53px);
 }
-.block1-btn-addcart a,
+
 .block1-btn-addcart button {
   border: 1px solid #d8d8d8;
   background-color: #fff;
@@ -899,15 +872,8 @@ a.quick-view:hover {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: none;
-<<<<<<< HEAD
 }
-.block1-btn-addcart a:hover,
-=======
-  left: -20px;
-    position: relative;
-} 
 
->>>>>>> b1403a37e553bcb6a62d336ff503bbe8e6cdf315
 .block1-btn-addcart button:hover {
   border-color: #f17427;
   background-color: #f17427;
