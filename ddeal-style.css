@@ -1331,4 +1331,10 @@ Quick View css
   .footer__columns .w-size8 {
     padding: 30px 0px !important;
   }
+  .collection-single-product-item{
+    height: 507px;
+  }
+  .collection-single-product-item .wrap-pic-w {
+    height: 300px;
+  }
 }
