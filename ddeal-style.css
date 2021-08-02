@@ -522,9 +522,16 @@ header .topbar-social-item {
 }
 
 .InfoWrapper {
-  padding: 0px 30px;
+  padding: 0px 10px;
 }
-
+.infoRow {
+  width: 1014px;
+  margin: 0 auto;
+}
+.subscribeRow {
+  margin: 0 auto;
+  width: 1014px;
+}
 .InfoWrapper .text p {
   color: #000000;
   font-size: 16px;
@@ -588,7 +595,7 @@ header .topbar-social-item {
 }
 .subscribeWrapper {
   border: 1px solid #d8d8d8;
-  padding: 60px 70px;
+  padding: 50px;
   border-radius: 200px;
   display: flex;
   align-items: center;
