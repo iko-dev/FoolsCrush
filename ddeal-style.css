@@ -1363,7 +1363,9 @@ Quick View css
     padding: 25px;
     text-align: center;
   }
-
+  .custom-banner-text p {
+    font-size: 20px;
+  }
   .boxWrapper span {
     font-size: 20px;
     line-height: 36px;
