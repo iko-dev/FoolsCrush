@@ -1037,7 +1037,9 @@ h2.caption2-slide1 {
   padding-right: 30px;
   max-width: 100%;
 }
-
+section.aboutSingle .col-md-12 p {
+  margin-bottom: 30px;
+}
 .blog-detail-txt h4 {
   font-size: 30px;
   color: #000;
