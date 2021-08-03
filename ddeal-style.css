@@ -1647,7 +1647,7 @@ Quick View css */ #quick-view {
   .wrap_header_mobile {
     display: block !important;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
   }
 
   header .search-container {
