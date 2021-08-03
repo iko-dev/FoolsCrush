@@ -1664,4 +1664,31 @@ Quick View css */ #quick-view {
   .topbar-social-mobile {
     display: flex;
   }
+  .topbar-social-mobile {
+    display: flex;
+  }
+
+  .item-topbar-mobile {
+    border: none;
+  }
+
+  .item-menu-mobile {
+    background-color: #fff;
+  }
+
+  .side-menu .main-menu > li {
+    color: #000;
+  }
+
+  .side-menu .main-menu > li > a {
+    font-size: 16px;
+    line-height: 2.86;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding-left: 0;
+  }
+
+  .side-menu .main-menu > li {
+    padding-left: 0;
+  }
 }
