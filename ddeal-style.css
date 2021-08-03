@@ -1740,11 +1740,13 @@ header .sub-menu a.dropdown-item {
     height: 400px;
 }
 
-.sale-divWrapper:after {}
 
 .sale-divWrapper:after {
     width: 100%;
     height: 230px;
+}
+.craftWrapper {
+  height: 500px;
 }
  
 }
@@ -1753,4 +1755,8 @@ header .sub-menu a.dropdown-item {
     padding-right: 0px;
     max-width: 100%;
   }
+  .sec-title h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
 }
