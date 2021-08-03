@@ -1457,15 +1457,15 @@ Quick View css */ #quick-view {
     padding-right: 0;
   }
   .wrap-content-slide1 {
-    width: 100%;
+    width: 80%
   }
   .footerInforWrapper:before {
-    width: 100%;
+    width: 80%;
     height: 290px;
     background-color: transparent;
   }
   .shapeWrapper {
-    width: 100%;
+    width: 80%;
   }
   .footerInforWrapper {
     padding: 0px 15px;
@@ -1742,7 +1742,7 @@ header .sub-menu a.dropdown-item {
 
 
 .sale-divWrapper:after {
-    width: 100%;
+    width: 80%;
     height: 230px;
 }
 .craftWrapper {
