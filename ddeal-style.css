@@ -90,6 +90,13 @@ header div#search {
   padding-left: 10px;
   padding-right: 10px;
 }
+p {
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
 .wrap_header .dropdown-item {
   font-size: 16px;
   color: #000;
