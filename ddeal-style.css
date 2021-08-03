@@ -1686,8 +1686,12 @@ Quick View css */ #quick-view {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-left: 0;
+    color: #000;
   }
-
+  .wrap-side-menu {
+    border: none;
+    padding: 20px;
+}
   .side-menu .main-menu > li {
     padding-left: 0;
   }
