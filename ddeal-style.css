@@ -1698,6 +1698,14 @@ Quick View css */ #quick-view {
     border: none;
     padding: 20px;
 }
+header .sub-menu a.dropdown-item {
+  color: #000;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 2;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
   .side-menu .main-menu > li {
     padding-left: 0;
   }
