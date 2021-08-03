@@ -1661,4 +1661,7 @@ Quick View css */ #quick-view {
   .btn-show-menu {
     justify-content: space-between;
   }
+  .topbar-social-mobile {
+    display: flex;
+  }
 }
