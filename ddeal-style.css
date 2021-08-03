@@ -1772,6 +1772,9 @@ header .sub-menu a.dropdown-item {
 .footer__columns.container{
   text-align: center;
 }
+.footer__social-icons {
+  justify-content: center;
+}
 }
 @media (max-width: 420px) {
   .craftWrapper {
