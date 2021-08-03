@@ -864,6 +864,7 @@ button.bg1:hover {
 .collection-single-product-item .wrap-pic-w img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .collection-single-product-item:hover {
