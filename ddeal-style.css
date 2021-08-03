@@ -1746,7 +1746,7 @@ header .sub-menu a.dropdown-item {
     height: 230px;
 }
 .craftWrapper {
-  height: 500px;
+  height: 600px;
 }
  
 }
@@ -1758,5 +1758,8 @@ header .sub-menu a.dropdown-item {
   .sec-title h3 {
     font-size: 18px;
     line-height: 22px;
+}
+.craftWrapper {
+  height: 500px;
 }
 }
