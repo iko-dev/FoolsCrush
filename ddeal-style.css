@@ -1033,6 +1033,11 @@ h2.caption2-slide1 {
 
 /* Blog Details */
 
+.aboutSingle .col-md-12 img {
+  padding-right: 30px;
+  max-width: 100%;
+}
+
 .blog-detail-txt h4 {
   font-size: 30px;
   color: #000;
@@ -1697,5 +1702,12 @@ Quick View css */ #quick-view {
   }
   .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
     background-color: #fff;
+  }
+ 
+}
+@media (max-width: 767px) {
+  .aboutSingle .col-md-12 img {
+    padding-right: 0px;
+    max-width: 100%;
   }
 }
