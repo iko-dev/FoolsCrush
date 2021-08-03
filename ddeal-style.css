@@ -1691,4 +1691,7 @@ Quick View css */ #quick-view {
   .side-menu .main-menu > li {
     padding-left: 0;
   }
+  .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color: #fff;
+  }
 }
