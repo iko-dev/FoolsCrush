@@ -1759,4 +1759,11 @@ header .sub-menu a.dropdown-item {
     font-size: 18px;
     line-height: 22px;
 }
+.sale-div {
+  font-size: 80px;
+  line-height: 80px;
+}
+.sale-divContent{
+  width:90%;
+}
 }
