@@ -1063,24 +1063,21 @@ section.aboutSingle .col-md-12 p {
   position: absolute;
   left: 0;
   top: 0;
-  width: 550px;
-  height: 410px;
+  width: 45%;
 }
 
 .image2 {
   position: absolute;
   right: 0;
   top: 0;
-  width: 550px;
-  height: 750px;
+  width: 45%;
 }
 
 .image3 {
   position: absolute;
   left: 30px;
   bottom: 0;
-  width: 550px;
-  height: 410px;
+  width: 45%;
 }
 
 .sale-divWrapper {
