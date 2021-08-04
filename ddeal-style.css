@@ -891,23 +891,20 @@ body section .block2.collection-single-product-item a.quick-view {
   font-size: 8px;
   color: #fff !important;
   cursor: pointer;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   line-height: 8px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  display: block !important;
   opacity: 1;
-  position: absolute !important;
-  right: 0 !important;
-  right: -25px !important;
+  position: relative !important;
   left: auto !important;
-  margin-left: 0 !important;
-  margin-top: -28px !important;
+  right: auto !important;
+  margin: 0 auto !important;
 }
-
+body section .block2.collection-single-product-item a.quick-view:hover,
 a.quick-view:hover {
   background-color: #f17427;
 }
@@ -929,10 +926,8 @@ a.quick-view:hover {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: none;
-  left: -20px;
-  position: relative;
 }
-
+.block1-btn-addcart a,
 .block1-btn-addcart button:hover {
   border-color: #f17427;
   background-color: #f17427;
