@@ -927,7 +927,7 @@ a.quick-view:hover {
   font-weight: 400;
   text-transform: none;
 }
-.block1-btn-addcart a,
+.block1-btn-addcart a:hover,
 .block1-btn-addcart button:hover {
   border-color: #f17427;
   background-color: #f17427;
