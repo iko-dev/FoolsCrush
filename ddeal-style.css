@@ -962,10 +962,10 @@ a.quick-view:hover {
 }
 .sliderContentWrapper {
   position: absolute;
-  left: 48%;
-  top: 50%;
-  transform: translate(-60%, -50%);
-  width: 55%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%, -50%);
+    width: 58%;
 }
 .caption1-slide1 {
   color: #fff;
