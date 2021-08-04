@@ -18,13 +18,25 @@ header .search-container {
   box-shadow: none;
 }
 .stock-available {
-  top: 12px;
-  left: 15px;
+  position: absolute;
+  left: 45px;
+  top: 20px;
+  display: block;
+  color: #000000;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.stock-available:before {
+  content: "";
+  position: absolute;
   width: 11px;
   height: 11px;
-  background: #00c12d 0% 0% no-repeat padding-box;
-  opacity: 1;
-  border: none;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #00C12D;
   border-radius: 50%;
 }
 .block2.collection-single-product-item:hover .block2-overlay:hover {
