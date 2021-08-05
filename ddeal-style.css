@@ -49,6 +49,14 @@ header .search-container {
 padding: 20px 15px;
 
 }
+.row.qty-wishlist-row {
+    width: 100%;
+}
+.row.qty-wishlist-row .col-lg-8 button.btn-num-product-down,
+.row.qty-wishlist-row .col-lg-8 #Quantity,
+.row.qty-wishlist-row .col-lg-8 button.btn-num-product-up {
+    display: inline-block;
+}
 .row.tab-details .tab-detail.active {
     display: block;
 }
