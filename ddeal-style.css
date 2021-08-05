@@ -39,6 +39,7 @@ header .search-container {
     color: #000;
     vertical-align: baseline;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .row.tab-details .tab-detail {
