@@ -45,8 +45,8 @@ header .search-container {
 .row.tab-details .tab-detail {
 
     display: none;
-    position: absolute;
-    padding: 20px 15px;
+    position: relative;
+padding: 20px 15px;
 
 }
 .row.tab-details .tab-detail.active {
