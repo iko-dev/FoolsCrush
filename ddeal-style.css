@@ -17,6 +17,49 @@ header .search-container {
 .container-menu-header {
   box-shadow: none;
 }
+.custom-product-detail-accordian.wrap-dropdown-content {
+    display: none;
+}
+.row.tab-headings {
+    margin-top: 38px;
+}
+.container.tab-container {
+    max-width: 1000px;
+}
+.row.tab-headings .tabs.active {
+    background: #F4AD2D 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+
+.row.tab-headings .tabs {
+    height: 65px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    padding-top: 10px;
+    text-align: center;
+    color: #000;
+    vertical-align: baseline;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.row.tab-details .tab-detail {
+
+    display: none;
+    position: relative;
+padding: 20px 15px;
+
+} 
+.row.qty-wishlist-row {
+    width: 100%;
+}
+.row.qty-wishlist-row .col-lg-8 button.btn-num-product-down,
+.row.qty-wishlist-row .col-lg-8 #Quantity,
+.row.qty-wishlist-row .col-lg-8 button.btn-num-product-up {
+    display: inline-block;
+}
+.row.tab-details .tab-detail.active {
+    display: block;
+}
 .stock-available {
   position: absolute;
   left: 45px;
