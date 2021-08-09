@@ -1182,6 +1182,14 @@ h2.caption2-slide1 {
   font-weight: 400;
   text-transform: none;
 }
+h5.m-text20 {
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  color: #000;
+  line-height: 32px;
+  text-transform: none;
+  font-weight: 700;
+}
 .table-shopping-cart .table-row {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
