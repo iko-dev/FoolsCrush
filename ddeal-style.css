@@ -67,6 +67,7 @@ header .search-container {
 .row.tab-details .tab-detail {
     display: none;
     position: relative;
+    width: 100%;
 } 
 .tab-detail p {
   color: #000000;
