@@ -1174,6 +1174,14 @@ h2.caption2-slide1 {
   padding-bottom: 33px !important;
   display: table-cell !important;
 }
+.table-shopping-cart td a{
+  font-size: 18px !important;
+  color: #000;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+}
 .table-shopping-cart .table-row {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
