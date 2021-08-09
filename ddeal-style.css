@@ -1992,6 +1992,13 @@ header .sub-menu a.dropdown-item {
 .productDetailsWrapper .p-l-40 {
   padding: 0;
 }
+.blogWrapper {
+  display: block;
+}
+.blogWrapper .item-blog:nth-child(2) {
+  margin-right: 0;
+  margin-left: 0;
+}
  
 }
 @media (max-width: 767px) {
