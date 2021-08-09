@@ -69,11 +69,11 @@ header .search-container {
     position: relative;
     width: 100%;
 } 
-div.stamped-container[data-widget-style], div[data-widget-style] div.stamped-container {
-  margin-top: 0 !important;
+#stamped-main-widget div.stamped-container[data-widget-style], div[data-widget-style] div.stamped-container {
+  margin: 0 !important;;
 }
 #stamped-main-widget {
-  margin: 0;
+  margin: 0 !important;;
 }
 .tab-detail p {
   color: #000000;
