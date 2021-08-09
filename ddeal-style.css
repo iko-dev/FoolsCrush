@@ -1233,7 +1233,25 @@ h5.m-text20 {
 .table-shopping-cart .column-6 {
   width: 16.66%;
 }
-
+.subtotal-price {
+  background-color: #F5F5F5;
+}
+.subtotal-price .title{
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #F17427;
+  line-height: 22px;
+  text-transform: none;
+  font-weight: 700;
+}
+.subtotal-price .value{
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  color: #0F1931;
+  line-height: 32px;
+  text-transform: none;
+  font-weight: 700;
+}
 /* Blog Details */
 
 .aboutSingle .col-md-12 img {
