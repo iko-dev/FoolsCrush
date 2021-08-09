@@ -119,6 +119,15 @@ header i.fs-12.fa.fa-search {
   transform: translate(-50%, -50%);
   font-size: 16px;
 }
+.paymentMethodIconWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.paymentMethodWrapper a {
+  margin-right: 6px;
+  font-size: 26px;
+}
 input#text-search::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
