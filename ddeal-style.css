@@ -44,12 +44,12 @@ header .search-container {
   align-items: center;
   justify-content: center;
 }
-
+.row.tab-details{
+  padding: 48px 0px;
+}
 .row.tab-details .tab-detail {
     display: none;
     position: relative;
-padding: 48px 0px;
-
 } 
 .tab-detail p {
   color: #000000;
