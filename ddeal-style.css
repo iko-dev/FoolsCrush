@@ -20,9 +20,6 @@ header .search-container {
 .custom-product-detail-accordian.wrap-dropdown-content {
     display: none;
 }
-.row.tab-headings {
-    margin-top: 38px;
-}
 .container.tab-container {
     max-width: 1000px;
 }
@@ -48,7 +45,7 @@ header .search-container {
 .row.tab-details .tab-detail {
     display: none;
     position: relative;
-padding: 20px 15px;
+padding: 20px 0px;
 
 } 
 .tab-detail p {
