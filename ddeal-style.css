@@ -448,7 +448,7 @@ header .topbar-social-item {
 .price-row {
   align-items: center;
 }
-
+.qty-wishlist-row .title,
 .price-row .title, 
 .stock-row .title {
   color: #000000;
