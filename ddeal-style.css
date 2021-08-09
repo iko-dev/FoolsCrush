@@ -461,7 +461,7 @@ header .topbar-social-item {
   margin-bottom: 0;
 }
 .slick3-dots li img {
-  width: 100%;
+  width: auto;
   position: absolute;
   left: 50%;
   top: 50%;
