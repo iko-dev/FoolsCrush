@@ -24,8 +24,11 @@ header .search-container {
     max-width: 1000px;
 }
 .row.tab-headings .tabs.active {
-    background: #F4AD2D 0% 0% no-repeat padding-box;
+    background: #F4AD2D;
     color: #fff;
+}
+.tab-headings{
+  border-bottom: 1px dashed #d8d8d8;
 }
 
 .row.tab-headings .tabs {
@@ -45,7 +48,7 @@ header .search-container {
 .row.tab-details .tab-detail {
     display: none;
     position: relative;
-padding: 20px 0px;
+padding: 48px 0px;
 
 } 
 .tab-detail p {
