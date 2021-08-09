@@ -126,7 +126,8 @@ header i.fs-12.fa.fa-search {
 
 .paymentMethodWrapper a {
   margin-right: 6px;
-  font-size: 26px;
+  font-size: 26px;    
+  cursor: pointer;
 }
 input#text-search::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
