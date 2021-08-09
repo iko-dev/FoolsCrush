@@ -1252,6 +1252,9 @@ h5.m-text20 {
   text-transform: none;
   font-weight: 700;
 }
+.b-bottom-solid-1{
+border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
 /* Blog Details */
 
 .aboutSingle .col-md-12 img {
