@@ -32,18 +32,20 @@ header .search-container {
 }
 
 .row.tab-headings .tabs {
-    height: 65px;
-    background: #F5F5F5 0% 0% no-repeat padding-box;
-    padding-top: 10px;
-    text-align: center;
-    color: #000;
-    vertical-align: baseline;
-    padding-top: 20px;
-    cursor: pointer;
+  height: 65px;
+  background: #F5F5F5;
+  cursor: pointer;
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row.tab-details .tab-detail {
-
     display: none;
     position: relative;
 padding: 20px 15px;
