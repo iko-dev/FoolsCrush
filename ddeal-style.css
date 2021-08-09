@@ -444,6 +444,28 @@ header .topbar-social-item {
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
+.stock-row,
+.price-row {
+  align-items: center;
+}
+
+.price-row .title, 
+.stock-row .title {
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.stock-row .content {
+  color: #000000;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
 .bo5 {
   border: 1px solid #d8d8d8;
   border-radius: 10px;
