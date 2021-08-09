@@ -72,6 +72,9 @@ header .search-container {
 div.stamped-container[data-widget-style], div[data-widget-style] div.stamped-container {
   margin-top: 0 !important;
 }
+#stamped-main-widget {
+  margin: 0;
+}
 .tab-detail p {
   color: #000000;
   font-size: 18px;
