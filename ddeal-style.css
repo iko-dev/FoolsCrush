@@ -564,11 +564,11 @@ header .topbar-social-item {
   border: 1px solid #d8d8d8;
 }
 .wrap-slick3-dots {
-  width: 24.2%;
-  margin-right: 12px;
+  width: 28%;
+  margin-right: 2%;
 }
 .slick3 {
-  width: 73.8%;
+  width: 70%;
   border: 1px solid #d8d8d8;
   height: 465px;
 }
