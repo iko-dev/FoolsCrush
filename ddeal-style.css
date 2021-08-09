@@ -45,7 +45,7 @@ header .search-container {
   justify-content: center;
 }
 .row.tab-details{
-  padding: 48px 0px;
+  padding: 48px 0px 0;
 }
 .row.tab-details .tab-detail {
     display: none;
