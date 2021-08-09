@@ -425,6 +425,13 @@ header .topbar-social-item {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
+.bread-crumb span.simple-text {
+  font-size: 20px;
+  color: #000;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
 .bread-crumb .s-text17 {
   font-size: 30px;
   color: #000;
