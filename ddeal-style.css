@@ -453,7 +453,12 @@ header .topbar-social-item {
 }
 
 /* Product Detail Page */
-
+.wd-55{
+  width: 55%;
+}
+.wd-45{
+  width: 45%;
+}
 .product-detail-name {
   font-size: 20px;
   color: #000;
