@@ -519,6 +519,13 @@ header .topbar-social-item {
   display: flex;
   height: 53px;
 }
+.payment-methods-title {
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
 .slick3-dots .slick3-dot-overlay,
 .slick3-dots .slick-active .slick3-dot-overlay {
   border: 1px solid #d8d8d8;
