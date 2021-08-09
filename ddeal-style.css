@@ -1255,6 +1255,11 @@ h5.m-text20 {
 .b-bottom-solid-1{
 border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
+button.bg1.checkoutBtn {
+  border-radius: 10px;
+  text-transform: none;
+  height: 53px;
+}
 /* Blog Details */
 
 .aboutSingle .col-md-12 img {
