@@ -470,28 +470,45 @@ header .topbar-social-item {
   border: 1px solid #d8d8d8;
   border-radius: 10px;
 }
-
+.qty-btn-container {
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+}
 .btn-num-product-down {
-  background-color: #fff;
-  color: #000;
+  background-color: #fff !important;
+  color: #000 !important;
   font-size: 20px;
   line-height: 30px;
-  height: 42px;
+  height: 40px;
+  border-radius: 10px;
 }
 
 .btn-num-product-up {
-  background-color: transparent;
-  color: #000;
+  background-color: #fff !important;
+  color: #000 !important;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  height: 42px;
+  height: 40px;
+  border-radius: 10px;
 }
 
 .size8 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #7b7b7b;
-  height: 42px;
+  height: 40px;
+}
+.wishlist-div button i {
+  margin-right: 9px;
+  color: #F4AD2D;
+}
+
+.wishlist-div button {
+  color: #F17427;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 #button-cart {
   background-color: #f17427;
