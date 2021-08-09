@@ -1889,6 +1889,18 @@ header .sub-menu a.dropdown-item {
 .craftWrapper {
   height: 600px;
 }
+.productDetailsWrapper.flex-w.flex-sb {
+  display: block;
+  width: 100%;
+}
+
+.productDetailsWrapper .wd-55, .productDetailsWrapper .wd-45 {
+  width: 100%;
+}
+
+.productDetailsWrapper .p-l-40 {
+  padding: 0;
+}
  
 }
 @media (max-width: 767px) {
