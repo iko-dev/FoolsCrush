@@ -1114,6 +1114,10 @@ a.quick-view:hover {
   font-weight: 400;
   text-transform: none;
 }
+/* Quick View */
+.sca-fancybox-inner {
+  height: auto !important;
+}
 
 /* slider */
 
