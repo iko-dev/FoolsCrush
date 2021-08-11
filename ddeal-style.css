@@ -1118,7 +1118,116 @@ a.quick-view:hover {
 .sca-fancybox-inner {
   height: auto !important;
 }
+.quickViewPopup .name-title strong {
+  font-size: 20px;
+  color: #000;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
 
+.quickViewPopup .name-title {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #d8d8d8;
+}
+
+.quickViewPopup .sca-qv-product-price {
+  color: #f17427;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.quickViewPopup a#sca-qv-detail {
+  color: #F17427;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.quickViewPopup .sca-qv-product-options label {
+  color: #000000;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.quickViewPopup #sca-qv-quantity {
+  border: 1px solid #D8D8D8 !important;
+  border-radius: 10px;
+  padding-left: 10px !important;
+}
+
+.quickViewPopup input.sca-qv-cartbtn {
+  background-color: #f17427 !important;
+  border-radius: 10px;
+  font-size: 14px;
+  text-transform: none !important;
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+.quickViewPopup #sca-qv-addcart-msg {
+  font-size: 16px;
+  color: #000;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.quickViewPopup #sca-qv-addcart-msg a.sca-qv-msg-cart-link {
+  font-size: 16px;
+  color: #f17427;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.quickViewPopup div#sca-qv-left {
+  border: 1px solid #d8d8d8;
+  position: relative;
+  padding: 0 !important;
+  height: 290px !important;
+}
+
+.quickViewPopup div#sca-qv-left .sca-qv-zoom-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quickViewPopup .sca-sold-out {
+  color: #f17427;
+  font-size: 16px;
+}
+
+.quickViewPopup .sca-qv-sale {
+  background-color: #f17427;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.quick-view-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quickViewPopup .sca-right {
+  padding: 0 !important;
+}
+
+.sca-fancybox-skin {
+  padding: 30px !important;
+}
 /* slider */
 
 .wrap-content-slide1 {
