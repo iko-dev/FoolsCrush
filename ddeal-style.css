@@ -1214,7 +1214,9 @@ a.quick-view:hover {
   font-size: 12px;
   letter-spacing: 1px;
 }
-
+.sca-fancybox-inner {
+  width: 100% !important;
+}
 .quick-view-container {
   display: flex;
   align-items: center;
