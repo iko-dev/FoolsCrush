@@ -1217,6 +1217,13 @@ a.quick-view:hover {
 .sca-fancybox-inner {
   width: 100% !important;
 }
+.quickViewPopup #sca-qv-des {
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
 .quick-view-container {
   display: flex;
   align-items: center;
