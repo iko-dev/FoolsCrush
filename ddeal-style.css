@@ -1242,6 +1242,11 @@ a.quick-view:hover {
 .sca-fancybox-skin {
   padding: 30px !important;
 }
+.sca-fancybox-wrap {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+}
 /* slider */
 
 .wrap-content-slide1 {
