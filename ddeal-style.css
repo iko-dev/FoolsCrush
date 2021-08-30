@@ -1247,6 +1247,31 @@ a.quick-view:hover {
   top: 50% !important;
   transform: translate(-50%, -50%);
 }
+
+/* our Operations */
+.our-operation .content .h3{
+  color: #000000;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+.our-operation .content h2 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.our-operation .content p {
+  margin-bottom: 10px;
+}
+
 /* slider */
 
 .wrap-content-slide1 {
