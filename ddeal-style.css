@@ -1271,6 +1271,19 @@ a.quick-view:hover {
 .our-operation .content p {
   margin-bottom: 10px;
 }
+.our-operation .content p a {
+  font-size: 18px;
+  color: #f4ad2d;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.our-operation .content p a:hover {
+  text-decoration: underline;
+  color: #f17427;
+}
 
 /* slider */
 
