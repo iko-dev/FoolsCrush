@@ -1332,9 +1332,10 @@ a.quick-view:hover {
 
 .shipping-table .table-shopping-cart .table-head th {
   font-size: 14px;
-    padding: 10px !important;
-    text-align: center;
-    border: 1px solid #d8d8d8;
+  padding: 10px !important;
+  text-align: center;
+  border: 1px solid #d8d8d8;
+  background-color: #fbfbfb;
 }
 
 .shipping-table .table-shopping-cart td {
@@ -1346,6 +1347,7 @@ a.quick-view:hover {
 }
 .shipping-table .table-shopping-cart td:first-child {
   width: 10%;
+  background-color: #fbfbfb;
   font-weight: bolder;
 }
 .shipping-table  .table-shopping-cart .table-row {
