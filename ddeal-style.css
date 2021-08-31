@@ -1331,11 +1331,17 @@ a.quick-view:hover {
 }
 
 .shipping-table .table-shopping-cart .table-head th {
-  font-size: 16px;
+  font-size: 14px;
+    padding: 10px !important;
+    text-align: center;
 }
 
 .shipping-table .table-shopping-cart td {
-  font-size: 16px !important;
+  font-size: 14px !important;
+  padding: 10px !important;
+  width: 22.5%;
+  border: 1px solid #d8d8d8 !important;
+  text-align: center;
 }
 
 /* slider */
