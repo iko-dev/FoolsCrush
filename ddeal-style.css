@@ -1341,7 +1341,13 @@ a.quick-view:hover {
   padding: 5px;
   display: block;
 }
-
+.shipping-table .table-shopping-cart .top-info strong:nth-child(1), 
+.shipping-table .table-shopping-cart .bottom-info span:nth-child(1) {
+  border-right: 1px solid #d8d8d8;
+}
+.shipping-table .table-shopping-cart  .bottom-info span {
+  padding: 10px !important;
+}
 .shipping-table .table-shopping-cart .table-head th  .top-info {
   border-top: 1px solid #d8d8d8;
 }
