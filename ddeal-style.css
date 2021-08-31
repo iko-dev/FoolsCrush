@@ -622,11 +622,11 @@ header .topbar-social-item {
 }
 
 .wrap-slick3 .slick-list.draggable .slick-track {
-  width: 100% !important;
+  /* width: 100% !important; */
 }
 
 .wrap-slick3 .slick-list.draggable .slick-track .slick-slide {
-  width: 100% !important;
+  /* width: 100% !important; */
 }
 
 /* Footer */
