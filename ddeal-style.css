@@ -595,6 +595,7 @@ header .topbar-social-item {
   width: 70%;
   border: 1px solid #d8d8d8;
   height: 465px;
+  overflow: hidden;
 }
 .slick3-dots li {
   display: block;
