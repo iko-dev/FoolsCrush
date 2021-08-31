@@ -654,7 +654,7 @@ header .topbar-social-item {
   text-overflow: ellipsis;
 }
 .catalog-section.home-banner .block1:before {
-  display: none;
+  display: none !important;
 }
 /* Footer */
 
