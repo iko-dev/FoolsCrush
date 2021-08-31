@@ -1343,6 +1343,14 @@ a.quick-view:hover {
   border: 1px solid #d8d8d8 !important;
   text-align: center;
 }
+.shipping-table .table-shopping-cart td:first-child {
+  width: 10%;
+  border: none !IMPORTANT;
+  font-weight: bolder;
+}
+.shipping-table  .table-shopping-cart .table-row {
+  border: none;
+}
 
 /* slider */
 
