@@ -630,7 +630,23 @@ header .topbar-social-item {
   /* width: 100% !important; */
 }
 
+
+/* Catelog Page */
+
+.catalog-section .custom-banner-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  bottom: auto;
+  right: auto;
+  width: calc(100% - 15px);
+  position: absolute;
+}
+
 /* Footer */
+
+
 
 .footerInforWrapper {
   padding: 0px 100px;
