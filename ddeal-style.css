@@ -1027,7 +1027,7 @@ button.bg1:hover {
   text-overflow: ellipsis;
 }
 .wrap-pic-w img {
-  width: auto;
+  /* width: auto; */
   object-fit: contain;
   height: auto;
   margin: 0 auto;
