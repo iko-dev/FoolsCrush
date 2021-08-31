@@ -1330,6 +1330,14 @@ a.quick-view:hover {
   color: #f17427;
 }
 
+.chargesTable .table-shopping-cart .table-head th {
+  font-size: 16px;
+}
+
+.chargesTable .table-shopping-cart td {
+  font-size: 16px !important;
+}
+
 /* slider */
 
 .wrap-content-slide1 {
