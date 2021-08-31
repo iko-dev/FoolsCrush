@@ -1346,8 +1346,8 @@ a.quick-view:hover {
   padding-top: 5px;
   border-top: 1px solid #d8d8d8;
 }
-.shipping-table .table-shopping-cart .table-head th  .top-info strong,
-.shipping-table .table-shopping-cart .table-head th  .bottom-info span {
+.shipping-table .table-shopping-cart .top-info strong,
+.shipping-table .table-shopping-cart .bottom-info span {
   width:50%;
 }
 .shipping-table .table-shopping-cart td {
