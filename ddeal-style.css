@@ -382,7 +382,7 @@ header .topbar-social-item {
   text-transform: none;
 }
 
-.boxWrapper span {
+.boxWrapper span, .boxWrapper span a {
   color: #fff;
   font-size: 30px;
   line-height: 36px;
