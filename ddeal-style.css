@@ -389,6 +389,9 @@ header .topbar-social-item {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
+.boxWrapper span a:hover{
+	color: #fff;
+}
 .buttonWrapper {
   position: absolute;
   right: 0;
