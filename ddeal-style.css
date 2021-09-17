@@ -286,7 +286,8 @@ input {width: 70%}
     cursor: pointer;
 }
 .arrow-left-menu-grand.fa.fa-angle-down.turn-arrow {
-    rotate: 180deg;
+    rotate: 360deg;
+    transform: rotate(180deg);
 }
 .ggrandchild {
      text-align: left;
