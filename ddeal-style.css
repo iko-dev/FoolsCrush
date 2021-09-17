@@ -239,16 +239,7 @@ text-align: center;
     top: 2px;
     font-size: 19px;
 }
-  .ggrandchild {
-    position: absolute;
-    top: 0px;
-    background: #fff;
-    padding: 6px 20px 5px 0px;
-    left: 100%;
-    width: 100%;
-    text-align: left;
-    display: none;
-}
+ 
   
   .dropdown-item.grand-drop-down.dropdown-toggle:hover .ggrandchild {
     display: block;
@@ -257,6 +248,7 @@ text-align: center;
     display: block;
 }
 .ggrandchild {
+     text-align: left;
     position: absolute;
     top: 0px;
     background: #fff;
