@@ -2500,6 +2500,11 @@ header .sub-menu a.dropdown-item {
 .footer__social-icons {
   justify-content: center;
 }
+.sca-fancybox-opened {
+    width: 100% !important;
+    min-height: 300px !important;
+    left: 172px !important;
+}
 }
 @media (max-width: 420px) {
   .craftWrapper {
