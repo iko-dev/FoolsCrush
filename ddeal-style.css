@@ -212,6 +212,7 @@ header div#search {
     transition: color .2s ease-in-out;
     padding: 14px 17px;
     height: 118px;
+    border: 1px solid #cecbe5;
 }
 p {
   font-size: 18px;
