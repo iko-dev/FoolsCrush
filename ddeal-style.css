@@ -196,6 +196,66 @@ header div#search {
 .dd-menu-single-item:hover .ggrandchild {
     display: none !important;
 }
+.grandchild {
+   position: absolute;
+top: 3px;
+background: #fff;
+padding: 5px 20px 5px 0px;
+left: 100%;
+width: 100%;
+text-align: center;
+  display:none;
+}
+  .sub-menu .item-menu-mobile .dropdown-item {
+    display: inline;
+}
+  .arrow-main-menu-grand.fa.fa-angle-right {
+    position: absolute;
+    top: -1px;
+    right: 103px;
+    z-index: 99999999;
+    cursor: pointer;
+    padding: 11px;
+}
+  .sub-sub-menu {
+    left: 20px;
+    position: relative;
+}
+  .sub-menu .item-menu-mobile {
+    position: relative;
+}
+  .dd-menu-single-item:hover .grandchild {
+    display: block;
+}
+  .arrow-main-menu-grand.fa.fa-angle-right {
+    position: absolute;
+    top: 10px;
+    right: 103px;
+}
+  .dd-menu-single-item .dropdown-item.dropdown-toggle::after {
+    rotate: -92deg;
+    left: 7px;
+    position: relative;
+    top: 2px;
+    font-size: 19px;
+}
+  .ggrandchild {
+    position: absolute;
+    top: 0px;
+    background: #fff;
+    padding: 6px 20px 5px 0px;
+    left: 100%;
+    width: 100%;
+    text-align: left;
+    display: none;
+}
+  
+  .dropdown-item.grand-drop-down.dropdown-toggle:hover .ggrandchild {
+    display: block;
+}
+  .dd-menu-single-item:hover .ggrandchild {
+    display: block;
+}
 .ggrandchild {
     position: absolute;
     top: 0px;
