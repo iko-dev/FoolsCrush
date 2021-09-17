@@ -190,6 +190,31 @@ header div#search {
   padding-left: 10px;
   padding-right: 10px;
 }
+.quick-links__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 50%;
+    box-shadow: 1px 0 var(--border-color),0 1px var(--border-color);
+    padding: 20px 10px;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 1px;
+    text-transform: none;
+    transition: color .2s ease-in-out;
+    padding: 14px 17px;
+    height: 118px;
+    border: 1px solid #cecbe5;
+}
 p {
   font-size: 18px;
   color: #000;
