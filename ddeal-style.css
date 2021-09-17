@@ -247,6 +247,35 @@ text-align: center;
   .dd-menu-single-item:hover .ggrandchild {
     display: block;
 }
+.slider-box {width: 90%; margin: 25px auto}
+label, input {border: none; display: inline-block; margin-right: -4px; vertical-align: top; width: 30%}
+input {width: 70%}
+.slider {margin: 25px 0}
+  #priceRange2, #priceRange1 {
+    display: inline-block;
+    width: 99px;
+    height: 34px;
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    color: #7B7B7B;
+}
+  label[for="priceRange"] {
+    display: block;
+}
+  .slider-box span {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    top: 6px;
+    position: relative;
+    color: #7B7B7B;
+}
+  #collection-filter {
+    height: 300px;
+    overflow-y: scroll;
+}
 .ggrandchild {
      text-align: left;
     position: absolute;
