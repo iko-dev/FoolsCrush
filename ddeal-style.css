@@ -382,14 +382,33 @@ header .topbar-social-item {
   text-transform: none;
 }
 
-.boxWrapper span, .boxWrapper span a {
+.boxWrapper span {
   color: #fff;
   font-size: 30px;
   line-height: 36px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
-.boxWrapper span a:hover{
+ul.grandchild {
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+  width: auto;
+}
+.buttonWrapper .btn-play a {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.buttonWrapper .btn-play a:hover{
 	color: #fff;
 }
 .buttonWrapper {
