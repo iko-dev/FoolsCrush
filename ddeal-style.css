@@ -276,6 +276,9 @@ input {width: 70%}
     height: 300px;
     overflow-y: scroll;
 }
+#collection-filter .sub-menu {
+    display: none;
+}
 .ggrandchild {
      text-align: left;
     position: absolute;
