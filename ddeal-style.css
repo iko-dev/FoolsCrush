@@ -190,6 +190,36 @@ header div#search {
   padding-left: 10px;
   padding-right: 10px;
 }
+.dd-menu-single-item .grandchild .gdd-menu-single-item:hover .ggrandchild {
+    display: block !important;
+}
+.dd-menu-single-item:hover .ggrandchild {
+    display: none !important;
+}
+.ggrandchild {
+    position: absolute;
+    top: 0px;
+    background: #fff;
+        background-color: rgb(255, 255, 255);
+        background-clip: border-box;
+    padding: 6px 20px 5px 0px;
+    left: 100%;
+    width: 100%;
+    text-align: left;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    width: auto;
+}
 .quick-links__link {
     display: flex;
     justify-content: center;
