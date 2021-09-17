@@ -227,9 +227,9 @@ text-align: center;
   .dd-menu-single-item:hover .grandchild {
     display: block;
 }
-  .arrow-main-menu-grand.fa.fa-angle-right {
+.arrow-main-menu-grand.fa.fa-angle-right {
     position: absolute;
-    top: 10px;
+    top: 0;
     right: 103px;
 }
   .dd-menu-single-item .dropdown-item.dropdown-toggle::after {
