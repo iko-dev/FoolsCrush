@@ -1919,6 +1919,15 @@ Quick View css */ #quick-view {
       transform: translate(-50%, -50%);
     }
   }
+  
+  @media(max-width:600px)
+  {
+      .sca-fancybox-wrap.sca-fancybox-desktop.sca-fancybox-type-inline.sca-fancybox-opened {
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+}
+  }
   .slick-dots {
     right: auto;
     left: 50%;
@@ -2500,11 +2509,7 @@ header .sub-menu a.dropdown-item {
 .footer__social-icons {
   justify-content: center;
 }
-.sca-fancybox-opened {
-    width: 100% !important;
-    min-height: 300px !important;
-    left: 172px !important;
-}
+
 }
 @media (max-width: 420px) {
   .craftWrapper {
