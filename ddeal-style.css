@@ -285,11 +285,8 @@ input {width: 70%}
     position: relative;
     cursor: pointer;
 }
-.arrow-left-menu-grand.fa.fa-angle-down {
-    float: right;
-    right: 50px;
-    position: relative;
-    cursor: pointer;
+.arrow-left-menu-grand.fa.fa-angle-down.turn-arrow {
+    rotate: 180deg;
 }
 .ggrandchild {
      text-align: left;
