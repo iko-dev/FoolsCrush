@@ -61,6 +61,9 @@ header .search-container {
   font-weight: 400;
   margin-bottom: 10px;
 }
+.gdd-menu-single-item {
+    position: relative;
+}
 .row.tab-details{
   padding: 48px 0px 0;
 }
