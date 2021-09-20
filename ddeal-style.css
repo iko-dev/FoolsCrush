@@ -398,6 +398,55 @@ header .topbar-social-item {
   margin-top: 27px;
 }
 
+
+/* Term and Condition */
+
+.contentforlayout .bgwhite p, .contentforlayout .bgwhite ul, .contentforlayout .bgwhite ol {
+  margin-bottom: 10px;
+}
+
+.contentforlayout .bgwhite ul li, .contentforlayout .bgwhite ol li {
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.contentforlayout .bgwhite ul, .contentforlayout .bgwhite ol {
+  padding-left: 20px;
+}
+
+.contentforlayout .bgwhite ol li {
+  list-style-type: decimal;
+}
+
+.contentforlayout .bgwhite ul li {
+  list-style: disc;
+}
+
+.contentforlayout .bgwhite h3 {
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-weight: 700;
+}
+
+.contentforlayout .bgwhite p a {
+  font-size: 18px;
+  color: #f6ae0e;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.contentforlayout .bgwhite p a:hover {
+  color: #f17427;
+}
+
 /* header */
 
 .topbar {
