@@ -2530,6 +2530,9 @@ header .sub-menu a.dropdown-item {
  
 }
 @media (max-width: 767px) {
+  .caption1-slide1{
+    font-size: 32px !important;
+  }
   .blogWrapper {
     display: block;
   }
