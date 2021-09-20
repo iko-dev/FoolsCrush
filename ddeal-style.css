@@ -2531,6 +2531,9 @@ header .sub-menu a.dropdown-item {
  
 }
 @media (max-width: 767px) {
+  span.caption3-slide1 {
+    font-size: 60px !important;
+}
   .caption1-slide1{
     font-size: 32px !important;
   }
