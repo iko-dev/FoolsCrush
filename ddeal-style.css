@@ -396,7 +396,16 @@ header .side-menu .sub-menu a:hover {
   font-weight: 400;
   white-space: inherit;
 }
+.dd-menu-single-item:hover .dropdown-item.dropdown-toggle::after {
+  transform: rotate(-90deg);
+  transition: 0.2s;
+}
 
+.dd-menu-single-item .dropdown-item.dropdown-toggle::after {
+  transform: rotate(
+0deg);
+  transition: 0.2s;
+}
 .logo-mobile-container .logo {
   position: relative;
   left: 0;
