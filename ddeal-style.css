@@ -2471,6 +2471,7 @@ header .sub-menu a.dropdown-item {
   line-height: 2;
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  white-space: inherit;
 }
 
   .side-menu .main-menu > li {
