@@ -233,7 +233,8 @@ text-align: center;
 .arrow-main-menu-grand.fa.fa-angle-right {
     position: absolute;
     top: 0;
-    right: 103px;
+    /* right: 103px; */
+    right: 20px;
 }
   .dd-menu-single-item .dropdown-item.dropdown-toggle::after {
     rotate: -92deg;
