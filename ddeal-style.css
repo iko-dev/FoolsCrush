@@ -1956,7 +1956,7 @@ a.shop-now {
   cursor: pointer;
 }
 
-Quick View css */ #quick-view {
+#quick-view {
   display: flex;
   height: 100%;
   justify-content: flex-end;
